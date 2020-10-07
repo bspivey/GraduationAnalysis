@@ -240,9 +240,9 @@ The impact of  social \& economic status on a students' academic performance  is
 %What are you trying to do? Articulate your objectives using absolutely no jargon. 
 We intend to model the impact of SES on academic performance using a novel approach and to produce a visual interface to explore the relationship between these two things interactively.  We intend to examine what SES factors have the most influence on academic performance and to examine novel measures for academic performance.  The state of the art appears not to use current data visualization and machine learning methods, and we plan to provide a better understanding of these factors through applied machine learning and thoughtful interactive data visualization. 
 
-\section{Current Practices}
+\section{Prior Work \& Current Practices}
 %How is it done today, and what are the limits of current practice? 
-Per [Okioga, Farooq, Hearn] the current models are statistics-based, with ANOVA and T-Test applied to academic performance output. Typically, [Sirin] SES is measured by a few different measures -- Free \& Reduced Lunch Ratio (FRL), family education levels, Occupation, and Income.  Academic performance, meanwhile, is typically measured by GPA or some form of standardized testing [Sirin].  Many of the models used are statistical in nature -- featuring ANOVA, T-Test, and classic regression with fixed effect models [Winters, Jinnai]. We intend to explore the relationship between other, more novel, aggregate measures of both SES and academic performance.  We also intend to try multiple statistical and machine learning models to see if the model results themselves can be improved. Finally, we intend to provide an intuitive, pleasant interactive graphic interface with which to explore the results.
+The relationship between SES and academic achievement has been explored earlier in Benner et al. \cite{parentalinvolvement}, Zwick \cite{ collegescores} and Battle et al. \cite {raceses}. All prior work agree in differing measures that SES is an important predictor of academic achievement in combination with other factors like parental involvement \cite {parentalinvolvement}, sytematic test scores, ethnic group \cite{collegescores} and race \cite{raceses}. We've also seen that \cite {parentalinvolvement, collegescores, raceses}, [Okioga, Farooq, Hearn] most of prior research relies on parametric models where there is an attempt to quantify said relationships by evaluating relative goodness of fits using ANOVA and T-Tests [Winters, Jinnai]. While this is a good practice to understand relative relationships like in \cite{collegescores, raceses}, it fails to capture random effects and confounding factors. Our work will use a number of machine learning based models to better capture non-linear relationships. Additionally, \cite{collegescores} also has a possible scenario of Simpson's paradox which we will try to stay clear of. Typically, [Sirin] SES is measured by a few different measures -- Free \& Reduced Lunch Ratio (FRL), family education levels, Occupation, and Income.  Academic performance, meanwhile, is typically measured by GPA or some form of standardized testing [Sirin]. We intend to explore the relationship between other, more novel, aggregate measures of both SES and academic performance. Finally, we intend to provide an intuitive and interactive graphic interface to explore the results.
 
 \section{Approach}
 %What is new in your approach and why do you think it will be successful? 
@@ -256,7 +256,7 @@ We will also explore using fixed effect models as used in economic studies of ch
 
 \section{Stakeholders}
 %Who cares? If you are successful, what difference will it make? 
-This research should apply to everyone in America who cares about the economy [citation], health [J.O. Lee citation], and the impacts of income disparity on an increasingly failing education system [Domanico].  Particularly, this research should be of interest to parents, teachers, school administrators, and state representatives who make financial decisions regarding which institutions get how much budget on any given year. If our work helps inform academic policy, then it could impact future students' ability to graduate and/or be successful in academic pursuits.
+One of the surprises of our literature survey was based on J.O. Lee's research[citation], which links poor academic performance with worse health outcomes. Students, parents, teachers, and administrators with an interest in healthier students should take note.  On a broader note, this project should be of interest to peopple invested in understanding the impacts of income disparity on the education of American students. According to Domanico, the analyses vary on how New York State public schools are doing, there is a clear closing of the academic performance gap based on SES in public charter schools \cite{nycstudentachievement} which typically have higher Needs / Resource Capacity (NRC) Ratios \cite{sirin}. Our research should be considered when making education funding decisions. 
 
 \section{Risks}
 %What are the risks?
@@ -266,40 +266,16 @@ Additionally, in Chen's Study of School Violence, SES, and Student Achievement, 
 
 \section{Cost}
 %How much will it cost? 
-Based on How to Get a Free Lunch: A Simple Cost Model for Machine Learning Applications the cost to data ratio is 0.  
+Based on How to Get a Free Lunch: A Simple Cost Model for Machine Learning Applications a straightforward cost model for ML applications can be applied.  This somewhat applies to our project, because while we hope to not incur additional equipment, storage, and compute costs, it is possible that our scope expands to where only distributed computing will be able to handle the calculations.  The cost for an ML project is the following:\\
 
-$NPV = C_0 + \Sigma{\frac{C_t}{(1+r)^t}}$. 
+$NPV = C_0 + \Sigma{\frac{C_t}{(1+r)^t}}$\\
 
-NPV is the net present value. 
-
-C0 is the initial cost of equipment, since we will be working with systems we already own and data is freely available, there is no initial cost.  
-
-Ct is the decision cost, which is also zero since we won’t be making changes to the system or data we are using. 
+Where $NPV$ is the net present value, $C_0$ is the initial cost of equipment, and $C_t$ is the decision cost. Since we are working with freely available data, and we intend to use compute \& storage we already own, the NPV of this project should be \$0.
 
 
 \section{Time}
 %How long will it take? 
-From Lessons from My First Two Years of AI Research, time will depend on many factors. This is a breakdown of a sample timeline:
-
-* Reading/Research:
-2 weeks - reading and understanding past research will equip us with a better understanding of the subject. Understanding past research shortcoming and limitations can help us find novel approaches.
-
-* Conversation/Videos/Conference talks
-1 week - Any knowledge gaps should be supplemented by having a conversation or other forms of interactions  with a subject matter expert. 
-
-* Data Analysis
-2 weeks - After knowing all the models before and their limitations, we can start modeling our improved version.
-
-* Visualization
-1 weeks - Once Analysis is complete, come up with visualizations that allow users to quickly understand our findings
-
-* Final Paper
-2 weeks - Wrap everything up into a final paper
-
-We should keep detailed notes so that we are able to quickly reference back. Always track measurable progress for our progress report. Timeline for each stage adjusted to fit our schedule and deliverables.
-
-For the current status, Dave has written the first proposal draft in LaTex, and all other members are reviewing the draft. Nick is making the presentation. Ben has written code for processing Access database files for initial exploration. All members have identified literature articles and added summaries.
-
+In Kushal Singla, et. al's analysis \cite{mltime} of software engineering for Agile ML projects, they identify that a slight majority of tasks end up in the backlog for ML projects, and there is a huge time variance on how long a story takes. On average, an ML story takes about 18 hours to complete, with an extremely high standard deviation of 31 hours.  For our team of 5, we intend to divide and conquer many tasks with Nick and Dave working more heavily on the documentation, design, organization, presentation, and oversight; Vuong and Ben working more heavily on D3 visualization and python modeling, respectively; and Shitij working on a pretty even blend of all of the above.  We intend to adopt an agile approach, and remain flexible as new information / requirements arise.  We estimate 1 week for lit survey, proposal, and presentation development.  We estimate 5 stories (roughly 90±155h) in a two week sprint for data cleaning, loading, design, EDA, and preliminary modeling; another 5 (90±155h) stories for Statistics/ ML modeling, and 8 stories (144±248h) for D3 visualization, interactivity, testing and iteration.
 
 \section{Success Criteria \& Evaluation}
 %What are the mid-term and final “exams” to check for success? 
@@ -315,12 +291,36 @@ Aprile D. Benner, Alaina E. Boyle, Sydney Sadler1
 \textit{ Parental Involvement and Adolescents’ Educational Success: The Roles of Prior Achievement and Socioeconomic Status }. 
 Springer Science+Business Media New York 2016
 
+\bibitem{raceses} 
+Juan Battle \& Michael Lewis
+\textit{ The Increasing Significance of Class: The Relative Effects of Race and Socioeconomic Status on Academic Achievement }. 
+Journal of Poverty, 6:2, 21-35, DOI: 10.1300/J134v06n02\textunderscore02
+
 \bibitem{collegescores} 
 Rebecca Zwick 
 \textit{The Role of Admissions Test Scores, Socioeconomic Status, and High School Grades in Predicting College Achievement}. 
 Pensamiento Educativo. Revista de Investigación Educacional Latinoamericana 2012, 49(2), 23-30
 
+\bibitem{schoolclimate}
+Greg Chen \& Lynne A. Weikart (2008) 
+\textit{Student Background, School Climate, School Disorder, and Student Achievement: An Empirical Study of New York City's Middle Schools }. Journal of School Violence, 7:4, 3-20, DOI: 10.1080/15388220801973813
 
+\bibitem{nycstudentachievement}
+Ray Domanico
+\textit{NYC Student Achievement: What State and National Test Scores Reveal}, 
+The Manhattan Institute, 2020
+
+\bibitem{sirin}
+Selcuk R. Sirin
+\textit{Socioeconomic Status and Academic Achievement: A Meta-Analytic Review of Research }. 
+Review of Educational Research, Fall 2005, Vol. 75, No. 3, pp. 417–453.
+
+\bibitem{mltime}
+K. Singla, J. Bose and C. Naik, 
+\textit{Analysis of Software Engineering for Agile Machine Learning Projects }.
+2018 15th IEEE India Council International Conference (INDICON), Coimbatore, India, 2018, pp. 1-5, doi: 10.1109/INDICON45594.2018.8987154.
+
+\end{thebibliography}
 % %%
 % %% The acknowledgments section is defined using the "acks" environment
 % %% (and NOT an unnumbered section). This ensures the proper
