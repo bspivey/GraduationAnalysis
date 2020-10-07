@@ -260,18 +260,9 @@ This research should apply to everyone in America who cares about the economy [c
 
 \section{Risks}
 %What are the risks?
-Since our data reflect aggregate SES and Graduation Rate statistics, a big inference risk is that of 'ecological fallacy' [Sirin - Review of Educational Research] -- a misinterpretation of the results that apply aggregate results to individual outcomes.  Also, whenever talking about SES, it is important to be thoughtful in our approach to race, since 
-ML Models that associate SES and academic performance are often biased and racist, not taking into account confounding variables - reference 0.5 article on racist AI 
+In Sirin, et. al.'s Review of Educational Research, one of the primary topics is the risk of  'ecological fallacy' [Sirin - Review of Educational Research] -- a misinterpretation of the results where one applies aggregate results to individual outcomes.  This very much applies to our project, since we are dealing with aggregate data at the school, district, county, and state level.  In order to not run afoul of this risk, we will need to clearly indicate, visually, what level we are operating at and reinforce that these outcomes do not apply to the broader population of individuals.
 
-[If we are going to say this, I suggest we define specifically and clearly what is a racist model so it can be reasonably avoided and not risk using a loaded and subjective word without more context. The word "stereotyping" or the phrase "making generalizations" are more specific to what we are trying to avoid and will not leave the reader/grade guessing.
-
-Note the two charter school related papers I found did not note this as a major risk. They include student characteristics (likely included race/gender/etc.) as input data in order to factor out **these effects** when looking at the coefficients of **other effects** they are seeking, but their study did not discuss individual student characteristics and outcomes.
-
-The scientific ethical rule here to follow here is to have a model that accounts for the important factors available in our data to be sure we can see an accurate effect that we want to consider and not ignore multiple latent factors affecting our output. However, we also have to be careful not to include variables that are highly correlated in a ML model, or the feature importance will be diluted. For instance, using football player position and weight are highly correlated variables to predict some health outcomes - WR weigh less than OL.
-
-I believe the moral ethical rule we would follow is not to show results that intentionally or accidentally create generalizations/stereotypes, which is why we would be careful about what factors we publish and keep them in line with the purpose of our study.]
-
-There is also the interpretability risk of so-called 'black box' ML models being difficult to explain clearly.  Last, confounding variables as a result of suppressed data (s).
+Additionally, in Chen's Study of School Violence, SES, and Student Achievement, he indicates that the study supports the model hypothesis that poverty and minority status predict school disorder, which relates to SES and Academic Performance, as well as our research.  Scientifically, we want to include the features that inform our model the best.  Ethically, we want to be very cognizant of reinforcing stereotypes brought on by models that use race as a predictor.  To be frank, this is one of the complicated ethical questions of statistics and ML, and we will do our best to challenge each other that we are responsibly handling sensitive data. 
 
 \section{Cost}
 %How much will it cost? 
@@ -326,7 +317,7 @@ Springer Science+Business Media New York 2016
 
 \bibitem{collegescores} 
 Rebecca Zwick 
-\textit{	The Role of Admissions Test Scores, Socioeconomic Status, and High School Grades in Predicting College Achievement}. 
+\textit{The Role of Admissions Test Scores, Socioeconomic Status, and High School Grades in Predicting College Achievement}. 
 Pensamiento Educativo. Revista de Investigación Educacional Latinoamericana 2012, 49(2), 23-30
 
 
