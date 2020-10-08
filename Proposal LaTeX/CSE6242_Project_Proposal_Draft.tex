@@ -229,26 +229,23 @@
 
 
 
-\section{Introduction}
+\section{Introduction \& Objectives}
 
-The impact of  social \& economic status on a students' academic performance  is a well-studied area of research.  Academic performance is often positively correlated with higher resources/funding and negatively correlated with higher needs, such as free and reduced lunch programs, as shown in scientific articles that review the current body of work [Sirin].  In this project, we intend to improve on previous research by developing visualizations that enable exploring specific correlations and factors to investigate how socioeconomic status (SES) is related to academic performance. We also plan to incorporate possible confounding factors such as school types and teacher education levels in our study which may or may not be be correlated with funding or higher needs. In addition, we plan to compare machine learning models not commonly used in our literature review to more common models in this area of research, such as classical statistical models or fixed-effect models. Combining machine learning and data visualization may provide additional insight into the relationship between SES and academic performance.
+The impact of  social \& economic status (SES) on students' academic performance (AP) is a well-studied area of research.  Academic performance is often positively correlated with higher resources/funding \cite{jinnai}and negatively correlated with higher needs, such as free and reduced lunch programs\cite{sirin}, but the magnitude of the correlation is not widely agreed-upon. In this project, we intend to model the impact of SES on AP using New York State School data. We will produce a working model and an interactive visual interface to explore the model interactively. While this is a deeply-studied area, we believe that we can improve on current state of the art models, which typically use fixed-effect \& statistical models \cite{hearn, farooq}, yet eschew the use of Machine Learning (ML) models or elegant, interactive data visualization. While ML or data vizualization alone may not improve upon the state of the art, we believe that applying both ML and thoughtful visualization design can have an impact on this area of research.
 
-%Academic Performance - Output (Grad Rate, Test Scores)
-%Whatever Variables we can find - Input (NRC, Income)
+% on previous research by developing visualizations that enable exploring specific correlations and factors to investigate how socioeconomic status (SES) is related to academic performance. We also plan to incorporate possible confounding factors such as school types and teacher education levels in our study which may or may not be be correlated with funding or higher needs. In addition, we plan to compare machine learning models not commonly used in our literature review to more common models in this area of research, such as classical statistical models or fixed-effect models. Combining machine learning and data visualization may provide additional insight into the relationship between SES and academic performance.
 
-\section{Objectives}
-%What are you trying to do? Articulate your objectives using absolutely no jargon. 
-We intend to model the impact of SES on academic performance using a novel approach and to produce a visual interface to explore the relationship between these two things interactively.  We intend to examine what SES factors have the most influence on academic performance and to examine novel measures for academic performance.  The state of the art appears not to use current data visualization and machine learning methods, and we plan to provide a better understanding of these factors through applied machine learning and thoughtful interactive data visualization. 
+% We intend to model the impact of SES on academic performance using a novel approach and to produce a visual interface to explore the relationship between these two things interactively.  We intend to examine what SES factors have the most influence on academic performance and to examine novel measures for academic performance.  The state of the art appears not to use current data visualization and machine learning methods, and we plan to provide a better understanding of these factors through applied machine learning and thoughtful interactive data visualization. 
 
 \section{Prior Work \& Current Practices}
 %How is it done today, and what are the limits of current practice? 
-The relationship between SES and academic achievement has been explored earlier in Benner et al. \cite{parentalinvolvement}, Zwick \cite{ collegescores} and Battle et al. \cite {raceses}. All prior work agree in differing measures that SES is an important predictor of academic achievement in combination with other factors like parental involvement \cite {parentalinvolvement}, sytematic test scores, ethnic group \cite{collegescores} and race \cite{raceses}. We've also seen that \cite {parentalinvolvement, collegescores, raceses}, [Okioga, Farooq, Hearn] most of prior research relies on parametric models where there is an attempt to quantify said relationships by evaluating relative goodness of fits using ANOVA and T-Tests [Winters, Jinnai]. While this is a good practice to understand relative relationships like in \cite{collegescores, raceses}, it fails to capture random effects and confounding factors. Our work will use a number of machine learning based models to better capture non-linear relationships. Additionally, \cite{collegescores} also has a possible scenario of Simpson's paradox which we will try to stay clear of. Typically, [Sirin] SES is measured by a few different measures -- Free \& Reduced Lunch Ratio (FRL), family education levels, Occupation, and Income.  Academic performance, meanwhile, is typically measured by GPA or some form of standardized testing [Sirin]. We intend to explore the relationship between other, more novel, aggregate measures of both SES and academic performance. Finally, we intend to provide an intuitive and interactive graphic interface to explore the results.
+The relationship between SES and academic achievement has been explored earlier in Benner et al. \cite{parentalinvolvement}, Zwick \cite{ collegescores} and Battle et al. \cite {raceses}. All prior work agree in differing measures that SES is an important predictor of academic achievement in combination with other factors like parental involvement \cite {parentalinvolvement}, sytematic test scores, ethnic group \cite{collegescores} and race \cite{raceses}. We've also seen that \cite {parentalinvolvement, collegescores, raceses, farooq}, most of prior research relies on parametric models where there is an attempt to quantify said relationships by evaluating relative goodness of fits using ANOVA and T-Tests [Winters, Jinnai]. While this is a good practice to understand relative relationships like in \cite{collegescores, raceses}, it fails to capture random effects and confounding factors. Our work will use a number of machine learning based models to better capture non-linear relationships. Additionally, \cite{collegescores} also has a possible scenario of Simpson's paradox which we will try to stay clear of. Typically, \cite{sirin} SES is measured by a few different measures -- Free \& Reduced Lunch Ratio (FRL), family education levels, Occupation, and Income.  Academic performance, meanwhile, is typically measured by GPA or some form of standardized testing \cite{sirin}.  We intend to explore the relationship between other, more novel, aggregate measures of both SES and academic performance. Finally, we intend to provide an intuitive and interactive graphic interface to explore the results.
 
 \section{Approach}
 %What is new in your approach and why do you think it will be successful? 
 Taking the graduation rate data from https://data.nysed.gov/, we intend to use a multiple models to characterize the relationship between academic performance and SES.  We will join any of the available relevant data sets and isolate the most important factors that affect academic performance at the school, neighborhood, district, and state level. We will also compare other factors like school types (e.g. charter schools) to socioeconomic factors .
 
-We plan to use measures for academic performance including, but not limited to, aggregate test scores and aggregate graduation rates.  Then using modern [Use "D3" instead of "modern"?] visualization techniques, we will illustrate differences and allow the stakeholder to explore relationships using our interface. We seek to make correlation relationships, not causal relationships, as the data may not be sufficient to include all latent factors.
+We plan to use measures for academic performance including, but not limited to, aggregate test scores and aggregate graduation rates.  Then using D3 javascript library (D3), we will illustrate differences and allow the stakeholder to explore relationships using our interface. We seek to make correlation relationships, not causal relationships, as the data may not be sufficient to include all latent factors.
 
 We will explore machine learning and statistical methods to find appropriate models.  For SES, we are using NRC (at the school / district level) and Perhaps County Historical Employment and Wages Data (at the county aggregate level) as features. We also plan to investigate confounding factors that could affect conclusions on SES, such as school types and teacher education.
 
@@ -256,13 +253,14 @@ We will also explore using fixed effect models as used in economic studies of ch
 
 \section{Stakeholders}
 %Who cares? If you are successful, what difference will it make? 
-One of the surprises of our literature survey was based on J.O. Lee's research[citation], which links poor academic performance with worse health outcomes. Students, parents, teachers, and administrators with an interest in healthier students should take note.  On a broader note, this project should be of interest to peopple invested in understanding the impacts of income disparity on the education of American students. According to Domanico, the analyses vary on how New York State public schools are doing, there is a clear closing of the academic performance gap based on SES in public charter schools \cite{nycstudentachievement} which typically have higher Needs / Resource Capacity (NRC) Ratios \cite{sirin}. Our research should be considered when making education funding decisions. 
+Some surprise beneficiaries of our research are people interested in healthier lifestyles for students, based on J.O. Lee's research \cite{lee}, which links poor academic performance with worse health outcomes. Additionally, researchers of the relationship between school climate, SES, and Academic performance would benefit; In Berkowitz's study of school climate impact on AP she noted a lack of consistent SES - AP modeling \cite{berkowitz}. Last, this project should be of interest to people invested in improving academic performance overall. While school administrators often point to overall improving academic performance \cite{domanico}, there is broad consensus that the SES - AP correlation is mitigated by well-resourced schools (such as charter schools) \cite{domanico, jinnai}. If we are successful, all of the above could use our research to help reinforce their arguments for improving resources for lower SES schools.
 
 \section{Risks}
 %What are the risks?
-In Sirin, et. al.'s Review of Educational Research, one of the primary topics is the risk of  'ecological fallacy' [Sirin - Review of Educational Research] -- a misinterpretation of the results where one applies aggregate results to individual outcomes.  This very much applies to our project, since we are dealing with aggregate data at the school, district, county, and state level.  In order to not run afoul of this risk, we will need to clearly indicate, visually, what level we are operating at and reinforce that these outcomes do not apply to the broader population of individuals.
+In Sirin, et. al.'s Review of Educational Research, one of the primary risks is 'ecological fallacy' \cite{sirin} -- a misinterpretation of the results where one applies aggregate results to individual outcomes.  This very much applies to our project, since we work with aggregate data at the school, district, county, and state level.  In order to not run afoul of this risk, we will need to clearly indicate, visually, what level we are operating at and reinforce that outcomes may not apply to individuals.
 
-Additionally, in Chen's Study of School Violence, SES, and Student Achievement, he indicates that the study supports the model hypothesis that poverty and minority status predict school disorder, which relates to SES and Academic Performance, as well as our research.  Scientifically, we want to include the features that inform our model the best.  Ethically, we want to be very cognizant of reinforcing stereotypes brought on by models that use race as a predictor.  To be frank, this is one of the complicated ethical questions of statistics and ML, and we will do our best to challenge each other that we are responsibly handling sensitive data. 
+Another risk that Data Scientists should always consider is the so-called 'black box' problem of machine learning models. Gilpin claims that complex machines and algorithms cannot perform interpretation tasks \cite{gilpin}-- tasks better left for a human.  If our best models happen to be ML models that have many hidden layers (e.g. Deep Learning Convolutional Neural Networks) we run the risk of not being able to explain how the model arrives at its decisions.
+% Additionally, in Chen's Study of School Violence, SES, and Student Achievement, he indicates that the study supports the model hypothesis that poverty and minority status predict school disorder, which relates to SES and Academic Performance \cite{chen}.   Scientifically, we want to include the features that inform our model the best.  Ethically, we want to be very cognizant of reinforcing stereotypes brought on by models that use race as a predictor.  To be frank, this is one of the complicated ethical questions of statistics and ML, and we will do our best to challenge each other that we are responsibly handling sensitive data. 
 
 \section{Cost}
 %How much will it cost? 
@@ -286,39 +284,73 @@ We will know if we are successful if we can get data cleaned, model developed, a
 %P-values, F scores, working visualization \& MVP.  We are shooting for a minimum of two-model comparisons and a 40-60\% blend of modeling to visualization focus ratio.
 
 \begin{thebibliography}{9}
-\bibitem{parentalinvolvement} 
-Aprile D. Benner, Alaina E. Boyle, Sydney Sadler1
-\textit{ Parental Involvement and Adolescents’ Educational Success: The Roles of Prior Achievement and Socioeconomic Status }. 
-Springer Science+Business Media New York 2016
-
-\bibitem{raceses} 
-Juan Battle \& Michael Lewis
-\textit{ The Increasing Significance of Class: The Relative Effects of Race and Socioeconomic Status on Academic Achievement }. 
-Journal of Poverty, 6:2, 21-35, DOI: 10.1300/J134v06n02\textunderscore02
-
-\bibitem{collegescores} 
-Rebecca Zwick 
-\textit{The Role of Admissions Test Scores, Socioeconomic Status, and High School Grades in Predicting College Achievement}. 
-Pensamiento Educativo. Revista de Investigación Educacional Latinoamericana 2012, 49(2), 23-30
-
-\bibitem{schoolclimate}
-Greg Chen \& Lynne A. Weikart (2008) 
-\textit{Student Background, School Climate, School Disorder, and Student Achievement: An Empirical Study of New York City's Middle Schools }. Journal of School Violence, 7:4, 3-20, DOI: 10.1080/15388220801973813
-
-\bibitem{nycstudentachievement}
-Ray Domanico
-\textit{NYC Student Achievement: What State and National Test Scores Reveal}, 
-The Manhattan Institute, 2020
+\bibitem{jinnai}
+Yusuke Jinnai
+\textit{Direct and indirect impact of charter schools’ entry on traditional public schools: New evidence from North Carolina}
+Economic Letters 124, Volume 124 (2014) 452-456
 
 \bibitem{sirin}
 Selcuk R. Sirin
 \textit{Socioeconomic Status and Academic Achievement: A Meta-Analytic Review of Research }. 
 Review of Educational Research, Fall 2005, Vol. 75, No. 3, pp. 417–453.
 
+\bibitem{hearn}
+James C. Hearn
+\textit{Attendance at Higher-Cost Colleges: Ascribed, Socioeconomic, and Academic Influences on Student Enrollment Patterns}
+Economics of Education Review, Vol. 7, No.  1, pp. 65-76, 1988.
+
+\bibitem{farooq}
+M.S. Farooq, A.H. Chaudhry, M. Shafiq, G. Berhanu
+\textit{Factors Affecting Students' Quality of Academic Performance: A Case of Secondary School Level }.
+Journal of Quality and Technology Management, Volume VII, Issue II, December, 2011, pp. 01-04
+
+\bibitem{parentalinvolvement} 
+Aprile D. Benner, Alaina E. Boyle, Sydney Sadler1
+\textit{ Parental Involvement and Adolescents’ Educational Success: The Roles of Prior Achievement and Socioeconomic Status }. 
+Springer Science+Business Media New York 2016
+
+\bibitem{collegescores} 
+Rebecca Zwick 
+\textit{The Role of Admissions Test Scores, Socioeconomic Status, and High School Grades in Predicting College Achievement}. 
+Pensamiento Educativo. Revista de Investigación Educacional Latinoamericana 2012, 49(2), 23-30
+
+\bibitem{raceses} 
+Juan Battle \& Michael Lewis
+\textit{ The Increasing Significance of Class: The Relative Effects of Race and Socioeconomic Status on Academic Achievement }. 
+Journal of Poverty, 6:2, 21-35, DOI: 10.1300/J134v06n02\textunderscore02
+
+\bibitem{lee} 
+J.O. Lee, R. Kosterman, T.M. Jones, T.I. Herrenkohl, I.C. Rhew, R.F. Catalano, J.D. Hawkins
+\textit{ Mechanisms linking high school graduation to health disparities in young adulthood: a longitudinal analysis of the role of health behaviours, psychosocial stressors, and health insurance }. 
+Public Health Vol. 139 (2016) pp. 61-69.
+
+\bibitem{gilpin}
+L. H. Gilpin, D. Bau, B. Z. Yuan, A. Bajwa, M. Specter and L. Kagal, 
+\textit{Explaining Explanations: An Overview of Interpretability of Machine Learning}, 2018 IEEE 5th International Conference on Data Science and Advanced Analytics (DSAA), Turin, Italy, 2018, pp. 80-89, doi: 10.1109/DSAA.2018.00018.
+
+% \bibitem{chen}
+% Greg Chen \& Lynne A. Weikart (2008) 
+% \textit{Student Background, School Climate, School Disorder, and Student Achievement: An Empirical Study of New York City's Middle Schools }. Journal of School Violence, 7:4, 3-20, DOI: 10.1080/15388220801973813
+
+\bibitem{domanico}
+Ray Domanico
+\textit{NYC Student Achievement: What State and National Test Scores Reveal}, 
+The Manhattan Institute, 2020
+
 \bibitem{mltime}
 K. Singla, J. Bose and C. Naik, 
 \textit{Analysis of Software Engineering for Agile Machine Learning Projects }.
 2018 15th IEEE India Council International Conference (INDICON), Coimbatore, India, 2018, pp. 1-5, doi: 10.1109/INDICON45594.2018.8987154.
+
+\bibitem{berkowitz}
+Ruth Berkowitz, Hadass Moore, Ron Avi Astor, Rami Benbenishty
+\textit{A Research Synthesis of the Associations Between Socioeconomic Background, Inequality, School Climate, and Academic Achievement }.
+Review of Educational Research April 2017, Vol. 87, No. 2, pp. 425–469 DOI: 10.3102/0034654316669821
+
+
+
+
+
 
 \end{thebibliography}
 % %%
