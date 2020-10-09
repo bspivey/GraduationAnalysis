@@ -85,7 +85,11 @@
 %%
 %% The "title" command has an optional parameter,
 %% allowing the author to define a "short title" to be used in page headers.
-\title{SESIoN: Socio Economic Status Impact on New York State Academic Performance}
+% \font\helvetica=cmr12 at 40pt
+% \title{{\helvetica Who knows}}
+% \author{{\small A.~U.~Thor}}
+
+\subtitle{Socioconomic Status and the Impact on Academic Performance}
 
 %%
 %% The "author" command and its associated commands are used to define
@@ -96,63 +100,26 @@
 
 %%TC:ignore
 \author{Dave Dyer}
-%\authornotemark[1]
 \affiliation{%
-  \institution{Georgia Institute of Technology}
- %\streetaddress{P.O. Box 1212}
-  %\city{Dublin}
-  %\state{Ohio}
-  %\postcode{43017-6221}
-}
-\email{dave.dyer@gatech.edu}
-
+  \institution{\small Georgia Tech}}
 
 \author{Nick Orangio}
 \affiliation{%
-  \institution{Georgia Institute of Technology}}
- \email{norangio3@gatech.edu}
-
-  %\streetaddress{1 Th{\o}rv{\"a}ld Circle}
- % \city{Hekla}
-  %\country{Iceland}}
-
+  \institution{\small Georgia Tech}}
 
 \author{Ben Spivey}
 \affiliation{%
-  \institution{Georgia Institute of Technology}}
-%  \city{Rocquencourt}
-%  \country{France}
- \email{gte146u@gatech.edu}
-
+  \institution{\small Georgia Tech}}
 
 \author{Kshitij Srivastava}
 \affiliation{%
- \institution{Georgia Institute of Technology}}
-% \streetaddress{Rono-Hills}
-% \city{Doimukh}
-% \state{Arunachal Pradesh}
-% \country{India}}
-\email{ksrivastava34@gatech.edu}
-
+ \institution{\small Georgia Tech}}
 
 \author{Vuong Tran}
 \affiliation{%
-  \institution{Georgia Institute of Technology}}
- \email{vtran62@gatech.edu}
+  \institution{\small Georgia Institute of Technology}}
 
-%  \streetaddress{30 Shuangqing Rd}
-%  \city{Haidian Qu}
-%  \state{Beijing Shi}
-%  \country{China}}
 
-% \author{John Smith}
-% \affiliation{\institution{The Th{\o}rv{\"a}ld Group}}
-% \email{jsmith@affiliation.org}
-
-% \author{Julius P. Kumquat}
-% \affiliation{\institution{The Kumquat Consortium}}
-% \email{jpkumquat@consortium.net}
-%%TC:endignore
 
 %%
 %% By default, the full list of authors will be used in the page
@@ -206,7 +173,7 @@
 %%
 %% Keywords. The author(s) should pick words that accurately describe
 %% the work being presented. Separate the keywords with commas.
-\keywords{education, socioeconomic status, machine learning }
+% \keywords{education, socioeconomic status, machine learning }
 %%TC:endignore
 
 %% A "teaser" image appears between the author and affiliation
@@ -229,66 +196,41 @@
 
 
 
-\section{Introduction \& Objectives}
+\section{Introduction \& Objectives (HQ1)}
 
 The impact of  social \& economic status (SES) on students' academic performance (AP) is a well-studied area of research.  Academic performance is often positively correlated with higher resources/funding \cite{jinnai}and negatively correlated with higher needs, such as free and reduced lunch programs\cite{sirin}, but the magnitude of the correlation is not widely agreed-upon. In this project, we intend to model the impact of SES on AP using New York State School data. We will produce a working model and an interactive visual interface to explore the model interactively. While this is a deeply-studied area, we believe that we can improve on current state of the art models, which typically use fixed-effect \& statistical models \cite{hearn, farooq}, yet eschew the use of Machine Learning (ML) models or elegant, interactive data visualization. While ML or data visualization alone may not improve upon the state of the art, we believe that applying both ML and thoughtful visualization design can have an impact on this area of research.
 
-
-
-% on previous research by developing visualizations that enable exploring specific correlations and factors to investigate how socioeconomic status (SES) is related to academic performance. We also plan to incorporate possible confounding factors such as school types and teacher education levels in our study which may or may not be be correlated with funding or higher needs. In addition, we plan to compare machine learning models not commonly used in our literature review to more common models in this area of research, such as classical statistical models or fixed-effect models. Combining machine learning and data visualization may provide additional insight into the relationship between SES and academic performance.
-
-% We intend to model the impact of SES on academic performance using a novel approach and to produce a visual interface to explore the relationship between these two things interactively.  We intend to examine what SES factors have the most influence on academic performance and to examine novel measures for academic performance.  The state of the art appears not to use current data visualization and machine learning methods, and we plan to provide a better understanding of these factors through applied machine learning and thoughtful interactive data visualization. 
-
-\section{Prior Work \& Current Practices}
+\section{Prior Work \& Current Practices (HQ2)}
 %How is it done today, and what are the limits of current practice? 
 
-The relationship between SES and academic achievement has been explored earlier in Benner et al. \cite{parentalinvolvement}, Zwick \cite{collegescores} and Battle et al. \cite{raceses}. All prior work agree in differing measures that SES is an important predictor of academic achievement in combination with other factors like parental involvement \cite{parentalinvolvement}, sytematic test scores, ethnic group \cite{collegescores} and race \cite{raceses}. We've also seen that \cite{parentalinvolvement, collegescores, raceses, farooq}, most of prior research relies on parametric models where there is an attempt to quantify said relationships by evaluating relative goodness of fits using ANOVA and T-Tests. While this is a good practice to understand relative relationships like in \cite{collegescores, raceses}, it fails to capture random effects and confounding factors. Some authors have used linear fixed effects models which account for confounding factors \cite{winters, jinnai}. Our work will use a number of machine learning based models to capture any non-linear relationships. Additionally, \cite{collegescores} also has a possible scenario of Simpson's paradox which we will try to avoid. Typically, \cite{sirin} SES is measured by a few different measures -- Free \& Reduced Lunch Ratio (FRL), family education levels, Occupation, and Income.  Academic performance, meanwhile, is typically measured by GPA or some form of standardized testing \cite{sirin}.  We intend to explore the relationship between other, more novel, aggregate measures of both SES and academic performance. Finally, we intend to provide an intuitive and interactive graphic interface to explore the results.
+The relationship between SES and academic achievement has been explored earlier in Benner et al. \cite{parentalinvolvement}, Zwick \cite{collegescores} and Battle et al. \cite{raceses}. All prior work agree in differing measures that SES is an important predictor of academic achievement in combination with other factors like parental involvement \cite{parentalinvolvement}, sytematic test scores, ethnic group \cite{collegescores} and race \cite{raceses}. We've also seen that \cite{parentalinvolvement, collegescores, raceses, farooq}, most of prior research relies on parametric models where there is an attempt to quantify said relationships by evaluating relative goodness of fits using ANOVA and T-Tests. While this is a good practice to understand relative relationships like in \cite{collegescores, raceses}, it fails to capture random effects and confounding factors. Some authors have used linear fixed effects models which account for confounding factors \cite{winters, jinnai}. Our work will use a number of machine learning based models to capture any non-linear relationships. Additionally, \cite{collegescores} also has a possible scenario of Simpson's paradox which we will try to avoid. Typically, \cite{sirin} SES is measured by a few different measures -- Free \& Reduced Lunch Ratio (FRL), family education levels, Occupation, and Income.  Academic performance, meanwhile, is typically measured by GPA or some form of standardized testing \cite{sirin}.  We intend to explore the relationship between other, more novel, aggregate measures of both SES and academic performance. Finally, we intend to provide an intuitive and interactive graphic interface to explore results
 
-\section{Approach}
+\section{Approach (HQ3)}
 %What is new in your approach and why do you think it will be successful? 
-Taking the graduation rate data from https://data.nysed.gov/, we intend to use a multiple models to characterize the relationship between academic performance and SES.  We will join any of the available relevant data sets and isolate the most important factors that affect academic performance at the school, neighborhood, district, and state level. We will also compare other factors like school types (e.g. charter schools) which have shown effects correlated with socioeconomic factors \cite{west}.
+From the graduation rate dataset at  https://data.nysed.gov/, we intend to test multiple co-variates including lurking variables like school types \cite{west} at the school, neighborhood, district, and state level, in order to characterize what constitutes SES and academic performance at various levels of aggregation . We'll use a graphing library (D3) to allow the user to explore various segments of data in both a univariate and bivariate manner. We seek to find correlations, not causal relationships, as the data may not be sufficient to include all latent factors. We will explore both machine learning and traditional statistical learning algorithms to characterize relationships between SES and academic performance at differing levels of aggregation. We also plan to investigate confounding factors that could affect conclusions on SES, such as school types and teacher education. We will also explore using fixed effect models as used in economic studies of charter school factors \cite{winters, jinnai}. We may need to perform feature engineering to define the factors appropriately and must consider nuance as some factors like charter schools may only affect grades levels (e.g., 6th grade) that are overlapping \cite{jinnai}.
 
-We plan to use measures for academic performance including, but not limited to, aggregate test scores and aggregate graduation rates.  Then using D3 JavaScript library (D3), we will illustrate differences and allow the stakeholder to explore relationships using our interface. We seek to find correlations, not causal relationships, as the data may not be sufficient to include all latent factors.
-
-
-We will explore machine learning and statistical methods to find appropriate models.  For SES, we are using NRC (at the school / district level) and perhaps County Historical Employment and Wages Data (at the county aggregate level) as features. We also plan to investigate confounding factors that could affect conclusions on SES, such as school types and teacher education.
-
-
-
-We will also explore using fixed effect models as used in economic studies of charter school factors \cite{winters, jinnai}. Charter schools would be a confounding factor for SES effects. We may need to perform feature engineering to define the factors appropriately and must consider nuance as some factors like charter schools may only affect grades levels (e.g., 6th grade) that are overlapping \cite{jinnai}.
-
-\section{Stakeholders}
+\section{Stakeholders and Impact (HQ4 \& HQ5)}
 %Who cares? If you are successful, what difference will it make? 
 Some surprise beneficiaries of our research are people interested in healthier lifestyles for students, based on J.O. Lee's research \cite{lee}, which links poor academic performance with worse health outcomes. Additionally, researchers of the relationship between school climate, SES, and Academic performance would benefit; In Berkowitz's study of school climate impact on AP she noted a lack of consistent SES - AP modeling \cite{berkowitz}. Last, this project should be of interest to people invested in improving academic performance overall. While school administrators often point to overall improving academic performance \cite{domanico}, there is broad consensus that the SES - AP correlation is mitigated by well-resourced schools (such as charter schools) \cite{domanico, jinnai}. If we are successful, all of the above could use our research to help reinforce their arguments for improving resources for lower SES schools.
 
-\section{Risks}
+\section{Risks (HQ6)}
 %What are the risks?
-In Sirin, et. al.'s Review of Educational Research, one of the primary risks is 'ecological fallacy' \cite{sirin} -- a misinterpretation of the results where one applies aggregate results to individual outcomes.  This very much applies to our project, since we work with aggregate data at the school, district, county, and state level.  In order to not run afoul of this risk, we will need to clearly indicate, visually, what level we are operating at and reinforce that outcomes may not apply to individuals.
+In Sirin, et. al.'s Review of Educational Research, one of the primary risks is 'ecological fallacy' \cite{sirin} -- a misinterpretation of the results where one applies aggregate results to individual outcomes. This very much applies to our project, since we work with aggregate data at the school, district, county, and state level.  In order to not run afoul of this risk, we will need to clearly indicate, visually, what level we are operating at and reinforce that outcomes may not apply to individuals.  Another risk that data scientists should consider is the 'black box' problem of machine learning models. Gilpin claims that complex machines and algorithms cannot perform interpretation tasks \cite{gilpin}.  If our best models happen to be ML models we run the risk of not being able to explain how the model arrives at its decisions. Another risk is that the machine learning models might downplay important features if the features are highly correlated. We will need to examine feature correlation before making conclusions on feature importance.
 
-Another risk that data scientists should consider is the 'black box' problem of machine learning models. Gilpin claims that complex machines and algorithms cannot perform interpretation tasks \cite{gilpin}-- tasks better left for a human.  If our best models happen to be ML models that have many hidden layers (e.g. Deep Learning Convolutional Neural Networks) we run the risk of not being able to explain how the model arrives at its decisions.
-
-Another risk is that the machine learning models might downplay important features if the features are highly correlated. We will need to examine feature correlation before making conclusions on feature importance.
-
-% Additionally, in Chen's Study of School Violence, SES, and Student Achievement, he indicates that the study supports the model hypothesis that poverty and minority status predict school disorder, which relates to SES and Academic Performance \cite{chen}.   Scientifically, we want to include the features that inform our model the best.  Ethically, we want to be very cognizant of reinforcing stereotypes brought on by models that use race as a predictor.  To be frank, this is one of the complicated ethical questions of statistics and ML, and we will do our best to challenge each other that we are responsibly handling sensitive data. 
-
-\section{Cost}
+\section{Cost HQ7}
 %How much will it cost? 
-Based on How to Get a Free Lunch: A Simple Cost Model for Machine Learning Applications a straightforward cost model for ML applications can be applied.  This somewhat applies to our project, because while we hope to not incur additional equipment, storage, and compute costs, it is possible that our scope expands to where only distributed computing will be able to handle the calculations.  The cost for an ML project is the following:\\
-
+Based on How to Get a Free Lunch: A simple cost model for machine learning applications, a straightforward cost model for ML applications can be applied. \cite{domingos} This somewhat applies to our project, because while we hope to not incur additional equipment, storage, and compute costs, it is possible that our scope expands to where only distributed computing will be able to handle the calculations.  The cost for an ML project is the following:\\
 $NPV = C_0 + \Sigma{\frac{C_t}{(1+r)^t}}$\\
-
 Where $NPV$ is the net present value, $C_0$ is the initial cost of equipment, and $C_t$ is the decision cost. Since we are working with freely available data, and we intend to use compute \& storage we already own, the NPV of this project should be \$0.
 
 
-\section{Time}
+\section{Time (HQ8)}
 %How long will it take? 
-In Kushal Singla, et. al's analysis \cite{mltime} of software engineering for Agile ML projects, they identify that a slight majority of tasks end up in the backlog for ML projects, and there is a huge time variance on how long a story takes. On average, an ML story takes about 18 hours to complete, with an extremely high standard deviation of 31 hours.  For our team of 5, we intend to divide and conquer many tasks with Nick and Dave working more heavily on the documentation, design, organization, presentation, and oversight; Vuong and Ben working more heavily on D3 visualization and python modeling, respectively; and Shitij working on a pretty even blend of all of the above.  We intend to adopt an agile approach, and remain flexible as new information / requirements arise.  We estimate 1 week for lit survey, proposal, and presentation development.  We estimate 5 stories (roughly 90±155h) in a two week sprint for data cleaning, loading, design, EDA, and preliminary modeling; another 5 (90±155h) stories for Statistics/ ML modeling, and 8 stories (144±248h) for D3 visualization, interactivity, testing and iteration.
+In Kushal Singla, et. al's analysis \cite{mltime} of software engineering for Agile ML projects, they identify that a slight majority of tasks end up in the backlog for ML projects, and there is a huge time variance on how long a story takes. On average, an ML story takes about 18 hours to complete, with an extremely high standard deviation of 31 hours.  For our team of 5, we intend to divide and conquer many tasks with Nick and Dave working more heavily on the documentation, design, organization, presentation, and oversight; Vuong and Ben working more heavily on D3 visualization and python modeling, respectively; and Kshitij working on a pretty even blend of all of the above.  We intend to adopt an agile approach, and remain flexible as new information / requirements arise.  We estimate 1 week for lit survey, proposal, and presentation development.  We estimate 5 stories (roughly 90±155h) in a two week sprint for data cleaning, loading, design, EDA, and preliminary modeling; another 5 (90±155h) stories for Statistics/ ML modeling, and 8 stories (144±248h) for D3 visualization, interactivity, testing and iteration.
 
-\section{Success Criteria \& Evaluation}
+\section{Success Criteria \& Evaluation (HQ9)}
 %What are the mid-term and final “exams” to check for success? 
-At a project level, our Minimum Viable Product (MVP) success criteria are a working, well-researched model and a working interactive data visualization that displays the results.  At a model level, success criteria would be a feature selection algorithm that works, with reasonable, explainable features.  We intend to evaluate the model using efficacy statistics that will vary, depending on what models we choose to compare.  At the bare minimum, we will use p-values to evaluate the efficacy of a regression model that may or may not include feature selection criteria.  At the most ambitions level, we will be able to enrich the NYS data with natural experiment data that would help us prove a causal (if aggregate) relationship.  There is, obviously, a lot of room in between those two goals for evaluation, and I suspect we'll fall nearer the former than the latter.  
-
-We will know if we are successful if we can get data cleaned, model developed, and a Choropleth map working by the end of October as an MVP.
+At a project level, our Minimum Viable Product (MVP) is a working, well-researched model and a working interactive data exploratory visualization tool. We intend to evaluate the model using metrics that will vary, depending on what models we choose to compare.  At the bare minimum, we will use AUC or F1 Score for the model. We will know if we are successful if we can get data cleaned, model developed, and a Choropleth map working by the end of October as an MVP.
 
 %P-values, F scores, working visualization \& MVP.  We are shooting for a minimum of two-model comparisons and a 40-60\% blend of modeling to visualization focus ratio.
 
@@ -365,6 +307,11 @@ Economics of Education Review 31, Volume 31 (2012) 293-301
 Martin West
 \textit{Schools of choice: expanding opportunity for urban minority students}
 Education Next 16, Volume 16 (2016)
+
+\bibitem{domingos}
+Pedro Domingos
+\textit{How to Get a Free Lunch: A Simple Cost Model for Machine Learning Applications}
+Workshop on AI Approaches to Time Series Problems, 15th National Conference Artificial Intelligence (AAAI-98), 1998, and International Conference on Machine Learning (ICML-98)
 
 \end{thebibliography}
 % %%
