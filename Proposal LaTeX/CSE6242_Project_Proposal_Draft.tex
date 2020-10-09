@@ -101,19 +101,19 @@
 %%TC:ignore
 \author{Dave Dyer}
 \affiliation{%
-  \institution{\small Georgia Tech}}
+  \institution{\small Georgia Institute of Technology}}
 
 \author{Nick Orangio}
 \affiliation{%
-  \institution{\small Georgia Tech}}
+  \institution{\small Georgia Institute of Technology}}
 
 \author{Ben Spivey}
 \affiliation{%
-  \institution{\small Georgia Tech}}
+  \institution{\small Georgia Institute of Technology}}
 
 \author{Kshitij Srivastava}
 \affiliation{%
- \institution{\small Georgia Tech}}
+ \institution{\small Georgia Institute of Technology}}
 
 \author{Vuong Tran}
 \affiliation{%
@@ -198,12 +198,12 @@
 
 \section{Introduction \& Objectives (HQ1)}
 
-The impact of  social \& economic status (SES) on students' academic performance (AP) is a well-studied area of research.  Academic performance is often positively correlated with higher resources/funding \cite{jinnai}and negatively correlated with higher needs, such as free and reduced lunch programs\cite{sirin}, but the magnitude of the correlation is not widely agreed-upon. In this project, we intend to model the impact of SES on AP using New York State School data. We will produce a working model and an interactive visual interface to explore the model interactively. While this is a deeply-studied area, we believe that we can improve on current state of the art models, which typically use fixed-effect \& statistical models \cite{hearn, farooq}, yet eschew the use of Machine Learning (ML) models or elegant, interactive data visualization. While ML or data visualization alone may not improve upon the state of the art, we believe that applying both ML and thoughtful visualization design can have an impact on this area of research.
+The impact of  social \& economic status (SES) on students' academic performance (AP) is a well-studied area of research.  Academic performance is often positively correlated with higher resources/funding \cite{jinnai}and negatively correlated with higher needs, such as free and reduced lunch programs\cite{sirin}, but the magnitude of the correlation is not widely agreed-upon. In this project, we intend to model the impact of SES on AP using New York State School data. We will produce a working model and an interactive visual interface to explore the model interactively. Like many topics with sufficient data, this area is well studied. We seek to improve on status quo by investigating additional confounding factors (e.g., teacher education), evaluating Machine Learning (ML) models compared to state of the art fixed-effect \& statistical models \cite{hearn, farooq}, and creating insightful, interactive data visualizations. Applying both ML and thoughtful visualization design should have an impact on this area of research as we aim to improve on the state of the art.
 
 \section{Prior Work \& Current Practices (HQ2)}
 %How is it done today, and what are the limits of current practice? 
 
-The relationship between SES and academic achievement has been explored earlier in Benner et al. \cite{parentalinvolvement}, Zwick \cite{collegescores} and Battle et al. \cite{raceses}. All prior work agree in differing measures that SES is an important predictor of academic achievement in combination with other factors like parental involvement \cite{parentalinvolvement}, sytematic test scores, ethnic group \cite{collegescores} and race \cite{raceses}. We've also seen that \cite{parentalinvolvement, collegescores, raceses, farooq}, most of prior research relies on parametric models where there is an attempt to quantify said relationships by evaluating relative goodness of fits using ANOVA and T-Tests. While this is a good practice to understand relative relationships like in \cite{collegescores, raceses}, it fails to capture random effects and confounding factors. Some authors have used linear fixed effects models which account for confounding factors \cite{winters, jinnai}. Our work will use a number of machine learning based models to capture any non-linear relationships. Additionally, \cite{collegescores} also has a possible scenario of Simpson's paradox which we will try to avoid. Typically, \cite{sirin} SES is measured by a few different measures -- Free \& Reduced Lunch Ratio (FRL), family education levels, Occupation, and Income.  Academic performance, meanwhile, is typically measured by GPA or some form of standardized testing \cite{sirin}.  We intend to explore the relationship between other, more novel, aggregate measures of both SES and academic performance. Finally, we intend to provide an intuitive and interactive graphic interface to explore results
+The relationship between SES and academic achievement has been explored earlier in Benner et al. \cite{parentalinvolvement}, Zwick \cite{collegescores} and Battle et al. \cite{raceses}. All prior work agree in differing measures that SES is an important predictor of academic achievement in combination with other factors like parental involvement \cite{parentalinvolvement}, sytematic test scores, ethnic group \cite{collegescores} and race \cite{raceses}. We've also seen that \cite{parentalinvolvement, collegescores, raceses, farooq}, most of prior research relies on parametric models where there is an attempt to quantify said relationships by evaluating relative goodness of fits using ANOVA and T-Tests. While this is a good practice to understand relative relationships like in \cite{collegescores, raceses}, it fails to capture random effects and confounding factors. We learned that linear fixed effects models are commonly used to account for confounding factors for educational studies \cite{winters, jinnai}. Our work will use a number of machine learning based models to capture any non-linear relationships. Additionally, \cite{collegescores} also has a possible scenario of Simpson's paradox which we will try to avoid. Typically, \cite{sirin} SES is measured by a few different measures -- Free \& Reduced Lunch Ratio (FRL), family education levels, Occupation, and Income.  Academic performance, meanwhile, is typically measured by GPA or some form of standardized testing \cite{sirin}.  We intend to explore the relationship between other, more novel, aggregate measures of both SES and academic performance. Finally, we intend to provide an intuitive and interactive graphic interface to explore results.
 
 \section{Approach (HQ3)}
 %What is new in your approach and why do you think it will be successful? 
@@ -236,82 +236,50 @@ At a project level, our Minimum Viable Product (MVP) is a working, well-research
 
 \begin{thebibliography}{9}
 \bibitem{jinnai}
-Yusuke Jinnai
-\textit{Direct and indirect impact of charter schools’ entry on traditional public schools: New evidence from North Carolina}
-Economic Letters 124, Volume 124 (2014) 452-456
+Jinnai, Y. (2014). "Direct and indirect impact of charter schools’ entry on traditional public schools: New evidence from North Carolina." \textit{Economic Letters}, 124, 452-456.
 
 \bibitem{sirin}
-Selcuk R. Sirin
-\textit{Socioeconomic Status and Academic Achievement: A Meta-Analytic Review of Research }. 
-Review of Educational Research, Fall 2005, Vol. 75, No. 3, pp. 417–453.
+Sirin, S. R. (2005).
+"Socioeconomic Status and Academic Achievement: A Meta-Analytic Review of Research." \textit{Review of Educational Research}, 75(3), 417–453.
 
 \bibitem{hearn}
-James C. Hearn
-\textit{Attendance at Higher-Cost Colleges: Ascribed, Socioeconomic, and Academic Influences on Student Enrollment Patterns}
-Economics of Education Review, Vol. 7, No.  1, pp. 65-76, 1988.
+Hearn, J. C. (1988). "Attendance at Higher-Cost Colleges: Ascribed, Socioeconomic, and Academic Influences on Student Enrollment Patterns." \textit{Economics of Education Review},7(1), 65-76.
 
 \bibitem{farooq}
-M.S. Farooq, A.H. Chaudhry, M. Shafiq, G. Berhanu
-\textit{Factors Affecting Students' Quality of Academic Performance: A Case of Secondary School Level }.
-Journal of Quality and Technology Management, Volume VII, Issue II, December, 2011, pp. 01-04
+Farooq, M.S., Chaudhry, A.H., Shafiq, M., Berhanu, G. (2011). "Factors Affecting Students' Quality of Academic Performance: A Case of Secondary School Level." \textit{Journal of Quality and Technology Management}, VII(II)01-04.
 
 \bibitem{parentalinvolvement} 
-Aprile D. Benner, Alaina E. Boyle, Sydney Sadler1
-\textit{ Parental Involvement and Adolescents’ Educational Success: The Roles of Prior Achievement and Socioeconomic Status }. 
-Springer Science+Business Media New York 2016
+Benner, A. D., Boyle, A. E., Sadler, S. (2016). "Parental Involvement and Adolescents’ Educational Success: The Roles of Prior Achievement and Socioeconomic Status." \textit{Journal of Youth and Adolesence}, 45, 1053-1064.
 
 \bibitem{collegescores} 
-Rebecca Zwick 
-\textit{The Role of Admissions Test Scores, Socioeconomic Status, and High School Grades in Predicting College Achievement}. 
-Pensamiento Educativo. Revista de Investigación Educacional Latinoamericana 2012, 49(2), 23-30
+Zwick, R. (2012). "The Role of Admissions Test Scores, Socioeconomic Status, and High School Grades in Predicting College Achievement." \textit{Pensamiento Educativo. Revista de Investigación Educacional Latinoamericana}, 49(2), 23-30.
 
 \bibitem{raceses} 
-Juan Battle \& Michael Lewis
-\textit{ The Increasing Significance of Class: The Relative Effects of Race and Socioeconomic Status on Academic Achievement }. 
-Journal of Poverty, 6:2, 21-35, DOI: 10.1300/J134v06n02\textunderscore02
+Battle, J., Lewis, M. (2008). "The Increasing Significance of Class: The Relative Effects of Race and Socioeconomic Status on Academic Achievement." \textit{Journal of Poverty}, 6(2), 21-35.
 
 \bibitem{lee} 
-J.O. Lee, R. Kosterman, T.M. Jones, T.I. Herrenkohl, I.C. Rhew, R.F. Catalano, J.D. Hawkins
-\textit{ Mechanisms linking high school graduation to health disparities in young adulthood: a longitudinal analysis of the role of health behaviours, psychosocial stressors, and health insurance }. 
-Public Health Vol. 139 (2016) pp. 61-69.
+Lee, J. O., Kosterman, R., Jones, T.M., Herrenkohl, T.I., Rhew, I.C., Catalano, R.F., Hawkins, J.D. (2016) "Mechanisms linking high school graduation to health disparities in young adulthood: a longitudinal analysis of the role of health behaviours, psychosocial stressors, and health insurance." \textit{Public Health}, 139, 61-69.
 
 \bibitem{gilpin}
-L. H. Gilpin, D. Bau, B. Z. Yuan, A. Bajwa, M. Specter and L. Kagal, 
-\textit{Explaining Explanations: An Overview of Interpretability of Machine Learning}, 2018 IEEE 5th International Conference on Data Science and Advanced Analytics (DSAA), Turin, Italy, 2018, pp. 80-89, doi: 10.1109/DSAA.2018.00018.
-
-% \bibitem{chen}
-% Greg Chen \& Lynne A. Weikart (2008) 
-% \textit{Student Background, School Climate, School Disorder, and Student Achievement: An Empirical Study of New York City's Middle Schools }. Journal of School Violence, 7:4, 3-20, DOI: 10.1080/15388220801973813
+Gilpin, L. H., Bau, D., Yuan, B. Z., Bajwa, A., Specter,  M., Kagal, L. (2018). \textit{Explaining Explanations: An Overview of Interpretability of Machine Learning.} IEEE 5th International Conference on Data Science and Advanced Analytics (DSAA), Turin, Italy, 80-89.
 
 \bibitem{domanico}
-Ray Domanico
-\textit{NYC Student Achievement: What State and National Test Scores Reveal}, 
-The Manhattan Institute, 2020
+Domanico, Ray (2020). "NYC Student Achievement: What State and National Test Scores Reveal."  \textit{The Manhattan Institute for Policy Research} https://eric.ed.gov/?id=ED604331. 
 
 \bibitem{mltime}
-K. Singla, J. Bose and C. Naik, 
-\textit{Analysis of Software Engineering for Agile Machine Learning Projects }.
-2018 15th IEEE India Council International Conference (INDICON), Coimbatore, India, 2018, pp. 1-5, doi: 10.1109/INDICON45594.2018.8987154.
+Singla, K., Bose, J., Naik, C. (2018) \textit{Analysis of Software Engineering for Agile Machine Learning Projects.} 15th IEEE India Council International Conference (INDICON), Coimbatore, India, 1-5, doi: 10.1109/INDICON45594.2018.8987154.
 
 \bibitem{berkowitz}
-Ruth Berkowitz, Hadass Moore, Ron Avi Astor, Rami Benbenishty
-\textit{A Research Synthesis of the Associations Between Socioeconomic Background, Inequality, School Climate, and Academic Achievement }.
-Review of Educational Research April 2017, Vol. 87, No. 2, pp. 425–469 DOI: 10.3102/0034654316669821
+Berkowitz, R., Moore, H., Astor, R.A., Benbenishty, R. (2017). "A Research Synthesis of the Associations Between Socioeconomic Background, Inequality, School Climate, and Academic Achievement" \textit{Review of Educational Research}, 87(2), 425–469.
 
 \bibitem{winters}
-Marcus Winters
-\textit{Measuring the effect of charter schools on public school student achievement in an urban environment: Evidence from New York City}
-Economics of Education Review 31, Volume 31 (2012) 293-301
+Winters, M. (2012). "Measuring the effect of charter schools on public school student achievement in an urban environment: Evidence from New York City." \textit{Economics of Education Review}, 31, 293-301.
 
 \bibitem{west}
-Martin West
-\textit{Schools of choice: expanding opportunity for urban minority students}
-Education Next 16, Volume 16 (2016)
+West, M. (2016). "Schools of choice: expanding opportunity for urban minority students." \textit{Education Next}, 16(2).
 
 \bibitem{domingos}
-Pedro Domingos
-\textit{How to Get a Free Lunch: A Simple Cost Model for Machine Learning Applications}
-Workshop on AI Approaches to Time Series Problems, 15th National Conference Artificial Intelligence (AAAI-98), 1998, and International Conference on Machine Learning (ICML-98)
+Domingos, P. (1998). \textit{How to Get a Free Lunch: A Simple Cost Model for Machine Learning Applications.} 15th National Conference Artificial Intelligence (AAAI-98) and International Conference on Machine Learning (ICML-98): Workshop on AI Approaches to Time Series Problems.
 
 \end{thebibliography}
 % %%
@@ -332,36 +300,6 @@ Workshop on AI Approaches to Time Series Problems, 15th National Conference Arti
 %%
 %% If your work has an appendix, this is the place to put it.
 \appendix
-
-% \section{Research Methods}
-
-% \subsection{Part One}
-
-% Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-% malesuada, quam in pulvinar varius, metus nunc fermentum urna, id
-% sollicitudin purus odio sit amet enim. Aliquam ullamcorper eu ipsum
-% vel mollis. Curabitur quis dictum nisl. Phasellus vel semper risus, et
-% lacinia dolor. Integer ultricies commodo sem nec semper.
-
-% \subsection{Part Two}
-
-% Etiam commodo feugiat nisl pulvinar pellentesque. Etiam auctor sodales
-% ligula, non varius nibh pulvinar semper. Suspendisse nec lectus non
-% ipsum convallis congue hendrerit vitae sapien. Donec at laoreet
-% eros. Vivamus non purus placerat, scelerisque diam eu, cursus
-% ante. Etiam aliquam tortor auctor efficitur mattis.
-
-% \section{Online Resources}
-
-% Nam id fermentum dui. Suspendisse sagittis tortor a nulla mollis, in
-% pulvinar ex pretium. Sed interdum orci quis metus euismod, et sagittis
-% enim maximus. Vestibulum gravida massa ut felis suscipit
-% congue. Quisque mattis elit a risus ultrices commodo venenatis eget
-% dui. Etiam sagittis eleifend elementum.
-
-% Nam interdum magna at lectus dignissim, ac dignissim lorem
-% rhoncus. Maecenas eu arcu ac neque placerat aliquam. Nunc pulvinar
-% massa et mattis lacinia.
 
 \end{document}
 \endinput
