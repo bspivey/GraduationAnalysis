@@ -76,23 +76,22 @@
     function scale (scaleFactor,width,height) {
         return d3.geoTransform({
             point: function(x, y) {
-            this.stream.point((x - width/2) * scaleFactor + width/2 , (y - height/2) * scaleFactor + height/2);
+            this.stream.point((x - width/2) * scaleFactor + width/10 , (y - height/2) * scaleFactor + 2.25*height);
             }
         });
     }
 
-    var path = d3.geoPath().projection(scale(1, svg_width, svg_height))
+    var path = d3.geoPath().projection(scale(6, svg_width, svg_height))
 
     // define any other global variables
     const promise1 = d3.json('us.json'); //d3.json("school_districts.json");
-    const promise2 = d3.json('world_countries.json');
 
     Promise.all(
             // enter code to read files
-            [promise1, promise2]
+            [promise1]
         ).then(
             // enter code to call ready() with required arguments
-            d => ready(null, d[0], d[1])
+            d => ready(null, d[0])
         );
 
     // this function should be called once the data from files have been read
@@ -103,24 +102,32 @@
         // event listener for the dropdown. Update choropleth and legend when selection changes. Call createMapAndLegend() with required arguments.
         // create Choropleth with default option. Call createMapAndLegend() with required arguments.
         console.log('us', us);
-        console.log('world', world);
-        createMapAndLegend(us);
+        state = topojson.feature(us, us.objects.states)
+                          .features
+                          .filter(function (d) { console.log('d', d); return d.id == "36"; });
+        createMapAndLegend(state);
     }
 
     // this function should create a Choropleth and legend using the world and gameData arguments for a selectedGame
     // also use this function to update Choropleth and legend when a different game is selected from the dropdown
-    function createMapAndLegend(us) {
+    function createMapAndLegend(state) {
         // Draw the map
         svg.append('g')
             .attr('class', 'counties')
             .selectAll('path')
-            .data(topojson.feature(us, us.objects.states).features)
+            .data(state)
             .enter()
             .append('path')
             .attr('fill', 'gray')
-            .attr('d', path);
+            .attr('d', path)
+            .attr('align', 'center')
+            .attr('transform', 'translate(-' + 50 * width + ', 0)')
+            .attr('transform', 'scale(1)');
     };
+    // .filter(function (d) { console.log('d', d); return d.id == "36"; })
     </script>
+
+
 
 </body>
 
