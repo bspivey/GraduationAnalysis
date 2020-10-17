@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<head>
+    <title>Choropleth</title>
+    <meta charset='utf-8'>
+    <script type='text/javascript' src='../lib/d3.v5.min.js'></script>
+    <script type='text/javascript' src='../lib/d3-dsv.min.js'></script>
+    <script type='text/javascript' src='../lib/d3-geo-projection.v2.min.js'></script>
+    <script type='text/javascript' src='../lib/d3-legend.min.js'></script>
+    <script type='text/javascript' src='../lib/d3-tip.min.js'></script>
+    <script type='text/javascript' src='../lib/topojson.v2.min.js'></script>
+    <style>
+        .header {
+            text-align: left;
+            color: black;
+            font-family: Arial;
+            font-size: 16px;
+            margin-top: 10px;
+            height: 70px;
+        }
+        .dropdown {
+            padding: 5px;
+            text-align: left;
+            color: black;
+            font-family: Arial;
+            font-size: 14px;
+            height: 20px;       
+        }
+        .d3-tip {
+            line-height: 1;
+            padding: 6px;
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            font-family: Arial;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Add heading for the visualization -->
+    <div class='header'>
+        <h1>New York State Education Statistics</h1>
+    </div>
+
+	<!-- append visualization svg to this div-->
+    <div id='choropleth_chart'></div>
+
+    <script>
+	//----------------------------- SVG -------------------------// 
+    // enter code to define margin and dimensions for svg
+    var margin = {top: 0, right: 200, bottom: 100, left: 100}
+        , width = window.innerWidth - margin.left - margin.right // Use the window's width 
+        , height = 500 - margin.top - margin.bottom; // Use the window's height
+
+    console.log('margin', margin);
+
+    // enter code to create svg
+    svg_width = width + margin.left + margin.right
+    svg_height = 2 * height + margin.top + margin.bottom
+    const svg = d3.select('body').append('svg')
+        .attr('id', 'svg')
+        .attr('width', svg_width)
+        .attr('height', svg_height);
+
+	//-----------------------------DATA-----------------------------//
+    // enter code to create color scale
+    var colorScheme = d3.schemeReds[6];
+    colorScheme.unshift('#eee')
+    var colorScale = d3.scaleThreshold()
+        .domain([1, 6, 11, 26, 101, 1001])
+        .range(colorScheme);
+
+    // enter code to define projection and path required for Choropleth
+    // Map and projection
+    // ref: https://gist.github.com/Andrew-Reid/496078bd5e37fd22a9b43fd6be84b36b
+    function scale (scaleFactor,width,height) {
+        return d3.geoTransform({
+            point: function(x, y) {
+            this.stream.point((x - width/2) * scaleFactor + width/2 , (y - height/2) * scaleFactor + height/2);
+            }
+        });
+    }
+
+    var path = d3.geoPath().projection(scale(1, svg_width, svg_height))
+
+    // define any other global variables
+    const promise1 = d3.json('us.json'); //d3.json("school_districts.json");
+    const promise2 = d3.json('world_countries.json');
+
+    Promise.all(
+            // enter code to read files
+            [promise1, promise2]
+        ).then(
+            // enter code to call ready() with required arguments
+            d => ready(null, d[0], d[1])
+        );
+
+    // this function should be called once the data from files have been read
+    // world: topojson from world_countries.json
+    // gameData: data from ratings-by-country.csv
+    function ready(error, us, world) {
+
+        // event listener for the dropdown. Update choropleth and legend when selection changes. Call createMapAndLegend() with required arguments.
+        // create Choropleth with default option. Call createMapAndLegend() with required arguments.
+        console.log('us', us);
+        console.log('world', world);
+        createMapAndLegend(us);
+    }
+
+    // this function should create a Choropleth and legend using the world and gameData arguments for a selectedGame
+    // also use this function to update Choropleth and legend when a different game is selected from the dropdown
+    function createMapAndLegend(us) {
+        // Draw the map
+        svg.append('g')
+            .attr('class', 'counties')
+            .selectAll('path')
+            .data(topojson.feature(us, us.objects.states).features)
+            .enter()
+            .append('path')
+            .attr('fill', 'gray')
+            .attr('d', path);
+    };
+    </script>
+
+</body>
+
+</html>
