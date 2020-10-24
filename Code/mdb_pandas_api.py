@@ -94,10 +94,10 @@ print('-------')
 print('\ntable names = ', table_names)
 print('\ntable columns = ', df_grad_rate_15.columns)
 print('\ntable head = ', df_grad_rate_15.head())
-"""
+
 
 # Report Card Staff Qualifications 2019
-database_path = 'SRC2019/SRC2019_20200703.mdb'
+database_path = '../Data/SRC2019_20200703.mdb'
 out_tables = mdb_to_pandas(database_path)
 table_names = list(out_tables.keys())
 df_staff_qualifications_19_20 = out_tables['Staff Qualifications']
@@ -107,7 +107,8 @@ print('\ntable names = ', table_names)
 print('\ntable columns = ', df_staff_qualifications_19_20.columns)
 print('\ntable head = ', df_staff_qualifications_19_20.head())
 
-"""
+df_staff_qualifications_19_20.to_pickle('../Data/df_staff_qualifications_19_20.pkl')
+
 # Report Card Staff Qualifications 2018
 database_path = 'SRC2018/SRC2018_20190627.mdb'
 out_tables = mdb_to_pandas(database_path)
