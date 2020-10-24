@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-""" Script to read .mdb files and convert to pandas dataframes
+""" Script example to read .mdb files and view one table as a dataframe
 
     Author: Ben Spivey
     Created: 10/24/20

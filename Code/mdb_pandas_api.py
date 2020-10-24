@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-""" Script to read .mdb files and convert to pandas dataframes
+"""Function to read .mdb files and convert to a dictionary of dataframes
 
     Author: Ben Spivey
     Created: 10/4/20
@@ -7,7 +7,7 @@
     Python: 3
 """
 
-import sys, subprocess, os
+import sys, subprocess
 from io import StringIO
 import pandas as pd
 verbose = True
@@ -154,3 +154,59 @@ print('\ntable columns = ', df_staff_qualifications_15.columns)
 print('\ntable head = ', df_staff_qualifications_15.head())
 """
 
+# Report Card Staff Qualifications 2019
+database_path = '../Data/SRC2019_20200703.mdb'
+out_tables = mdb_to_pandas(database_path)
+table_names = list(out_tables.keys())
+df_staff_qualifications_19_20 = out_tables['Staff Qualifications']
+
+print('-------')
+print('\ntable names = ', table_names)
+print('\ntable columns = ', df_staff_qualifications_19_20.columns)
+print('\ntable head = ', df_staff_qualifications_19_20.head())
+
+df_staff_qualifications_19_20.to_pickle('../Data/df_staff_qualifications_19_20.pkl')
+
+# Report Card Staff Qualifications 2018
+database_path = 'SRC2018/SRC2018_20190627.mdb'
+out_tables = mdb_to_pandas(database_path)
+table_names = list(out_tables.keys())
+df_staff_qualifications_18_19 = out_tables['Staff Qualifications']
+
+print('-------')
+print('\ntable names = ', table_names)
+print('\ntable columns = ', df_staff_qualifications_18_19.columns)
+print('\ntable head = ', df_staff_qualifications_18_19.head())
+
+# Report Card Staff Qualifications 2017
+database_path = 'SRC2017/SRC2017GroupIIRelease.mdb'
+out_tables = mdb_to_pandas(database_path)
+table_names = list(out_tables.keys())
+df_staff_qualifications_17 = out_tables['Staff']
+
+print('-------')
+print('\ntable names = ', table_names)
+print('\ntable columns = ', df_staff_qualifications_17.columns)
+print('\ntable head = ', df_staff_qualifications_17.head())
+
+# Report Card Staff Qualifications 2016
+database_path = 'SRC2016/SRC2016_GroupIII.mdb'
+out_tables = mdb_to_pandas(database_path)
+table_names = list(out_tables.keys())
+df_staff_qualifications_16 = out_tables['Staff']
+
+print('-------')
+print('\ntable names = ', table_names)
+print('\ntable columns = ', df_staff_qualifications_16.columns)
+print('\ntable head = ', df_staff_qualifications_16.head())
+
+# Report Card Staff Qualifications 2015
+database_path = 'SRC2015/SRC2015.mdb'
+out_tables = mdb_to_pandas(database_path)
+table_names = list(out_tables.keys())
+df_staff_qualifications_15 = out_tables['Staff']
+
+print('-------')
+print('\ntable names = ', table_names)
+print('\ntable columns = ', df_staff_qualifications_15.columns)
+print('\ntable head = ', df_staff_qualifications_15.head())
