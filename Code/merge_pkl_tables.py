@@ -122,4 +122,4 @@ df_staff_qualifications_all.to_pickle('../Data All/df_staff_qualifications_all.p
 df_combined_all = pd.merge(df_grad_rate_all, df_staff_qualifications_all, \
                                        left_on=['AGGREGATION_CODE', 'YEAR'], \
                                        right_on=['ENTITY_CD', 'YEAR'])
-df_combined_all.to_pickle('../Data/df_combined_all.pkl')
+df_combined_all.to_pickle('../Data All/df_combined_all.pkl')
