@@ -50,7 +50,7 @@ print('--------------------------------')
 dataframe_array = [df_grad_rate_15, df_grad_rate_16, df_grad_rate_17, df_grad_rate_18, \
                    df_grad_rate_19]
 df_grad_rate_all = pd.concat(dataframe_array)
-df_grad_rate_all.to_pickle('../Data All/df_grad_rate_all.pkl')
+df_grad_rate_all.to_pickle('../DataAll/df_grad_rate_all.pkl')
 
 # %% Merge staff qualification tables for 2015-2019
 def clean_2015_2017_data(df, year):
@@ -116,10 +116,10 @@ dataframe_array = [df_staff_qualifications_15, df_staff_qualifications_16, \
                    df_staff_qualifications_17, df_staff_qualifications_18, \
                    df_staff_qualifications_19]
 df_staff_qualifications_all = pd.concat(dataframe_array)
-df_staff_qualifications_all.to_pickle('../Data All/df_staff_qualifications_all.pkl')
+df_staff_qualifications_all.to_pickle('../DataAll/df_staff_qualifications_all.pkl')
 
 # %% Merge graduation rate and staff qualifications for all years into one table
 df_combined_all = pd.merge(df_grad_rate_all, df_staff_qualifications_all, \
                                        left_on=['AGGREGATION_CODE', 'YEAR'], \
                                        right_on=['ENTITY_CD', 'YEAR'])
-df_combined_all.to_pickle('../Data All/df_combined_all.pkl')
+df_combined_all.to_pickle('../DataAll/df_combined_all.pkl')
