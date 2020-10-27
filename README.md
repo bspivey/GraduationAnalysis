@@ -32,25 +32,50 @@ We suggest using proxy features for SES and AP, as much as we can reasonably inc
 I'd like to have more proxies for inputs, but it's not in the data we have already.  We can put it off until later if we want because it's going to take some digging in my opinion. Let's discuss criteria for SES proxies.
 
 ##### (agg level) SES Proxies -- inputs / features / treatment variables.
+* (??) Subgroup code  
+
+##### Maybe Input:
 * (school, district only) NRC_Code / NRC_Desc
-* (county, state, district) Income / Earnings statistics for that aggregation levels - (we still need this data - maybe https://data.bls.gov/cew/doc/access/csv_data_slices.htm?)
+* staff qualifications 
+* Ethnicity
+* sex
+* disability
+* economic situation
+* english proficiency
 
 ##### (agg level) AP Proxies -- outputs / outcome variables
-* (school, district, county, state) - grad_rate.GRAD_CNT
-* (school, district, county, state) - grad_rate.GRAD_PCT
-* (district only) - Grades 3 to 8 Assessment in ELA and Math
+* (school, district, county, state) - grad_rate.GRAD_CNT / GRAD_PCT
+* (??) - Dropout PCT / Rate
+
+##### Maybe Output:
+* (district only) - Grades 3 to 8 Assessment in ELA and Math - Nice to Have
+
+#### MVP 
+##### Plot
+* Aggregate at County Level
+* Choropleth that shows grad rate or selected feature by county (we have this data already)
+* selections that control the choropleth
+* One input (NRC Code) 
+
+##### Data Product
+* Regression with p-values and confidence intervals 
+* Random Forest Model (or equiv) with Feature Importance
+
+##### Plot Nice to Have
+* Different Model
+* Select one x, one y 
 
 ## Conclusions and Discussion
 
-
 # TODO:
-[ ] - Discuss criteria for SES Proxies (AP is pretty straightforward)
-[ ] - Begin progress report DRAFT
-[ ] - Engineer more proxies for SES
-[ ] - Engineer more proxies for AP
-[ ] - Design Map Features: Aggregation Levels, Hover, Feature Set, etc.
-[ ] - Write base model (regression?  RF?)
-[ ] - Validate data assumptions & more EDA
-[ ] - Dig through the rest of the tables in report_card
-[ ] - Do we need some task management thing like Trello?  Seems like unnecesary overhead, but let's discuss.
+* [ ] - Get Vuong some MVP Data - 2 inputs and 2 outputs. - Nick (grad rate, NRC, dropout, subgroup)
+* [ ] - NRC Verification and Verify data aggregate levels for Dropout / Subgroup - Dave 
+* [ ] - Discuss criteria for SES Proxies (AP is pretty straightforward) - Group Next Week
+* [ ] - Begin progress report DRAFT - Kshitij
+* [ ] - Regression Model - Nick & Dave
+* [ ] - Random Forest - Ben
+* [ ] - Engineer more proxies for SES - Ben
+* [ ] - Engineer more proxies for AP - Ben & Kshitij
+* [ ] - Design Map Features: Aggregation Levels, Hover, Feature Set, etc. - Vuong
+* [ ] - Dig through the rest of the tables in report_card - Ben
 
