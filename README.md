@@ -79,3 +79,14 @@ I'd like to have more proxies for inputs, but it's not in the data we have alrea
 * [ ] - Design Map Features: Aggregation Levels, Hover, Feature Set, etc. - Vuong
 * [ ] - Dig through the rest of the tables in report_card - Ben
 
+
+# Assumptions
+* For multiple cohorts per year, if there appear to be duplicate timeframes, we're just selecting the most likely one -- i.e. membership codes 6, 8, & 9 at county and school level.
+
+# Data
+## only for subgroup 1
+* Demographics_all 
+* apm_all (join on year & district)
+* FARU - Join on year and district
+
+don't use ELAMATH because BEDS Code is borked.
