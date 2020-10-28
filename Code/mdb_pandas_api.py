@@ -152,7 +152,6 @@ print('-------')
 print('\ntable names = ', table_names)
 print('\ntable columns = ', df_staff_qualifications_15.columns)
 print('\ntable head = ', df_staff_qualifications_15.head())
-"""
 
 # Report Card Staff Qualifications 2019
 database_path = '../Data/SRC2019_20200703.mdb'
@@ -210,3 +209,4 @@ print('-------')
 print('\ntable names = ', table_names)
 print('\ntable columns = ', df_staff_qualifications_15.columns)
 print('\ntable head = ', df_staff_qualifications_15.head())
+"""
