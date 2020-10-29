@@ -70,9 +70,13 @@
 	- DROPOUT_PCT
 
 # Define Features
-I see two options for defining features based on SUBGROUP which is one column in the raw Graduation Rate table. We need to build models for each county regardless.
-* Create no new columns. Use SUBGROUP as the one input feature and GRAD_PCT and DROP_PCT as two outputs for two different models.
-* Pivot the table to create a column for each SUBGROUP with the values being the percentage composition of that subgroup.
+Two options for defining features based on SUBGROUP which is one column in the raw Graduation Rate table. We need to build models for each county regardless.
+* Create no new columns. Use SUBGROUP as the one input feature and GRAD_PCT and DROP_PCT as two outputs for two different models. This shows how each subgroup corresponds to its unique graduation rate.
+* Pivot the table to create a column for each SUBGROUP with the values being the percentage composition of that subgroup. This shows how the percent student population of the subgroup corresponds to overall school graduation rate.
+
+Additional features:
+* Public vs. Charter. One column. No pivot required. Encode NRC_CODE to binary {'1-6':0, '7':1}
+* Staff qualifications. No pivot required. Merge existing staff qualifications table with grad rate.
 
 
 
