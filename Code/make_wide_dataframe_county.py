@@ -17,7 +17,6 @@ import numpy as np
 
 def make_wide_dataframe_county(df_grad_rate, year):
     df_grad_rate.columns = df_grad_rate.columns.str.upper()
-    df_grad_rate['YEAR'] = year
     
     # Select only school rows, no counties, districts, etc.
     df_grad_rate = df_grad_rate[df_grad_rate['AGGREGATION_INDEX'] == 4]
@@ -75,6 +74,9 @@ def make_wide_dataframe_county(df_grad_rate, year):
     df_grad_rate_pct_enroll['COUNTY_CODE'] = df_grad_rate_pct_enroll['COUNTY_CODE'].astype('int')
     df_grad_rate_pct_enroll.set_index('COUNTY_NAME', drop=True, inplace=True)
     
+    # Make year columns
+    df_grad_rate_pct_enroll['YEAR'] = year
+    
     return df_grad_rate_pct_enroll
 
 # Create grad rate wide table for 2019
@@ -116,3 +118,10 @@ year = 2015
 df_grad_rate_15_pct_county = make_wide_dataframe_county(df_grad_rate_15, year)
 df_grad_rate_15_pct_county.to_pickle('../Data/df_grad_rate_15_pct_county.pkl')
 df_grad_rate_15_pct_county.to_csv('../Data/df_grad_rate_15_pct_county.csv')
+
+df_grad_rate_pct_county = pd.concat([df_grad_rate_15_pct_county,
+                                     df_grad_rate_16_pct_county,
+                                     df_grad_rate_17_pct_county,
+                                     df_grad_rate_18_pct_county,
+                                     df_grad_rate_19_pct_county])
+df_grad_rate_pct_county.to_csv('../Data/df_grad_rate_pct_county.csv')
