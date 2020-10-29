@@ -45,7 +45,7 @@ Promise.all([
             'FEMALE' : +d['FEMALE'],
             'FORMERLY LIMITED ENGLISH PROFICIENT' : +d['FORMERLY LIMITED ENGLISH PROFICIENT'],
             'GENERAL EDUCATION STUDENTS' : +d['GENERAL EDUCATION STUDENTS'],
-            'HISPANIC OR LATINO' : +d['HISPANIC OR LATINO'],
+            'HISPANIC' : +d['HISPANIC'],
             'LIMITED ENGLISH PROFICIENT' : +d['LIMITED ENGLISH PROFICIENT'],
             'MALE' : +d['MALE'],
             'MIGRANT' : +d['MIGRANT'],
