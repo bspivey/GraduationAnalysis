@@ -19,7 +19,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8 col-md-7 py-4">
-                        <h4 class="text-white">TransAM Project</h4>
+                        <h3 class="text-white">TransAM Project</h3>
                     </div>
                 </div>
             </div>
@@ -28,6 +28,37 @@
     <!-- New York Choropleth-->
     <section class="py-5">
         <div class="container">
+            <h4>Graduation Rate of Counties Across New York</h4>
+
+            <!-- Dropdown  -->
+            <form>
+                <div class="form-row">
+                    <div class="col-md-2 mb-3">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="inputGroupPrepend3">Year</span>
+                            </div>
+                            <select class="custom-select" id="year">
+                                <option value="2015">2015</option>
+                                <option value="2016">2016</option>
+                                <option value="2017">2017</option>
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="inputGroupPrepend3">SES</span>
+                            </div>
+                            <select class="custom-select" id="ses">
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
             <div id="choropleth">
 
             </div>
