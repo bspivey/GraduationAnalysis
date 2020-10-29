@@ -76,6 +76,55 @@ def make_wide_dataframe_school(df_grad_rate, year):
     df_grad_rate_pct_enroll['COUNTY_CODE'] = df_grad_rate_pct_enroll['COUNTY_CODE'].astype('int')
     df_grad_rate_pct_enroll.set_index('AGGREGATION_NAME', drop=True, inplace=True)
     
+    # Standardize column names
+    if 'AMERICAN INDIAN/ALASKA NATIVE' in df_grad_rate_pct_enroll.columns:
+        before = 'AMERICAN INDIAN/ALASKA NATIVE'
+        after = 'AMERICAN INDIAN OR ALASKA NATIVE'
+        df_grad_rate_pct_enroll.rename(columns={before:after}, inplace=True)
+
+    if 'ASIAN/PACIFIC ISLANDER' in df_grad_rate_pct_enroll.columns:
+        before = 'ASIAN/PACIFIC ISLANDER'
+        after = 'ASIAN OR PACIFIC ISLANDER'
+        df_grad_rate_pct_enroll.rename(columns={before:after}, inplace=True)
+
+    if 'BLACK OR AFRICAN AMERICAN' in df_grad_rate_pct_enroll.columns:
+        before = 'BLACK OR AFRICAN AMERICAN'
+        after = 'BLACK'
+        df_grad_rate_pct_enroll.rename(columns={before:after}, inplace=True)
+
+    if 'HISPANIC OR LATINO' in df_grad_rate_pct_enroll.columns:
+        before = 'HISPANIC OR LATINO'
+        after = 'HISPANIC'
+        df_grad_rate_pct_enroll.rename(columns={before:after}, inplace=True)
+
+    if 'ENGLISH LANGUAGE LEARNER' in df_grad_rate_pct_enroll.columns:
+        before = 'ENGLISH LANGUAGE LEARNER'
+        after = 'LIMITED ENGLISH PROFICIENT'
+        df_grad_rate_pct_enroll.rename(columns={before:after}, inplace=True)
+
+    if 'NOT ENGLISH LANGUAGE LEARNER' in df_grad_rate_pct_enroll.columns:
+        before = 'NOT ENGLISH LANGUAGE LEARNER'
+        after = 'NOT LIMITED ENGLISH PROFICIENT'
+        df_grad_rate_pct_enroll.rename(columns={before:after}, inplace=True)
+
+    if 'FORMERLY ENGLISH LANGUAGE LEARNER' in df_grad_rate_pct_enroll.columns:
+        before = 'FORMERLY ENGLISH LANGUAGE LEARNER'
+        after = 'FORMERLY LIMITED ENGLISH PROFICIENT'
+        df_grad_rate_pct_enroll.rename(columns={before:after}, inplace=True)
+
+    if 'ENGLISH LANGUAGE LEARNERS' in df_grad_rate_pct_enroll.columns:
+        before = 'ENGLISH LANGUAGE LEARNERS'
+        after = 'LIMITED ENGLISH PROFICIENT'
+        df_grad_rate_pct_enroll.rename(columns={before:after}, inplace=True)
+
+    if 'NON-ENGLISH LANGUAGE LEARNERS' in df_grad_rate_pct_enroll.columns:
+        before = 'NON-ENGLISH LANGUAGE LEARNERS'
+        after = 'NOT LIMITED ENGLISH PROFICIENT'
+        df_grad_rate_pct_enroll.rename(columns={before:after}, inplace=True)
+    
+    # Make year columns
+    df_grad_rate_pct_enroll['YEAR'] = year
+    
     return df_grad_rate_pct_enroll
 
 # Create grad rate wide table for 2019
@@ -117,3 +166,11 @@ year = 2015
 df_grad_rate_15_pct_school = make_wide_dataframe_school(df_grad_rate_15, year)
 df_grad_rate_15_pct_school.to_pickle('../Data/df_grad_rate_15_pct_school.pkl')
 df_grad_rate_15_pct_school.to_csv('../Data/df_grad_rate_15_pct_school.csv')
+
+df_grad_rate_pct_school = pd.concat([df_grad_rate_15_pct_school,
+                                     df_grad_rate_16_pct_school,
+                                     df_grad_rate_17_pct_school,
+                                     df_grad_rate_18_pct_school,
+                                     df_grad_rate_19_pct_school],
+                                     axis=0)
+df_grad_rate_pct_school.to_csv('../Data/df_grad_rate_pct_school.csv')
