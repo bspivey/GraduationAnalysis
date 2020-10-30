@@ -12,7 +12,7 @@ var svg = d3.select("#choropleth")
 .attr("transform", "translate(" + m.left + "," + m.top + ")");
 
 // enter code to create color scale
-var color = d3.scaleQuantile().range(d3.schemeBlues[4])
+var color = d3.scaleQuantile().range(d3.schemeBlues[6])
 
 // enter code to define tooltip
 var tip = d3.tip()
