@@ -15,15 +15,26 @@
 import pandas as pd
 import numpy as np
 
-def make_wide_dataframe_county(df_grad_rate, year):
-    df_grad_rate.columns = df_grad_rate.columns.str.upper()
-
+def clean_grad_rate(df_grad_rate):
     # Select only school rows, no counties, districts, etc.
     df_grad_rate = df_grad_rate[df_grad_rate['AGGREGATION_INDEX'] == 4]
 
     # Remove rows with ENROLL_CNT == '-'
     df_grad_rate.replace('-', np.NaN, inplace=True)
     df_grad_rate = df_grad_rate[df_grad_rate['ENROLL_CNT'].notna()]
+
+    # Make integer columns an integer data type instead of '0' Python object
+    int_columns = ['SUBGROUP_CODE', 'ENROLL_CNT', 'GRAD_CNT', 'REG_CNT', 'REG_ADV_CNT', 'DROPOUT_CNT']
+    df_grad_rate[int_columns] = df_grad_rate[int_columns].apply(pd.to_numeric, downcast='integer')
+
+    df_grad_rate.replace(np.NaN, 0, inplace=True)
+
+    return df_grad_rate
+
+def make_wide_dataframe_county(df_grad_rate, year):
+    df_grad_rate.columns = df_grad_rate.columns.str.upper()
+
+    df_grad_rate = clean_grad_rate(df_grad_rate)
 
     # Make integer columns an integer data type instead of '0' Python object
     int_columns = ['SUBGROUP_CODE', 'ENROLL_CNT', 'GRAD_CNT', 'REG_CNT', 'REG_ADV_CNT', 'DROPOUT_CNT']
