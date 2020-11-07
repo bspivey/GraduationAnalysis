@@ -17,7 +17,7 @@ import numpy as np
 
 def make_wide_dataframe_county(df_grad_rate, year):
     df_grad_rate.columns = df_grad_rate.columns.str.upper()
-    
+
     # Select only school rows, no counties, districts, etc.
     df_grad_rate = df_grad_rate[df_grad_rate['AGGREGATION_INDEX'] == 4]
 
@@ -28,7 +28,7 @@ def make_wide_dataframe_county(df_grad_rate, year):
     # Make integer columns an integer data type instead of '0' Python object
     int_columns = ['SUBGROUP_CODE', 'ENROLL_CNT', 'GRAD_CNT', 'REG_CNT', 'REG_ADV_CNT', 'DROPOUT_CNT']
     df_grad_rate[int_columns] = df_grad_rate[int_columns].apply(pd.to_numeric, downcast='integer') 
-    
+
     ### Pivot the long table to a wide tables
     ## Set values as ENROLL_CNT
     df_grad_rate_enroll = pd.pivot_table(df_grad_rate,
@@ -37,7 +37,7 @@ def make_wide_dataframe_county(df_grad_rate, year):
                                              columns='SUBGROUP_NAME',
                                              aggfunc=np.sum)
     df_grad_rate_enroll.replace(np.NaN, 0, inplace=True)
-    
+
     # Calculate percent student population by subgroup
     grad_rate_enroll_values = df_grad_rate_enroll.values
     grad_rate_enroll_totals = grad_rate_enroll_values[:, 0]
@@ -45,35 +45,35 @@ def make_wide_dataframe_county(df_grad_rate, year):
     df_grad_rate_pct_enroll = pd.DataFrame(grad_rate_enroll_pct, \
                                               columns=df_grad_rate_enroll.columns,
                                               index=df_grad_rate_enroll.index)
-    
+
     # Remove the 'All Students' column
     df_grad_rate_pct_enroll.drop(columns=['All Students'], inplace=True)
-    
+
     ## Set values as GRAD_CNT
     df_grad_rate_grad = pd.pivot_table(df_grad_rate,
                                              values='GRAD_CNT',
                                              index='COUNTY_NAME',
                                              columns='SUBGROUP_NAME',
                                              aggfunc=np.sum)
-    
+
     df_grad_rate_grad.replace(np.NaN, 0, inplace=True)
-    
+
     # Calculate county graduation rate
     county_graduation_rate = df_grad_rate_grad['All Students'] / df_grad_rate_enroll['All Students']
     county_graduation_rate = 100 * county_graduation_rate
-    
+
     # Augment school graduation rate to the pct_enroll table
     df_grad_rate_pct_enroll['PCT_GRAD'] = county_graduation_rate
     df_grad_rate_pct_enroll.columns = df_grad_rate_pct_enroll.columns.str.upper()
     df_grad_rate_pct_enroll = df_grad_rate_pct_enroll.round(decimals=2)
-    
+
     # Join the COUNTY_CODE column back into the table
     df_grad_rate_small = df_grad_rate[['COUNTY_CODE', 'COUNTY_NAME']]
     df_grad_rate_small.drop_duplicates(inplace=True)
     df_grad_rate_pct_enroll = df_grad_rate_pct_enroll.merge(df_grad_rate_small, how='inner', on='COUNTY_NAME')
     df_grad_rate_pct_enroll['COUNTY_CODE'] = df_grad_rate_pct_enroll['COUNTY_CODE'].astype('int')
     df_grad_rate_pct_enroll.set_index('COUNTY_NAME', drop=True, inplace=True)
-    
+
     # Standardize column names
     if 'AMERICAN INDIAN/ALASKA NATIVE' in df_grad_rate_pct_enroll.columns:
         before = 'AMERICAN INDIAN/ALASKA NATIVE'
@@ -119,10 +119,10 @@ def make_wide_dataframe_county(df_grad_rate, year):
         before = 'NON-ENGLISH LANGUAGE LEARNERS'
         after = 'NOT LIMITED ENGLISH PROFICIENT'
         df_grad_rate_pct_enroll.rename(columns={before:after}, inplace=True)
-    
+
     # Make year columns
     df_grad_rate_pct_enroll['YEAR'] = year
-    
+
     return df_grad_rate_pct_enroll
 
 # Create grad rate wide table for 2019
