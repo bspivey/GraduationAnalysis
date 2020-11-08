@@ -1,20 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Script example to fit a nonlinear model on the graduate rate and staff
-    qualification data set.
-    
-    The default table is *long* in how each school has a row for the subgroup.
-    We want a *wide* table for building a model such that each school only
-    has one row with a column for each subgroup instead.    
+"""Script to merge all features for statistics and machine learning
 
     Author: Ben Spivey
-    Created: 10/24/20
+    Created: 11/07/20
     Modified: N/A
     Python: 3
 """
 
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
 # Load dataframe for combined tables
 filepath = '../DataAll/df_combined_all.pkl'
@@ -51,3 +47,6 @@ df_grad_rate_pct_school = df_grad_rate_pct_school.sort_values(by=cols_to_merge_k
 df_grad_rate_pct_school_merge = df_grad_rate_pct_school.merge(df_combined_features, \
                                                               how='left', on=cols_to_merge_key)
 df_grad_rate_pct_school_merge['CHARTER'] = df_grad_rate_pct_school_merge['NRC_CODE'] > 6
+df_grad_rate_pct_school_merge.replace(np.NaN, 0, inplace=True)
+
+df_grad_rate_pct_school_merge.to_pickle('../Data/df_grad_rate_pct_school_merge.pkl')
