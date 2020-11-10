@@ -49,4 +49,4 @@ df_grad_rate_pct_school_merge = df_grad_rate_pct_school.merge(df_combined_featur
 df_grad_rate_pct_school_merge['CHARTER'] = df_grad_rate_pct_school_merge['NRC_CODE'] > 6
 df_grad_rate_pct_school_merge.replace(np.NaN, 0, inplace=True)
 
-df_grad_rate_pct_school_merge.to_pickle('../Data/df_grad_rate_pct_school_merge.pkl')
+df_grad_rate_pct_school_merge.to_csv('../Data/df_grad_rate_pct_school_merge.csv')
