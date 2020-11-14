@@ -8,12 +8,30 @@
     Python: 3
 """
 
+import numpy as np
 import pandas as pd
+
+def clean_grad_rate(df_grad_rate):
+    # Select only school rows, no counties, districts, etc.
+    df_grad_rate = df_grad_rate[df_grad_rate['AGGREGATION_INDEX'] == 4]
+
+    # Remove rows with ENROLL_CNT == '-'
+    df_grad_rate.replace('-', np.NaN, inplace=True)
+    df_grad_rate = df_grad_rate[df_grad_rate['ENROLL_CNT'].notna()]
+
+    # Make integer columns an integer data type instead of '0' Python object
+    int_columns = ['SUBGROUP_CODE', 'ENROLL_CNT', 'GRAD_CNT', 'REG_CNT', 'REG_ADV_CNT', 'DROPOUT_CNT']
+    df_grad_rate[int_columns] = df_grad_rate[int_columns].apply(pd.to_numeric, downcast='integer') 
+
+    df_grad_rate.replace(np.NaN, 0, inplace=True)
+
+    return df_grad_rate
 
 # Merge graduation rate tables for 2015-2019
 filepath = '../Data/df_grad_rate_15.pkl'
 df_grad_rate_15 = pd.read_pickle(filepath)
 df_grad_rate_15['YEAR'] = 2015
+df_grad_rate_15 = clean_grad_rate(df_grad_rate_15)
 
 print(df_grad_rate_15.columns)
 print('--------------------------------')
@@ -21,6 +39,7 @@ print('--------------------------------')
 filepath = '../Data/df_grad_rate_16.pkl'
 df_grad_rate_16 = pd.read_pickle(filepath)
 df_grad_rate_16['YEAR'] = 2016
+df_grad_rate_16 = clean_grad_rate(df_grad_rate_16)
 
 print(df_grad_rate_16.columns)
 print('--------------------------------')
@@ -28,6 +47,7 @@ print('--------------------------------')
 filepath = '../Data/df_grad_rate_17.pkl'
 df_grad_rate_17 = pd.read_pickle(filepath)
 df_grad_rate_17['YEAR'] = 2017
+df_grad_rate_17 = clean_grad_rate(df_grad_rate_17)
 
 print(df_grad_rate_17.columns)
 print('--------------------------------')
@@ -35,6 +55,7 @@ print('--------------------------------')
 filepath = '../Data/df_grad_rate_18.pkl'
 df_grad_rate_18 = pd.read_pickle(filepath)
 df_grad_rate_18['YEAR'] = 2018
+df_grad_rate_18 = clean_grad_rate(df_grad_rate_18)
 
 print(df_grad_rate_18.columns)
 print('--------------------------------')
@@ -43,6 +64,7 @@ filepath = '../Data/df_grad_rate_19.pkl'
 df_grad_rate_19 = pd.read_pickle(filepath)
 df_grad_rate_19.columns = df_grad_rate_19.columns.str.upper()
 df_grad_rate_19['YEAR'] = 2019
+df_grad_rate_19 = clean_grad_rate(df_grad_rate_19)
 
 print(df_grad_rate_19.columns)
 print('--------------------------------')
@@ -120,6 +142,7 @@ df_staff_qualifications_all.to_pickle('../DataAll/df_staff_qualifications_all.pk
 
 # %% Merge graduation rate and staff qualifications for all years into one table
 df_combined_all = pd.merge(df_grad_rate_all, df_staff_qualifications_all, \
+                                       how='left', \
                                        left_on=['AGGREGATION_CODE', 'YEAR'], \
                                        right_on=['ENTITY_CD', 'YEAR'])
 df_combined_all.to_pickle('../DataAll/df_combined_all.pkl')

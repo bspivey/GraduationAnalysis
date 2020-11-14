@@ -1,0 +1,82 @@
+---
+title: "Modeling_Nick"
+author: "Nick Orangio"
+date: "11/9/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+``` {r}
+
+# import county joined and grouped Cornell data for modeling
+corn_count_df <- read.csv("/Users/nickorangio/NYC_hs_grad/CSE6242/Data/cornell_modeling_agg.csv")
+
+###
+# correlations between factors for use in regression
+###
+library(corrplot)
+
+# extract columns for correlations
+corr_data <- corn_count_df[ , c("lrev", "staid", "tsal", "cds", "rev_pupil", "exp_pupil", "instructional_salaries"
+                                , "av_twpu", "inc_twpu", "cwr", "grad_rate_avg")]
+
+# run correlations
+cor_mat <- cor(corr_data, method = "spearman")
+corrplot.mixed(cor_mat, tl.cex = 0.5, order = "hclust")
+
+```
+
+Several variables are highly correlated thus should not be included together in a non-regularized multiple linear regression model. As such, the following model includes only a subset of the variables in the correlation matrix above. 
+
+``` {r}
+
+# regression modeling across all counties 
+model1 <- lm(grad_rate_avg ~ lrev + staid + rev_pupil + instructional_salaries + cwr, data = corn_count_df)
+summary(model1)
+
+```
+
+```{r}
+
+### 
+# random forest model with all variables 
+###
+
+library(randomForest)
+
+# drop columns not used in randomForest modeling -- only select column 20 and onwards 
+rf_data <- corn_count_df[ , c(20:96) ]
+rf_data <- rf_data[, -c(71:73)]
+rf_data <- rf_data[, -c(73)]
+rf_data <- rf_data[, -c(71:72)]
+rf_data <- rf_data[, -c(6:7)]
+rf_data <- rf_data[, -c(10:12)]
+
+rf_data <- na.omit(rf_data)
+
+# build train and test dataset
+set.seed(1337)
+sample_size = floor(0.8 * nrow(rf_data))
+train_ind = sample(seq_len(nrow(rf_data)), size = sample_size)
+
+forest_train = rf_data[train_ind, ]
+forest_test = rf_data[-train_ind, ]
+
+# build randomForest
+rf <- randomForest(grad_rate_avg ~ ., data = forest_train)
+
+varImpPlot(rf, type = 2)
+
+rf
+
+```
+
+```{r}
+
+# extract data for specific counties 
+albany_data <- corn_count_df[corn_count_df$county_name == 'Albany', ]
+
+```

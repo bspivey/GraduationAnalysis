@@ -1,3 +1,4 @@
+
 // enter code to define margin and dimensions for svg
 var m = {left: 10, right: 10, top: 10, bottom: 10};
 var w = 1200 - m.left - m.right;
@@ -12,7 +13,7 @@ var svg = d3.select("#choropleth")
 .attr("transform", "translate(" + m.left + "," + m.top + ")");
 
 // enter code to create color scale
-var color = d3.scaleQuantile().range(d3.schemeBlues[4])
+var color = d3.scaleQuantile().range(d3.schemeBlues[6])
 
 // enter code to define tooltip
 var tip = d3.tip()
@@ -35,25 +36,29 @@ var path = d3.geoPath().projection(projection)
 Promise.all([
     // enter code to read files
     d3.json('NY-36-new-york-counties.json'),
-    d3.dsv(",", "df_grad_rate_pct_county.csv", function(d) {
+    d3.dsv(",", "df_grad_rate_pct_county_merge.csv", function(d) {
         return {
-            'COUNTY_NAME': d.COUNTY_NAME,
-            'AMERICAN INDIAN OR ALASKA NATIVE': +d['AMERICAN INDIAN OR ALASKA NATIVE'],
-            'ASIAN OR PACIFIC ISLANDER': +d['ASIAN OR PACIFIC ISLANDER'],
-            'BLACK': +d['BLACK'],
-            'ECONOMICALLY DISADVANTAGED' : +d['ECONOMICALLY DISADVANTAGED'],
-            'FEMALE' : +d['FEMALE'],
-            'FORMERLY LIMITED ENGLISH PROFICIENT' : +d['FORMERLY LIMITED ENGLISH PROFICIENT'],
-            'GENERAL EDUCATION STUDENTS' : +d['GENERAL EDUCATION STUDENTS'],
-            'HISPANIC' : +d['HISPANIC'],
-            'LIMITED ENGLISH PROFICIENT' : +d['LIMITED ENGLISH PROFICIENT'],
-            'MALE' : +d['MALE'],
-            'MIGRANT' : +d['MIGRANT'],
-            'MULTIRACIAL' : +d['MULTIRACIAL'],
-            'STUDENTS WITH DISABILITIES' : +d['STUDENTS WITH DISABILITIES'],
-            'WHITE' : +d['WHITE'],
-            'PCT_GRAD' : +d['PCT_GRAD'],
-            'YEAR' : +d['YEAR']
+            'County': d.COUNTY_NAME,
+            'Native American': +d['AMERICAN INDIAN OR ALASKA NATIVE'],
+            'Asian': +d['ASIAN OR PACIFIC ISLANDER'],
+            'Black': +d['BLACK'],
+            'White' : +d['WHITE'],
+            'Hispanic' : +d['HISPANIC'],
+            'Multiracial' : +d['MULTIRACIAL'],
+            'Economically Disadvantged' : +d['ECONOMICALLY DISADVANTAGED'],
+            'Economically Advantged' : +d['NOT ECONOMICALLY DISADVANTAGED'],
+            'Female' : +d['FEMALE'],
+            'Male' : +d['MALE'],
+            'Formerly Limited English Proficent' : +d['FORMERLY LIMITED ENGLISH PROFICIENT'],
+            'Limited English Proficent' : +d['LIMITED ENGLISH PROFICIENT'],
+            'English Proficent' : +d['NOT LIMITED ENGLISH PROFICIENT'],
+            'General Education' : +d['GENERAL EDUCATION STUDENTS'],
+            'Student with Disabilities' : +d['STUDENTS WITH DISABILITIES'],
+            'Not Migrant' : +d['NOT MIGRANT'],
+            'Migrant' : +d['MIGRANT'],
+            'Teacher Inexperience' : +d['PER_TEACH_INEXP'],
+            'Graduation Rate' : +d['PCT_GRAD'],
+            'Year' : +d['YEAR']
         } 
     })
 ]).then(function (data, error) {
@@ -92,15 +97,16 @@ function ready(error, ny, schoolData) {
             createMapAndLegend(ny, schoolData, s.value, this.value)})
 
     // create Choropleth with default option. Call createMapAndLegend() with required arguments. 
-    createMapAndLegend(ny, schoolData, 'AMERICAN INDIAN OR ALASKA NATIVE', 2015)
+    createMapAndLegend(ny, schoolData, 'Graduation Rate', 2015)
 }
 
 // this function should create a Choropleth and legend 
 function createMapAndLegend(ny, schoolData, selectedSES, selectedYear){ 
     svg.selectAll(".new-york").remove()
 
-    var data = schoolData.filter(x => x.YEAR==selectedYear)
+    var data = schoolData.filter(x => x.Year==selectedYear)
 
+    //var genderData = (({ MALE, FEMALE }) => ({ MALE, FEMALE }))(data)
     color.domain([d3.min(data, function(d){return d[selectedSES];}), 
         d3.max(data, function(d){return d[selectedSES];})])
     
@@ -111,10 +117,11 @@ function createMapAndLegend(ny, schoolData, selectedSES, selectedYear){
         .enter()
         .append("path")
         .attr("d", path)
+        .attr("stroke", "white")
         .attr("fill", function(d) {
             var county = (d.properties.NAME).toUpperCase()
             data.forEach(function(e) {
-                if (e.COUNTY_NAME == county) {
+                if (e['County'] == county) {
                     d.grad_rate = e[selectedSES]
                 }
             })
