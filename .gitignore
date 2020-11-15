@@ -2,3 +2,10 @@
 .venv/
 Data All
 
+Data/df_grad_rate_pct_county_merge.pkl
+Data/df_grad_rate_pct_school_merge.pkl
+Data/df_staff_qualifications_15.pkl
+Data/df_staff_qualifications_16.pkl
+Data/df_staff_qualifications_17.pkl
+Data/df_staff_qualifications_18_19.pkl
+Data/df_staff_qualifications_19_20.pkl
