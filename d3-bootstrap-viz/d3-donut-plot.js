@@ -1,19 +1,4 @@
 export function Donut(county){
-    d3.select('#subchart').remove()
-    d3.select('#choropleth').append('div').attr('id', 'subchart')
-    // define margin and dimensions for svg
-    var m = {left: 50, right: 50, top: 20, bottom: 0};
-    var w = 1200 - m.left - m.right;
-    var h = 300 - m.top - m.bottom;
-
-    // create svg
-    var svg = d3.select("#subchart")
-    .append("svg")
-    .attr("width", w + m.left + m.right)
-    .attr("height", h + m.top + m.bottom)
-    .append("g")
-    
-
     var radius = 150
 
     var color = d3.scaleOrdinal().range(d3.schemeDark2)
@@ -56,6 +41,21 @@ export function Donut(county){
         createDonut(data, 2015, county.properties.NAME.toUpperCase())
     })
     function createDonut(schoolData, selectedYear, selectedCounty) {
+        d3.select('#subchart').remove()
+        d3.select('#choropleth').append('div').attr('id', 'subchart')
+        
+        // define margin and dimensions for svg
+        var m = {left: 50, right: 50, top: 20, bottom: 0};
+        var w = 1200 - m.left - m.right;
+        var h = 300 - m.top - m.bottom;
+
+        // create svg
+        var svg = d3.select("#subchart")
+        .append("svg")
+        .attr("width", w + m.left + m.right)
+        .attr("height", h + m.top + m.bottom)
+        .append("g")
+
         var data2 = schoolData.filter(x => x.Year==selectedYear)
         data2 = data2.filter(y => y.County==selectedCounty)
         var countyData = (({ Male, Female }) => ({ Male, Female}))(data2[0])
@@ -75,7 +75,7 @@ export function Donut(county){
             .innerRadius(radius * 0.5)
             .outerRadius(radius * 0.8)
 
-        svg.selectAll('allSlices')
+        svg.selectAll('.allSlices')
             .data(pieData)
             .enter()
             .append('path')
@@ -132,7 +132,7 @@ export function Donut(county){
             .value(function(d) { return d.value })
             var pie2Data = pie(d3.entries(raceData))
 
-        svg.selectAll('allSlices2')
+        svg.selectAll('.allSlices2')
             .data(pie2Data)
             .enter()
             .append('path')
