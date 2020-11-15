@@ -167,9 +167,14 @@ export function Donut(county){
         svg.append('svg:foreignObject')
             .attr('height', '20px')
             .attr('width', '20px')
-            .attr("transform", "translate(1000, 20)")
+            .attr("transform", "translate(1080, 20)")
             .attr("color", "#3895D3")
             .attr('font-size', function (d) { return '12px' })
-            .html('<i class="fa fa-times-circle"></i>');
+            .html('<i class="fa fa-times-circle"></i>')
+            .on('click', removeChart)
+
+        function removeChart(){
+            d3.select('#subchart').remove()
+        }
     }
 }
