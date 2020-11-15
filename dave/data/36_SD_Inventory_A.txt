@@ -1,0 +1,684 @@
+STATE CODE SDLEA LOGRADE HIGRADE SDLEVEL SDTYPE NAME                                                                                                
+---------- ----- ------- ------- ------- ------ ----                                                                                                
+36         02370 PK      12      U              Addison Central School District                                                                     
+36         05040 PK      12      U              Adirondack Central School District                                                                  
+36         02400 PK      12      U              Afton Central School District                                                                       
+36         02430 PK      12      U              Akron Central School District                                                                       
+36         02460 PK      12      U              Albany City School District                                                                         
+36         02520 PK      12      U              Albion Central School District                                                                      
+36         02550 PK      12      U              Alden Central School District                                                                       
+36         02580 PK      12      U              Alexander Central School District                                                                   
+36         02670 PK      12      U              Alexandria Central School District                                                                  
+36         02700 PK      12      U              Alfred-Almond Central School District                                                               
+36         00015 PK      12      U              Allegany-Limestone Central School District                                                          
+36         02820 PK      12      U              Altmar-Parish-Williamstown Central School District                                                  
+36         02880 PK      12      U              Amagansett Union Free School District                                                               
+36         02920 PK      12      U              Amherst Central School District                                                                     
+36         02940 PK      12      U              Amityville Union Free School District                                                               
+36         02970 PK      12      U              Amsterdam City School District                                                                      
+36         03000 PK      12      U              Andes Central School District                                                                       
+36         03030 PK      12      U              Andover Central School District                                                                     
+36         03180 KG      12      U              Ardsley Union Free School District                                                                  
+36         03210 PK      12      U              Argyle Central School District                                                                      
+36         03240 PK      12      U              Arkport Central School District                                                                     
+36         03270 KG      12      U              Arlington Central School District                                                                   
+36         03420 PK      12      U              Attica Central School District                                                                      
+36         16170 PK      12      U              AuSable Valley Central School District                                                              
+36         03480 PK      12      U              Auburn City School District                                                                         
+36         00016 KG      12      U              Averill Park Central School District                                                                
+36         03630 PK      12      U              Avoca Central School District                                                                       
+36         03660 KG      12      U              Avon Central School District                                                                        
+36         03720 KG      12      U              Babylon Union Free School District                                                                  
+36         03810 PK      12      U              Bainbridge-Guilford Central School District                                                         
+36         03840 KG      12      U              Baldwin Union Free School District                                                                  
+36         03870 KG      12      U              Baldwinsville Central School District                                                               
+36         03930 PK      12      U              Ballston Spa Central School District                                                                
+36         03960 PK      12      U              Barker Central School District                                                                      
+36         03990 PK      12      U              Batavia City School District                                                                        
+36         04050 PK      12      U              Bath Central School District                                                                        
+36         04080 PK      12      U              Bay Shore Union Free School District                                                                
+36         04110 KG      12      U              Bayport-Blue Point Union Free School District                                                       
+36         04140 PK      12      U              Beacon City School District                                                                         
+36         04200 PK      12      U              Beaver River Central School District                                                                
+36         19950 PK      12      U              Bedford Central School District                                                                     
+36         04290 PK      12      U              Beekmantown Central School District                                                                 
+36         04350 PK      12      U              Belfast Central School District                                                                     
+36         04370 PK      12      U              Belleville Henderson Central School District                                                        
+36         04410 PK      06      E              Bellmore Union Free School District                                                                 
+36         19020 07      12      S              Bellmore-Merrick Central High School District                                                       
+36         04530 PK      12      U              Bemus Point Central School District                                                                 
+36         04620 PK      12      U              Berlin Central School District                                                                      
+36         04650 PK      12      U              Berne-Knox-Westerlo Central School District                                                         
+36         04710 KG      12      U              Bethlehem Central School District                                                                   
+36         04740 KG      12      U              Bethpage Union Free School District                                                                 
+36         04870 PK      12      U              Binghamton City School District                                                                     
+36         04800 KG      12      U              Binghamton Common School District                                                                   
+36         24630 KG      12      U              Blind Brook-Rye Union Free School District                                                          
+36         00012 PK      12      U              Bolivar-Richburg Central School District                                                            
+36         05010 PK      12      U              Bolton Central School District                                                                      
+36         01189 PK      12      U              Boquet Valley Central School District at Elizabethtown-Lewis-Westport                               
+36         05220 PK      12      U              Bradford Central School District                                                                    
+36         27960 PK      12      U              Brasher Falls Central School District                                                               
+36         05280 PK      12      U              Brentwood Union Free School District                                                                
+36         05310 KG      12      U              Brewster Central School District                                                                    
+36         05340 KG      12      U              Briarcliff Manor Union Free School District                                                         
+36         05370 KG      12      U              Bridgehampton Union Free School District                                                            
+36         05460 KG      12      U              Brighton Central School District                                                                    
+36         00005 PK      12      U              Broadalbin-Perth Central School District                                                            
+36         05580 PK      12      U              Brockport Central School District                                                                   
+36         05610 PK      12      U              Brocton Central School District                                                                     
+36         05640 KG      12      U              Bronxville Union Free School District                                                               
+36         05670 PK      12      U              Brookfield Central School District                                                                  
+36         15780 KG      12      U              Brookhaven-Comsewogue Union Free School District                                                    
+36         05520 KG      12      U              Brunswick Central School District (Brittonkill)                                                     
+36         05820 PK      12      U              Brushton-Moira Central School District                                                              
+36         05850 PK      12      U              Buffalo City School District                                                                        
+36         05940 KG      12      U              Burnt Hills-Ballston Lake Central School District                                                   
+36         06060 KG      12      U              Byram Hills Central School District                                                                 
+36         06090 PK      12      U              Byron-Bergen Central School District                                                                
+36         06160 PK      12      U              Cairo-Durham Central School District                                                                
+36         06180 PK      12      U              Caledonia-Mumford Central School District                                                           
+36         06210 PK      12      U              Cambridge Central School District                                                                   
+36         06240 PK      12      U              Camden Central School District                                                                      
+36         00020 PK      12      U              Campbell-Savona Central School District                                                             
+36         06300 PK      12      U              Canajoharie Central School District                                                                 
+36         06330 PK      12      U              Canandaigua City School District                                                                    
+36         06360 PK      12      U              Canaseraga Central School District                                                                  
+36         06390 PK      12      U              Canastota Central School District                                                                   
+36         06420 KG      12      U              Candor Central School District                                                                      
+36         00124 PK      12      U              Canisteo-Greenwood Central School District                                                          
+36         06470 PK      12      U              Canton Central School District                                                                      
+36         06540 KG      12      U              Carle Place Union Free School District                                                              
+36         06570 KG      12      U              Carmel Central School District                                                                      
+36         06630 PK      12      U              Carthage Central School District                                                                    
+36         06660 PK      12      U              Cassadaga Valley Central School District                                                            
+36         06690 PK      12      U              Cato-Meridian Central School District                                                               
+36         06720 PK      12      U              Catskill Central School District                                                                    
+36         06750 PK      12      U              Cattaraugus-Little Valley Central School District                                                   
+36         06780 KG      12      U              Cazenovia Central School District                                                                   
+36         06840 PK      12      U              Center Moriches Union Free School District                                                          
+36         06870 PK      12      U              Central Islip Union Free School District                                                            
+36         06900 PK      12      U              Central Square Central School District                                                              
+36         01087 PK      12      U              Central Valley School District                                                                      
+36         06990 KG      12      U              Chappaqua Central School District                                                                   
+36         07050 PK      12      U              Charlotte Valley Central School District                                                            
+36         07080 PK      12      U              Chateaugay Central School District                                                                  
+36         07110 PK      12      U              Chatham Central School District                                                                     
+36         00018 PK      12      U              Chautauqua Lake Central School District                                                             
+36         07170 KG      12      U              Chazy Union Free School District                                                                    
+36         07230 PK      12      U              Cheektowaga Central School District                                                                 
+36         18600 PK      12      U              Cheektowaga-Maryvale Union Free School District                                                     
+36         27000 PK      12      U              Cheektowaga-Sloan Union Free School District                                                        
+36         07260 PK      12      U              Chenango Forks Central School District                                                              
+36         07290 PK      12      U              Chenango Valley Central School District                                                             
+36         00006 PK      12      U              Cherry Valley-Springfield Central School District                                                   
+36         07380 KG      12      U              Chester Union Free School District                                                                  
+36         07470 KG      12      U              Chittenango Central School District                                                                 
+36         07530 KG      12      U              Churchville-Chili Central School District                                                           
+36         07560 PK      12      U              Cincinnatus Central School District                                                                 
+36         07590 PK      12      U              Clarence Central School District                                                                    
+36         20340 PK      12      U              Clarkstown Central School District                                                                  
+36         07680 PK      12      U              Cleveland Hill Union Free School District                                                           
+36         07710 PK      12      U              Clifton-Fine Central School District                                                                
+36         07770 KG      12      U              Clinton Central School District                                                                     
+36         07860 PK      12      U              Clyde-Savannah Central School District                                                              
+36         07890 PK      12      U              Clymer Central School District                                                                      
+36         00010 PK      12      U              Cobleskill-Richmondville Central School District                                                    
+36         07980 PK      12      U              Cohoes City School District                                                                         
+36         08010 KG      12      U              Cold Spring Harbor Central School District                                                          
+36         08100 PK      12      U              Colton-Pierrepont Central School District                                                           
+36         08130 PK      12      U              Commack Union Free School District                                                                  
+36         08160 PK      12      U              Connetquot Central School District                                                                  
+36         08250 PK      12      U              Cooperstown Central School District                                                                 
+36         08280 PK      12      U              Copenhagen Central School District                                                                  
+36         08310 PK      12      U              Copiague Union Free School District                                                                 
+36         08370 PK      12      U              Corinth Central School District                                                                     
+36         08400 PK      12      U              Corning City School District                                                                        
+36         08430 KG      12      U              Cornwall Central School District                                                                    
+36         08460 PK      12      U              Cortland City School District                                                                       
+36         08490 KG      12      U              Coxsackie-Athens Central School District                                                            
+36         08580 KG      12      U              Croton-Harmon Union Free School District                                                            
+36         08610 PK      12      U              Crown Point Central School District                                                                 
+36         32010 PK      12      U              Cuba-Rushford Central School District                                                               
+36         21450 PK      12      U              Dalton-Nunda Central School District (Keshequa)                                                     
+36         08790 PK      12      U              Dansville Central School District                                                                   
+36         08850 KG      12      U              DeRuyter Central School District                                                                    
+36         08880 PK      12      U              Deer Park Union Free School District                                                                
+36         08910 KG      12      U              Delhi Central School District                                                                       
+36         09030 PK      12      U              Depew Union Free School District                                                                    
+36         09060 PK      12      U              Deposit Central School District                                                                     
+36         09120 KG      12      U              Dobbs Ferry Union Free School District                                                              
+36         00001 KG      12      U              Dolgeville Central School District                                                                  
+36         09210 PK      12      U              Dover Union Free School District                                                                    
+36         09240 KG      12      U              Downsville Central School District                                                                  
+36         09330 PK      12      U              Dryden Central School District                                                                      
+36         09360 KG      12      U              Duanesburg Central School District                                                                  
+36         09390 PK      12      U              Dundee Central School District                                                                      
+36         09420 PK      12      U              Dunkirk City School District                                                                        
+36         09540 KG      12      U              East Aurora Union Free School District                                                              
+36         04920 PK      12      U              East Bloomfield Central School District                                                             
+36         09630 KG      12      U              East Greenbush Central School District                                                              
+36         09660 PK      12      U              East Hampton Union Free School District                                                             
+36         09690 PK      12      U              East Irondequoit Central School District                                                            
+36         09720 PK      12      U              East Islip Union Free School District                                                               
+36         09840 KG      12      U              East Meadow Union Free School District                                                              
+36         09870 PK      12      U              East Moriches Union Free School District                                                            
+36         09900 KG      12      U              East Quogue Union Free School District                                                              
+36         27810 PK      12      U              East Ramapo Central School District (Spring Valley)                                                 
+36         09930 PK      12      U              East Rochester Union Free School District                                                           
+36         09960 KG      12      U              East Rockaway Union Free School District                                                            
+36         09990 PK      12      U              East Syracuse-Minoa Central School District                                                         
+36         10050 KG      12      U              East Williston Union Free School District                                                           
+36         10080 KG      12      U              Eastchester Union Free School District                                                              
+36         00125 PK      12      U              Eastport-South Manor Central School District                                                        
+36         10170 PK      12      U              Eden Central School District                                                                        
+36         10200 KG      12      U              Edgemont Union Free School District                                                                 
+36         10230 PK      12      U              Edinburg Common School District                                                                     
+36         10260 PK      12      U              Edmeston Central School District                                                                    
+36         00003 PK      12      U              Edwards-Knox Central School District                                                                
+36         10380 PK      12      U              Elba Central School District                                                                        
+36         10410 PK      12      U              Eldred Central School District                                                                      
+36         10500 PK      12      U              Ellenville Central School District                                                                  
+36         10530 PK      12      U              Ellicottville Central School District                                                               
+36         10560 PK      12      U              Elmira City School District                                                                         
+36         10590 PK      12      U              Elmira Heights Central School District                                                              
+36         10620 PK      06      E              Elmont Union Free School District                                                                   
+36         10650 PK      12      U              Elmsford Union Free School District                                                                 
+36         10680 KG      12      U              Elwood Union Free School District                                                                   
+36         16560 PK      12      U              Evans-Brant Central School District (Lake Shore)                                                    
+36         10860 KG      12      U              Fabius-Pompey Central School District                                                               
+36         10890 PK      12      U              Fairport Central School District                                                                    
+36         10920 PK      12      U              Falconer Central School District                                                                    
+36         10950 PK      12      U              Fallsburg Central School District                                                                   
+36         10980 PK      12      U              Farmingdale Union Free School District                                                              
+36         18330 KG      12      U              Fayetteville-Manlius Central School District                                                        
+36         11070 PK      12      U              Fillmore Central School District                                                                    
+36         21540 PK      12      U              Fire Island Union Free School District                                                              
+36         11100 PK      12      U              Fishers Island Union Free School District                                                           
+36         11160 PK      06      E              Floral Park-Bellerose Union Free School District                                                    
+36         25320 PK      12      U              Florida Union Free School District                                                                  
+36         11190 PK      12      U              Fonda-Fultonville Central School District                                                           
+36         11250 PK      12      U              Forestville Central School District                                                                 
+36         11280 PK      12      U              Fort Ann Central School District                                                                    
+36         11310 PK      12      U              Fort Edward Union Free School District                                                              
+36         11370 PK      12      U              Fort Plain Central School District                                                                  
+36         11400 PK      12      U              Frankfort-Schuyler Central School District                                                          
+36         11430 PK      12      U              Franklin Central School District                                                                    
+36         11460 PK      06      E              Franklin Square Union Free School District                                                          
+36         11490 PK      12      U              Franklinville Central School District                                                               
+36         11520 PK      12      U              Fredonia Central School District                                                                    
+36         11550 PK      12      U              Freeport Union Free School District                                                                 
+36         11610 PK      12      U              Frewsburg Central School District                                                                   
+36         11640 PK      12      U              Friendship Central School District                                                                  
+36         11670 PK      12      U              Frontier Central School District                                                                    
+36         11700 PK      12      U              Fulton City School District                                                                         
+36         11730 KG      12      U              Galway Central School District                                                                      
+36         11740 KG      12      U              Gananda Central School District                                                                     
+36         11760 KG      12      U              Garden City Union Free School District                                                              
+36         11860 KG      12      U              Garrison Union Free School District                                                                 
+36         11880 PK      12      U              Gates-Chili Central School District                                                                 
+36         11910 PK      12      U              General Brown Central School District                                                               
+36         00017 PK      12      U              Genesee Valley Central School District                                                              
+36         11940 KG      12      U              Geneseo Central School District                                                                     
+36         11970 PK      12      U              Geneva City School District                                                                         
+36         22100 PK      12      U              Georgetown-South Otselic Central School District                                                    
+36         12030 PK      12      U              Germantown Central School District                                                                  
+36         04757 PK      12      U              Gilbertsville-Mount Upton Central School District                                                   
+36         12120 PK      12      U              Gilboa-Conesville Central School District                                                           
+36         12180 PK      12      U              Glen Cove City School District                                                                      
+36         12240 PK      12      U              Glens Falls City School District                                                                    
+36         02310 KG      12      U              Glens Falls Common School District                                                                  
+36         12270 PK      12      U              Gloversville City School District                                                                   
+36         12300 PK      12      U              Gorham-Middlesex Central School District (Marcus Whitman)                                           
+36         12330 KG      12      U              Goshen Central School District                                                                      
+36         12360 PK      12      U              Gouverneur Central School District                                                                  
+36         12390 PK      12      U              Gowanda Central School District                                                                     
+36         07020 PK      12      U              Grand Island Central School District                                                                
+36         12450 PK      12      U              Granville Central School District                                                                   
+36         12510 PK      12      U              Great Neck Union Free School District                                                               
+36         12630 PK      12      U              Greece Central School District                                                                      
+36         12660 PK      12      U              Green Island Union Free School District                                                             
+36         12720 PK      12      U              Greenburgh Central School District                                                                  
+36         12750 PK      12      U              Greene Central School District                                                                      
+36         12840 KG      12      U              Greenport Union Free School District                                                                
+36         12870 PK      12      U              Greenville Central School District                                                                  
+36         12900 KG      12      U              Greenwich Central School District                                                                   
+36         12960 KG      12      U              Greenwood Lake Union Free School District                                                           
+36         13020 PK      12      U              Groton Central School District                                                                      
+36         13080 KG      12      U              Guilderland Central School District                                                                 
+36         13110 PK      12      U              Hadley-Luzerne Central School District                                                              
+36         13230 KG      12      U              Haldane Central School District                                                                     
+36         13290 PK      12      U              Half Hollow Hills Central School District                                                           
+36         13350 PK      12      U              Hamburg Central School District                                                                     
+36         13380 PK      12      U              Hamilton Central School District                                                                    
+36         13440 PK      12      U              Hammond Central School District                                                                     
+36         13470 PK      12      U              Hammondsport Central School District                                                                
+36         13530 PK      12      U              Hampton Bays Union Free School District                                                             
+36         13560 KG      12      U              Hancock Central School District                                                                     
+36         13590 PK      12      U              Hannibal Central School District                                                                    
+36         13620 PK      12      U              Harborfields Central School District                                                                
+36         13710 PK      12      U              Harpursville Central School District                                                                
+36         13740 KG      12      U              Harrison Central School District                                                                    
+36         13770 PK      12      U              Harrisville Central School District                                                                 
+36         13830 PK      12      U              Hartford Central School District                                                                    
+36         13950 KG      12      U              Hastings-on-Hudson Union Free School District                                                       
+36         13980 KG      12      U              Hauppauge Union Free School District                                                                
+36         14010 PK      12      U              Haverstraw-Stony Point Central School District (North Rockland)                                     
+36         14130 PK      12      U              Hempstead Union Free School District                                                                
+36         14190 KG      12      U              Hendrick Hudson Central School District                                                             
+36         14220 PK      12      U              Herkimer Central School District                                                                    
+36         14250 PK      12      U              Hermon-DeKalb Central School District                                                               
+36         14280 PK      12      U              Herricks Union Free School District                                                                 
+36         14310 PK      12      U              Heuvelton Central School District                                                                   
+36         31710 PK      12      U              Hewlett-Woodmere Union Free School District                                                         
+36         14340 KG      12      U              Hicksville Union Free School District                                                               
+36         14400 KG      12      U              Highland Central School District                                                                    
+36         14430 PK      12      U              Highland Falls Central School District                                                              
+36         14460 PK      12      U              Hilton Central School District                                                                      
+36         14490 PK      12      U              Hinsdale Central School District                                                                    
+36         14550 PK      12      U              Holland Central School District                                                                     
+36         14580 PK      12      U              Holland Patent Central School District                                                              
+36         14610 PK      12      U              Holley Central School District                                                                      
+36         14640 PK      12      U              Homer Central School District                                                                       
+36         14670 KG      12      U              Honeoye Central School District                                                                     
+36         14700 PK      12      U              Honeoye Falls-Lima Central School District                                                          
+36         14730 PK      12      U              Hoosic Valley Central School District                                                               
+36         14760 PK      12      U              Hoosick Falls Central School District                                                               
+36         14820 PK      12      U              Hornell City School District                                                                        
+36         14850 PK      12      U              Horseheads Central School District                                                                  
+36         14940 PK      12      U              Hudson City School District                                                                         
+36         14970 PK      12      U              Hudson Falls Central School District                                                                
+36         15060 PK      12      U              Hunter-Tannersville Central School District                                                         
+36         15090 KG      12      U              Huntington Union Free School District                                                               
+36         15180 PK      12      U              Hyde Park Central School District                                                                   
+36         15270 PK      12      U              Indian Lake Central School District                                                                 
+36         15300 PK      12      U              Indian River Central School District                                                                
+36         15330 PK      12      U              Inlet Common School District                                                                        
+36         15360 KG      12      U              Iroquois Central School District                                                                    
+36         15450 KG      12      U              Irvington Union Free School District                                                                
+36         15480 PK      12      U              Island Park Union Free School District                                                              
+36         15510 KG      12      U              Island Trees Union Free School District                                                             
+36         15540 KG      12      U              Islip Union Free School District                                                                    
+36         15570 PK      12      U              Ithaca City School District                                                                         
+36         15630 PK      12      U              Jamestown City School District                                                                      
+36         09090 KG      12      U              Jamesville-DeWitt Central School District                                                           
+36         00007 PK      12      U              Jasper-Troupsburg Central School District                                                           
+36         15720 PK      12      U              Jefferson Central School District                                                                   
+36         15810 KG      12      U              Jericho Union Free School District                                                                  
+36         15870 KG      12      U              Johnsburg Central School District                                                                   
+36         15900 PK      12      U              Johnson City Central School District                                                                
+36         15980 PK      12      U              Johnstown City School District                                                                      
+36         15990 PK      12      U              Jordan-Elbridge Central School District                                                             
+36         16080 KG      12      U              Katonah-Lewisboro Union Free School District                                                        
+36         16140 PK      12      U              Keene Central School District                                                                       
+36         16200 PK      12      U              Kendall Central School District                                                                     
+36         16230 PK      12      U              Kenmore-Tonawanda Union Free School District                                                        
+36         15210 KG      12      U              Kinderhook Central School District (Ichabod Crane)                                                  
+36         16260 KG      12      U              Kings Park Central School District                                                                  
+36         16290 PK      12      U              Kingston City School District                                                                       
+36         04758 PK      12      U              Kiryas Joel Village Union Free School District                                                      
+36         16380 PK      12      U              La Fargeville Central School District                                                               
+36         16410 PK      12      U              LaFayette Central School District                                                                   
+36         16440 PK      12      U              Lackawanna City School District                                                                     
+36         16470 KG      12      U              Lake George Central School District                                                                 
+36         16500 PK      12      U              Lake Placid Central School District                                                                 
+36         16530 PK      12      U              Lake Pleasant Central School District                                                               
+36         16620 PK      12      U              Lakeland Central School District                                                                    
+36         16680 PK      12      U              Lancaster Central School District                                                                   
+36         16710 KG      12      U              Lansing Central School District                                                                     
+36         16740 PK      12      U              Lansingburgh Central School District                                                                
+36         16800 KG      12      U              Laurens Central School District                                                                     
+36         16830 PK      12      U              Lawrence Union Free School District                                                                 
+36         16950 PK      12      U              Le Roy Central School District                                                                      
+36         17130 PK      12      U              Letchworth Central School District                                                                  
+36         17160 PK      12      U              Levittown Union Free School District                                                                
+36         17190 PK      12      U              Lewiston-Porter Central School District                                                             
+36         17220 PK      12      U              Liberty Central School District                                                                     
+36         17380 KG      12      U              Lindenhurst Union Free School District                                                              
+36         17430 PK      12      U              Lisbon Central School District                                                                      
+36         17460 PK      12      U              Little Falls City School District                                                                   
+36         17520 PK      12      U              Liverpool Central School District                                                                   
+36         17580 KG      12      U              Livingston Manor Central School District                                                            
+36         17640 PK      12      U              Livonia Central School District                                                                     
+36         17670 PK      12      U              Lockport City School District                                                                       
+36         17700 KG      12      U              Locust Valley Central School District                                                               
+36         17730 PK      12      U              Long Beach City School District                                                                     
+36         17760 PK      12      U              Long Lake Central School District                                                                   
+36         19230 PK      12      U              Longwood Central School District                                                                    
+36         17820 PK      12      U              Lowville Academy and Central School District                                                        
+36         17880 PK      12      U              Lyme Central School District                                                                        
+36         17910 KG      12      U              Lynbrook Union Free School District                                                                 
+36         17940 PK      12      U              Lyncourt Union Free School District                                                                 
+36         17970 PK      12      U              Lyndonville Central School District                                                                 
+36         18030 PK      12      U              Lyons Central School District                                                                       
+36         18080 PK      12      U              Madison Central School District                                                                     
+36         18090 PK      12      U              Madrid-Waddington Central School District                                                           
+36         18120 KG      12      U              Mahopac Central School District                                                                     
+36         18150 PK      12      U              Maine-Endwell Central School District                                                               
+36         18180 PK      12      U              Malone Central School District                                                                      
+36         18210 KG      12      U              Malverne Union Free School District                                                                 
+36         18240 PK      12      U              Mamaroneck Union Free School District                                                               
+36         24270 PK      12      U              Manchester-Shortsville Central School District                                                      
+36         18270 KG      12      U              Manhasset Union Free School District                                                                
+36         18450 PK      12      U              Marathon Central School District                                                                    
+36         18480 KG      12      U              Marcellus Central School District                                                                   
+36         18510 PK      12      U              Margaretville Central School District                                                               
+36         18540 PK      12      U              Marion Central School District                                                                      
+36         18570 KG      12      U              Marlboro Central School District                                                                    
+36         18630 KG      12      U              Massapequa Union Free School District                                                               
+36         18660 PK      12      U              Massena Central School District                                                                     
+36         00021 PK      12      U              Mattituck-Cutchogue Union Free School District                                                      
+36         18750 PK      12      U              Mayfield Central School District                                                                    
+36         18840 PK      12      U              McGraw Central School District                                                                      
+36         18900 KG      12      U              Mechanicville City School District                                                                  
+36         18960 PK      12      U              Medina Central School District                                                                      
+36         18990 KG      12      U              Menands Union Free School District                                                                  
+36         19110 KG      06      E              Merrick Union Free School District                                                                  
+36         19170 PK      12      U              Mexico Central School District                                                                      
+36         19200 PK      12      U              Middle Country Central School District                                                              
+36         19260 PK      12      U              Middleburgh Central School District                                                                 
+36         19320 PK      12      U              Middletown City School District                                                                     
+36         19350 PK      12      U              Milford Central School District                                                                     
+36         19380 KG      12      U              Millbrook Central School District                                                                   
+36         19410 KG      12      U              Miller Place Union Free School District                                                             
+36         19500 PK      12      U              Mineola Union Free School District                                                                  
+36         19530 PK      12      U              Minerva Central School District                                                                     
+36         19560 PK      12      U              Minisink Valley Central School District                                                             
+36         19650 KG      12      U              Monroe-Woodbury Central School District                                                             
+36         19710 PK      12      U              Montauk Union Free School District                                                                  
+36         19740 PK      12      U              Monticello Central School District                                                                  
+36         19800 PK      12      U              Moravia Central School District                                                                     
+36         19830 PK      12      U              Moriah Central School District                                                                      
+36         19860 PK      12      U              Morris Central School District                                                                      
+36         19890 PK      12      U              Morristown Central School District                                                                  
+36         19920 PK      12      U              Morrisville-Eaton Central School District                                                           
+36         30930 PK      12      U              Mount Markham Central School District                                                               
+36         20010 PK      12      U              Mount Morris Central School District                                                                
+36         20160 KG      12      U              Mount Pleasant Central School District                                                              
+36         20040 KG      12      U              Mount Sinai Union Free School District                                                              
+36         20100 PK      12      U              Mount Vernon School District                                                                        
+36         20190 PK      12      U              Nanuet Union Free School District                                                                   
+36         20220 PK      12      U              Naples Central School District                                                                      
+36         20370 KG      12      U              New Hartford Central School District                                                                
+36         20400 PK      06      E              New Hyde Park-Garden City Park Union Free School District                                           
+36         20430 PK      12      U              New Lebanon Central School District                                                                 
+36         20460 KG      12      U              New Paltz Central School District                                                                   
+36         20490 PK      12      U              New Rochelle City School District                                                                   
+36         20520 PK      12      U              New Suffolk Common School District                                                                  
+36         20580 PK      12      U              New York City Department Of Education                                                               
+36         20610 KG      12      U              New York Mills Union Free School District                                                           
+36         20640 PK      12      U              Newark Central School District                                                                      
+36         20670 PK      12      U              Newark Valley Central School District                                                               
+36         20700 PK      12      U              Newburgh City School District                                                                       
+36         20730 PK      12      U              Newcomb Central School District                                                                     
+36         20760 PK      12      U              Newfane Central School District                                                                     
+36         20790 PK      12      U              Newfield Central School District                                                                    
+36         20820 PK      12      U              Niagara Falls City School District                                                                  
+36         20850 KG      12      U              Niagara-Wheatfield Central School District                                                          
+36         20880 KG      12      U              Niskayuna Central School District                                                                   
+36         20910 KG      12      U              North Babylon Union Free School District                                                            
+36         20940 PK      06      E              North Bellmore Union Free School District                                                           
+36         20970 PK      12      U              North Collins Central School District                                                               
+36         00971 KG      12      U              North Colonie Central School District                                                               
+36         31410 KG      12      U              North Greenbush Common School District (Williams)                                                   
+36         21120 KG      06      E              North Merrick Union Free School District                                                            
+36         16980 PK      12      U              North Rose-Wolcott Central School District                                                          
+36         21180 KG      12      U              North Salem Central School District                                                                 
+36         26370 KG      12      U              North Shore Central School District                                                                 
+36         21210 PK      12      U              North Syracuse Central School District                                                              
+36         21240 PK      12      U              North Tonawanda City School District                                                                
+36         16960 PK      12      U              North Warren Central School District                                                                
+36         30390 PK      12      U              Northeast Central School District                                                                   
+36         21250 PK      12      U              Northeastern Clinton Central School District                                                        
+36         21260 PK      12      U              Northern Adirondack Central School District                                                         
+36         21270 PK      12      U              Northport-East Northport Union Free School District                                                 
+36         21300 PK      12      U              Northville Central School District                                                                  
+36         21330 PK      12      U              Norwich City School District                                                                        
+36         21360 PK      12      U              Norwood-Norfolk Central School District                                                             
+36         21480 PK      12      U              Nyack Union Free School District                                                                    
+36         21510 PK      12      U              Oakfield-Alabama Central School District                                                            
+36         21570 KG      12      U              Oceanside Union Free School District                                                                
+36         21630 PK      12      U              Odessa-Montour Central School District                                                              
+36         21660 PK      12      U              Ogdensburg City School District                                                                     
+36         21720 PK      12      U              Olean City School District                                                                          
+36         00013 PK      12      U              Oneida City School District                                                                         
+36         21780 PK      12      U              Oneonta City School District                                                                        
+36         21810 PK      12      U              Onondaga Central School District                                                                    
+36         21840 PK      12      U              Onteora Central School District                                                                     
+36         01107 PK      12      U              Oppenheim-Ephratah-St. Johnsville Central School District                                           
+36         21900 PK      12      U              Orchard Park Central School District                                                                
+36         21960 PK      12      U              Oriskany Central School District                                                                    
+36         22020 PK      12      U              Ossining Union Free School District                                                                 
+36         22050 PK      12      U              Oswego City School District                                                                         
+36         29240 KG      12      U              Otego-Unadilla Central School District                                                              
+36         22170 PK      12      U              Owego-Apalachin Central School District                                                             
+36         22260 PK      12      U              Oxford Academy and Central School District                                                          
+36         22290 PK      12      U              Oyster Bay-East Norwich Central School District                                                     
+36         21930 KG      12      U              Oysterponds Union Free School District                                                              
+36         22380 PK      12      U              Palmyra-Macedon Central School District                                                             
+36         22410 PK      12      U              Panama Central School District                                                                      
+36         22440 PK      12      U              Parishville-Hopkinton Central School District                                                       
+36         22470 PK      12      U              Patchogue-Medford Union Free School District                                                        
+36         22500 PK      12      U              Pavilion Central School District                                                                    
+36         22530 KG      12      U              Pawling Central School District                                                                     
+36         22560 PK      12      U              Pearl River Union Free School District                                                              
+36         22650 PK      12      U              Peekskill City School District                                                                      
+36         22680 KG      12      U              Pelham Union Free School District                                                                   
+36         08340 PK      12      U              Pembroke Central School District                                                                    
+36         22710 KG      12      U              Penfield Central School District                                                                    
+36         22740 PK      12      U              Penn Yan Central School District                                                                    
+36         22770 PK      12      U              Perry Central School District                                                                       
+36         22830 PK      12      U              Peru Central School District                                                                        
+36         22890 PK      12      U              Phelps-Clifton Springs Central School District                                                      
+36         22920 PK      12      U              Phoenix Central School District                                                                     
+36         23010 PK      12      U              Pine Bush Central School District                                                                   
+36         23040 PK      12      U              Pine Plains Central School District                                                                 
+36         23070 PK      12      U              Pine Valley Central School District (South Dayton)                                                  
+36         23130 KG      12      U              Piseco Common School District                                                                       
+36         23160 KG      12      U              Pittsford Central School District                                                                   
+36         23190 KG      12      U              Plainedge Union Free School District                                                                
+36         23220 KG      12      U              Plainview-Old Bethpage Central School District                                                      
+36         23280 PK      12      U              Plattsburgh City School District                                                                    
+36         23310 KG      12      U              Pleasantville Union Free School District                                                            
+36         23340 PK      12      U              Pocantico Hills Central School District                                                             
+36         23370 PK      12      U              Poland Central School District                                                                      
+36         23430 PK      12      U              Port Byron Central School District                                                                  
+36         23460 PK      12      U              Port Chester-Rye Union Free School District                                                         
+36         23490 PK      12      U              Port Jefferson Union Free School District                                                           
+36         23520 PK      12      U              Port Jervis City School District                                                                    
+36         23580 PK      12      U              Port Washington Union Free School District                                                          
+36         23640 PK      12      U              Portville Central School District                                                                   
+36         23670 PK      12      U              Potsdam Central School District                                                                     
+36         23760 PK      12      U              Poughkeepsie City School District                                                                   
+36         23790 PK      12      U              Prattsburgh Central School District                                                                 
+36         23880 PK      12      U              Pulaski Central School District                                                                     
+36         23970 KG      12      U              Putnam Central School District                                                                      
+36         24000 KG      12      U              Putnam Valley Central School District                                                               
+36         24030 KG      12      U              Queensbury Union Free School District                                                               
+36         24060 KG      12      U              Quogue Union Free School District                                                                   
+36         24090 PK      12      U              Randolph Central School District                                                                    
+36         24120 KG      12      U              Raquette Lake Union Free School District                                                            
+36         24150 PK      12      U              Ravena-Coeymans-Selkirk Central School District                                                     
+36         24210 PK      12      U              Red Creek Central School District                                                                   
+36         24240 KG      12      U              Red Hook Central School District                                                                    
+36         24360 PK      12      U              Remsen Central School District                                                                      
+36         24420 PK      12      U              Remsenburg-Speonk Union Free School District                                                        
+36         24450 PK      12      U              Rensselaer City School District                                                                     
+36         24480 KG      12      U              Rhinebeck Central School District                                                                   
+36         24570 PK      12      U              Richfield Springs Central School District                                                           
+36         24660 PK      12      U              Ripley Central School District                                                                      
+36         24690 PK      12      U              Riverhead Central School District                                                                   
+36         24750 PK      12      U              Rochester City School District                                                                      
+36         24780 KG      12      U              Rockville Centre Union Free School District                                                         
+36         24840 PK      12      U              Rocky Point Union Free School District                                                              
+36         24900 PK      12      U              Rome City School District                                                                           
+36         24930 PK      12      U              Romulus Central School District                                                                     
+36         24960 PK      12      U              Rondout Valley Central School District                                                              
+36         24990 PK      12      U              Roosevelt Union Free School District                                                                
+36         25020 PK      12      U              Roscoe Central School District                                                                      
+36         25050 PK      12      U              Roslyn Union Free School District                                                                   
+36         00004 KG      12      U              Rotterdam-Mohonasen Central School District                                                         
+36         25110 PK      12      U              Roxbury Central School District                                                                     
+36         25140 PK      12      U              Royalton-Hartland Central School District                                                           
+36         25170 PK      12      U              Rush-Henrietta Central School District                                                              
+36         25260 KG      12      U              Rye City School District                                                                            
+36         25290 KG      12      U              Rye Neck Union Free School District                                                                 
+36         25350 PK      12      U              Sachem Central School District                                                                      
+36         14880 PK      12      U              Sackets Harbor Central School District                                                              
+36         25380 KG      12      U              Sag Harbor Union Free School District                                                               
+36         25410 KG      12      U              Sagaponack Common School District                                                                   
+36         25440 PK      12      U              Salamanca City School District                                                                      
+36         25470 PK      12      U              Salem Central School District                                                                       
+36         25500 PK      12      U              Salmon River Central School District                                                                
+36         25650 PK      12      U              Sandy Creek Central School District                                                                 
+36         00009 KG      12      U              Saranac Central School District                                                                     
+36         25740 PK      12      U              Saranac Lake Central School District                                                                
+36         25770 PK      12      U              Saratoga Springs City School District                                                               
+36         25800 PK      12      U              Saugerties Central School District                                                                  
+36         00002 PK      12      U              Sauquoit Valley Central School District                                                             
+36         25920 KG      12      U              Sayville Union Free School District                                                                 
+36         25950 KG      12      U              Scarsdale Union Free School District                                                                
+36         25980 KG      12      U              Schalmont Central School District                                                                   
+36         26010 PK      12      U              Schenectady City School District                                                                    
+36         03060 PK      12      U              Schenevus Central School District                                                                   
+36         26070 KG      12      U              Schodack Central School District                                                                    
+36         26100 PK      12      U              Schoharie Central School District                                                                   
+36         99997 KG      12      U              School District Not Defined                                                                         
+36         26130 KG      12      U              Schroon Lake Central School District                                                                
+36         26160 KG      12      U              Schuylerville Central School District                                                               
+36         26190 PK      12      U              Scio Central School District                                                                        
+36         26310 KG      12      U              Scotia-Glenville Central School District                                                            
+36         26400 KG      12      U              Seaford Union Free School District                                                                  
+36         26430 PK      12      U              Seneca Falls Central School District                                                                
+36         26520 07      12      S              Sewanhaka Central High School District                                                              
+36         26580 PK      12      U              Sharon Springs Central School District                                                              
+36         26640 PK      12      U              Shelter Island Union Free School District                                                           
+36         26670 KG      12      U              Shenendehowa Central School District                                                                
+36         26700 PK      12      U              Sherburne-Earlville Central School District                                                         
+36         26730 PK      12      U              Sherman Central School District                                                                     
+36         26760 PK      12      U              Sherrill City School District                                                                       
+36         26840 KG      12      U              Shoreham-Wading River Central School District                                                       
+36         26850 PK      12      U              Sidney Central School District                                                                      
+36         26880 PK      12      U              Silver Creek Central School District                                                                
+36         26940 KG      12      U              Skaneateles Central School District                                                                 
+36         27060 KG      12      U              Smithtown Central School District                                                                   
+36         27120 PK      12      U              Sodus Central School District                                                                       
+36         27150 PK      12      U              Solvay Union Free School District                                                                   
+36         27180 KG      12      U              Somers Central School District                                                                      
+36         27210 PK      12      U              South Colonie Central School District                                                               
+36         00008 PK      12      U              South Country Central School District                                                               
+36         27240 PK      12      U              South Glens Falls Central School District                                                           
+36         27300 PK      12      U              South Huntington Union Free School District                                                         
+36         02340 PK      12      U              South Jefferson Central School District                                                             
+36         27330 PK      12      U              South Kortright Central School District                                                             
+36         27360 PK      12      U              South Lewis Central School District                                                                 
+36         27450 PK      12      U              South Orangetown Central School District                                                            
+36         22140 PK      12      U              South Seneca Central School District                                                                
+36         27540 PK      12      U              Southampton Union Free School District                                                              
+36         27570 PK      12      U              Southern Cayuga Central School District                                                             
+36         27620 PK      12      U              Southold Union Free School District                                                                 
+36         27660 PK      12      U              Southwestern Central School District at Jamestown                                                   
+36         06500 KG      12      U              Spackenkill Union Free School District                                                              
+36         27750 PK      12      U              Spencer-Van Etten Central School District                                                           
+36         27780 KG      12      U              Spencerport Central School District                                                                 
+36         27900 PK      12      U              Springs Union Free School District                                                                  
+36         12990 PK      12      U              Springville-Griffith Institute Central School                                                       
+36         27990 KG      12      U              St. Regis Falls Central School District                                                             
+36         28020 PK      12      U              Stamford Central School District                                                                    
+36         28050 PK      12      U              Starpoint Central School District                                                                   
+36         28110 PK      12      U              Stillwater Central School District                                                                  
+36         28140 PK      12      U              Stockbridge Valley Central School District                                                          
+36         28320 PK      12      U              Suffern Central School District                                                                     
+36         00023 KG      12      U              Sullivan West Central School District                                                               
+36         28380 KG      12      U              Susquehanna Valley Central School District                                                          
+36         28500 PK      12      U              Sweet Home Central School District                                                                  
+36         28560 KG      12      U              Syosset Central School District                                                                     
+36         28590 PK      12      U              Syracuse City School District                                                                       
+36         28620 PK      12      U              Taconic Hills Central School District                                                               
+36         07650 KG      12      U              Thousand Islands Central School District                                                            
+36         28200 KG      12      U              Three Village Central School District                                                               
+36         28680 PK      12      U              Ticonderoga Central School District                                                                 
+36         28710 PK      12      U              Tioga Central School District                                                                       
+36         28740 PK      12      U              Tonawanda City School District                                                                      
+36         28800 KG      12      U              Town of Webb Union Free School District                                                             
+36         28890 PK      12      U              Tri-Valley Central School District                                                                  
+36         28950 PK      12      U              Troy City School District                                                                           
+36         28980 PK      12      U              Trumansburg Central School District                                                                 
+36         29070 PK      12      U              Tuckahoe Common School District                                                                     
+36         29040 PK      12      U              Tuckahoe Union Free School District                                                                 
+36         29130 PK      12      U              Tully Central School District                                                                       
+36         29160 PK      12      U              Tupper Lake Central School District                                                                 
+36         29190 KG      12      U              Tuxedo Union Free School District                                                                   
+36         00019 PK      12      U              Unadilla Valley Central School District                                                             
+36         28650 PK      12      U              Union Free School District of the Tarrytowns                                                        
+36         29250 PK      12      U              Union Springs Central School District                                                               
+36         10710 PK      12      U              Union-Endicott Central School District                                                              
+36         29280 PK      12      U              Uniondale Union Free School District                                                                
+36         29370 PK      12      U              Utica City School District                                                                          
+36         29400 KG      12      U              Valhalla Union Free School District                                                                 
+36         19680 PK      12      U              Valley Central School District (Montgomery)                                                         
+36         29520 07      12      S              Valley Stream Central High School District                                                          
+36         29430 KG      06      E              Valley Stream Union Free School District 13                                                         
+36         29460 KG      06      E              Valley Stream Union Free School District 24                                                         
+36         29490 KG      06      E              Valley Stream Union Free School District 30                                                         
+36         22200 KG      12      U              Van Hornesville-Owen D. Young Central School District                                               
+36         29610 PK      12      U              Vestal Central School District                                                                      
+36         29640 PK      12      U              Victor Central School District                                                                      
+36         29670 KG      12      U              Voorheesville Central School District                                                               
+36         29760 KG      12      U              Wainscott Common School District                                                                    
+36         29790 KG      12      U              Wallkill Central School District                                                                    
+36         29820 PK      12      U              Walton Central School District                                                                      
+36         29850 KG      12      U              Wantagh Union Free School District                                                                  
+36         29880 KG      12      U              Wappingers Central School District                                                                  
+36         29910 PK      12      U              Warrensburg Central School District                                                                 
+36         29940 PK      12      U              Warsaw Central School District                                                                      
+36         29970 KG      12      U              Warwick Valley Central School District                                                              
+36         30030 PK      12      U              Washingtonville Central School District                                                             
+36         30060 KG      12      U              Waterford-Halfmoon Union Free School District                                                       
+36         00014 PK      12      U              Waterloo Central School District                                                                    
+36         30120 PK      12      U              Watertown City School District                                                                      
+36         30160 PK      12      U              Waterville Central School District                                                                  
+36         30210 PK      12      U              Watervliet City School District                                                                     
+36         30240 PK      12      U              Watkins Glen Central School District                                                                
+36         30270 PK      12      U              Waverly Central School District                                                                     
+36         00011 PK      12      U              Wayland-Cohocton Central School District                                                            
+36         30330 PK      12      U              Wayne Central School District                                                                       
+36         30360 PK      12      U              Webster Central School District                                                                     
+36         30420 PK      12      U              Weedsport Central School District                                                                   
+36         30450 PK      12      U              Wells Central School District                                                                       
+36         30480 PK      12      U              Wellsville Central School District                                                                  
+36         30540 KG      12      U              West Babylon Union Free School District                                                             
+36         30600 PK      12      U              West Canada Valley Central School District                                                          
+36         30630 KG      12      U              West Genesee Central School District                                                                
+36         30660 KG      12      U              West Hempstead Union Free School District                                                           
+36         15390 KG      12      U              West Irondequoit Central School District                                                            
+36         30690 PK      12      U              West Islip Union Free School District                                                               
+36         30780 PK      12      U              West Seneca Central School District                                                                 
+36         30900 PK      12      U              West Valley Central School District                                                                 
+36         30960 PK      12      U              Westbury Union Free School District                                                                 
+36         30990 PK      12      U              Westfield Central School District                                                                   
+36         31020 PK      12      U              Westhampton Beach Union Free School District                                                        
+36         07320 KG      12      U              Westhill Central School District                                                                    
+36         31050 PK      12      U              Westmoreland Central School District                                                                
+36         31170 KG      12      U              Wheatland-Chili Central School District                                                             
+36         31200 KG      12      U              Wheelerville Union Free School District                                                             
+36         31260 PK      12      U              White Plains City School District                                                                   
+36         31290 PK      12      U              Whitehall Central School District                                                                   
+36         31320 KG      12      U              Whitesboro Central School District                                                                  
+36         31350 PK      12      U              Whitesville Central School District                                                                 
+36         31380 PK      12      U              Whitney Point Central School District                                                               
+36         18690 PK      12      U              William Floyd Union Free School District                                                            
+36         31440 PK      12      U              Williamson Central School District                                                                  
+36         31470 PK      12      U              Williamsville Central School District                                                               
+36         31500 PK      12      U              Willsboro Central School District                                                                   
+36         31560 PK      12      U              Wilson Central School District                                                                      
+36         31590 PK      12      U              Windham-Ashland-Jewett Central School District                                                      
+36         02730 PK      12      U              Windsor Central School District                                                                     
+36         31740 PK      12      U              Worcester Central School District                                                                   
+36         31800 PK      12      U              Wyandanch Union Free School District                                                                
+36         31830 PK      12      U              Wynantskill Union Free School District                                                              
+36         31860 KG      12      U              Wyoming Central School District                                                                     
+36         31920 PK      12      U              Yonkers City School District                                                                        
+36         31950 PK      12      U              York Central School District                                                                        
+36         08970 PK      12      U              Yorkshire-Pioneer Central School District                                                           
+36         31980 KG      12      U              Yorktown Central School District                                                                    
