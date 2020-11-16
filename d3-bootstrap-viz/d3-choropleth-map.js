@@ -1,4 +1,7 @@
 import {Donut} from './d3-donut-plot.js'
+import {Analysis} from './d3-analysis-plot.js'
+
+
 // enter code to define margin and dimensions for svg
 var m = {left: 10, right: 10, top: 10, bottom: 10};
 var w = 1200 - m.left - m.right;
@@ -132,7 +135,8 @@ function createMapAndLegend(ny, schoolData, selectedSES, selectedYear){
          })
         .on('mouseover', tip.show)
         .on('mouseout', tip.hide)
-        .on('click', Donut)
+        .on('click', function(d) { Donut(d);
+            Analysis(d) })
 
     svg.call(tip)
 
