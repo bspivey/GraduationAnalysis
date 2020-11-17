@@ -41,7 +41,7 @@ forest_test = rf_data[-train_ind, ]
 # build randomForest
 rf <- randomForest(grad_rate_avg ~ ., data = rf_data)
 
-varImpPlot(rf, type = 2)
+varImpPlot(rf, type = 2, n.var = 16, main = "Random forest feature importance")
 
 rf
 
