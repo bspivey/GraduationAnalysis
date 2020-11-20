@@ -39,6 +39,15 @@ summary(model1)
 
 ```
 
+``` {r}
+
+# regression model over all counties with top random forest features
+model2 <- lm(grad_rate_avg ~ inc_twpu + state_aid_total_revenues + apwr + rev_pupil + exp_pupil 
+             + dsi + loc_eff_rate + num_multi, data = corn_count_df)
+summary(model2)
+
+```
+
 ```{r}
 
 ### 
@@ -66,7 +75,7 @@ forest_train = rf_data[train_ind, ]
 forest_test = rf_data[-train_ind, ]
 
 # build randomForest
-rf <- randomForest(grad_rate_avg ~ ., data = forest_train)
+rf <- randomForest(grad_rate_avg ~ ., data = rf_data)
 
 varImpPlot(rf, type = 2)
 
@@ -78,5 +87,38 @@ rf
 
 # extract data for specific counties 
 albany_data <- corn_count_df[corn_count_df$county_name == 'Albany', ]
+
+```
+
+``` {r}
+
+###
+# modeling with dave's new cleaned dataset
+### 
+
+clean_unreg_data <- read.csv("/Users/nickorangio/NYC_hs_grad/CSE6242/dave/df_clean_unreg_v2.csv")
+
+# build list of columns to remove for regression
+remove_variables <- c("X", "Unnamed..0", "Unnamed..0.1", "district_cd", "cohortye", "srcyear", "subgroup"
+                      , "year", "district_from_df1", "district_id", "name", "district_name", "districtid"
+                      , "district_from_faru")
+
+# drop columns 
+regression_data <- clean_unreg_data[ , !colnames(clean_unreg_data) %in% remove_variables]
+
+# add grad rate column
+regression_data <- transform(regression_data, grad_rate = regression_data$gr_graduated / regression_data$total)
+
+# modeling 
+library(tidyverse)
+library(broom)
+
+by_county <- 
+   group_by(regression_data_clean, county_name)
+
+do(by_county, 
+ glance(
+   lm(grad_rate ~ ., data = .)))
+
 
 ```

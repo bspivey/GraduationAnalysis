@@ -50,7 +50,7 @@
                     <div class="col-md-6 mb-3">
                         <div class="input-group">
                             <div class="input-group-prepend">
-                              <span class="input-group-text" id="inputGroupPrepend3">SES</span>
+                              <span class="input-group-text" id="inputGroupPrepend3">Features</span>
                             </div>
                             <select class="custom-select" id="ses">
                             </select>
@@ -66,57 +66,19 @@
         </div>
     </section>
     
-        <div class="album py-5 bg-light">
+        <div class="album py-5 bg-light" style="display: none;">
             <div class="container">
-                <div class='row'>
-                    <div class='col-lg-6 py-3'>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                              <span class="input-group-text" id="inputGroupPrepend4">x:County</span>
-                            </div>
-                            <select class="custom-select" id="county1">
-                            </select>
-                        </div>
-                    </div>
-                    <div class='col-lg-6 py-3'>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                              <span class="input-group-text" id="inputGroupPrepend5">y:County</span>
-                            </div>
-                            <select class="custom-select" id="county2">
-                            </select>
-                        </div>
-                    </div>
-                </div>
                 <div class="row">
-    <!-- Chart 1 -->               
                     <div class="col-lg-12">
                         <div class="card mb-4 box-shadow">
-                            <p class="card-text text-center">SES Graduation Rate by County</p>
-                            <div class="card-body" id="scatter">
+                            <p class="card-text text-center"></p>
+                            <div class="card-body" id="analysis-container">
+                                <div id="analysis"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-    <!-- Chart 2 -->           
-                    <div class="col-lg-6">
-                        <div class="card mb-4 box-shadow">
-                            <p class="card-text text-center">Chart Title 2</p>
-                            <div class="card-body">
-                            </div>
-                        </div>
-                    </div>
 
-    <!-- Chart 3 -->
-                    <div class="col-lg-6">
-                        <div class="card mb-4 box-shadow">
-                            <p class="card-text text-center">Chart Title 3</p>
-                            <div class="card-body">
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
@@ -129,11 +91,10 @@
     <script type="text/javascript" src="lib/d3-legend.min.js"></script>
     <script type="text/javascript" src="lib/d3-tip.min.js"></script>
     <script type="text/javascript" src="lib/topojson.v2.min.js"></script>
-    <script type="text/javascript" src="lib/d3-scale-chromatic.v0.3.min.js"></script>
-    <script type="text/javascript" src="lib/lodash.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
     <script type="module" src="d3-choropleth-map.js"></script>
-    <script type="module" src="d3-scatter-plot.js"></script>
+    <script type="module" src="d3-donut-plot.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

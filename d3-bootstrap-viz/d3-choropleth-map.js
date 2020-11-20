@@ -1,3 +1,6 @@
+import {Donut} from './d3-donut-plot.js'
+import {Analysis} from './d3-analysis-plot.js'
+
 
 // enter code to define margin and dimensions for svg
 var m = {left: 10, right: 10, top: 10, bottom: 10};
@@ -39,7 +42,7 @@ Promise.all([
     d3.dsv(",", "df_grad_rate_pct_county_merge.csv", function(d) {
         return {
             'County': d.COUNTY_NAME,
-            'Native American': +d['AMERICAN INDIAN OR ALASKA NATIVE'],
+            'Indian': +d['AMERICAN INDIAN OR ALASKA NATIVE'],
             'Asian': +d['ASIAN OR PACIFIC ISLANDER'],
             'Black': +d['BLACK'],
             'White' : +d['WHITE'],
@@ -76,7 +79,6 @@ function ready(error, ny, schoolData) {
     k.shift()
     k.pop()
     k.sort()
-    
     // enter code to append the game options to the dropdown
     var select = document.getElementById("ses")
     for(var i = 0; i < k.length; i++) {
@@ -133,6 +135,8 @@ function createMapAndLegend(ny, schoolData, selectedSES, selectedYear){
          })
         .on('mouseover', tip.show)
         .on('mouseout', tip.hide)
+        .on('click', function(d) { Donut(d);
+            Analysis(d) })
 
     svg.call(tip)
 

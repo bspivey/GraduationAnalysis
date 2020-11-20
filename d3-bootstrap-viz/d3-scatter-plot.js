@@ -1,6 +1,6 @@
 
 // define margin and dimensions for svg
-var m = {left: 50, right: 350, top: 20, bottom: 50};
+var m = {left: 50, right: 350, top: 50, bottom: 50};
 var w = 1080 - m.left - m.right;
 var h = 400 - m.top - m.bottom;
 
@@ -28,7 +28,7 @@ var tip = d3.tip()
 d3.dsv(",", "df_grad_rate_pct_county_merge.csv", function (d) {
     return {
         'County': d.COUNTY_NAME,
-        'Native American': +d['AMERICAN INDIAN OR ALASKA NATIVE'],
+        'Indian': +d['AMERICAN INDIAN OR ALASKA NATIVE'],
         'Asian': +d['ASIAN OR PACIFIC ISLANDER'],
         'Black': +d['BLACK'],
         'White' : +d['WHITE'],
@@ -174,31 +174,39 @@ function createScatter(schoolData, selectedYear, xCounty, yCounty){
 
     // Add the Y Axis
     svg.append("g")
-    .attr("class", "circle")
+        .attr("class", "circle")
         .call(d3.axisLeft(y));
     
     // Add the text label for X Axis
     svg.append("text")
-    .attr('class', 'labels')             
-    .attr("transform", "translate(" + (w/2) + " ," + (h + m.top + 30) + ")")
-    .style("text-anchor", "middle")
-    .text(xCounty);
+        .attr('class', 'labels')             
+        .attr("transform", "translate(" + (w/2) + " ," + (h + m.top + 30) + ")")
+        .style("text-anchor", "middle")
+        .text(xCounty);
 
     // Add the text label for Y axis
     svg.append("text")
-    .attr('class', 'labels')
-    .attr("transform", "translate(" + (12 - m.left) + ", " + (h/2) + ") rotate(-90)")
-    .style("text-anchor", "middle")
-    .text(yCounty);
+        .attr('class', 'labels')
+        .attr("transform", "translate(" + (12 - m.left) + ", " + (h/2) + ") rotate(-90)")
+        .style("text-anchor", "middle")
+        .text(yCounty);
+
+    // Add the text Title
+    svg.append("text")
+        .attr("transform", "translate(" + ((w + m.right)/2) + ", -35)")
+        .style("text-anchor", "middle")
+        .text('Socieconomic Status and Academic Performance by County');
     
     // Legend
     svg.append("g")
         .attr("class", "legend")
-        .attr("transform", "translate(750,-35)");
+        .attr("transform", "translate(750,-25)");
 
     var legend = d3.legendColor()
         .scale(color)
 
     svg.select(".legend")
         .call(legend)
+
+    
 }

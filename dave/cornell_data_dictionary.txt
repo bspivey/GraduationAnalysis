@@ -1,0 +1,80 @@
+cohortye - cohort year
+total - total people in the cohort
+gr_droppedout - number of people in the cohort who dropped out
+gr_graduated - number of people in the cohort who graduated
+gr_iep - UNKNOWN
+gr_ged - number of people in the cohort who got their GED
+gr_stillenrolled - number of people in the cohort who are still in school that year from that cohort (repate year)
+outcome_years - number of years in the cohort study
+srcyear/year - graduation year being studied 
+
+num_asian - count of asian people in the class
+num_black -count of black people in the class
+num_hisp - count of hispanic people in the class
+num_am_ind - count of american indian people in the class (lots of NAs)
+num_white - count of white people in the class
+num_lep - count of students with Low English Proficiency in the class (I think)
+num_free_lunch - number of people in the school who are signed up for free lunch program
+num_reduced_lunch - number of people in the school who are signed up for reduced lunch program
+num_multi - not sure -- may be lunch program related because of position
+
+Financial:
+ufb - unreserved fund balance
+staid - state aid
+star - school tax relief
+totstat - total state funds (staid + star) (I think)
+lrev - local revenue
+frev - federal revenue
+trev - total revenue
+state_aid_total_revenues - staid / trev * 100 
+star_total_revenues - star / trev * 100
+state_revenues_total_revenues - totstat / trev * 100
+bded - board of education expenditures
+cadm - central admin expenditures
+tsal - teacher salaries
+pps - pupil services instructional salaries
+cds - curriculum developmenmt and support instructional salaries
+boc - BOCES instructional expenditures
+tui1 - Tuition 1, Paid To Other School Districts Excluding Special Acts.
+tui2 - Tuition 2, All Other.  This item represents any expenditures for tuition, which was not reflected in the Tuition 1 category.
+ois - other instructional salaries - preK, librarians, etc.
+oiexp - other instructional expenditures
+cser - community service - recreational programs, facilities, etc.
+opmt - operations and maintenance
+tchr - Teacher retirement general fund
+heal - health expenditures.  Hospital, medical and dental coverage
+oeb - Other Fringe Benefits, I think.
+total_fringe_benefits - sum of teacher retirement, health,a nd other fringe benefits.
+ound - other undistributed
+oth - other (includes interfund transfers)
+subtot - expenditures subtotal
+trans - transportation expenditures
+dsp - debt service principal
+dsi - debt service interest
+texp - total expenditures
+total_unexpended_surplus_funds_t - total unexpended surplus funds / total expenditures
+revenue_expenditures - total revenue - total expenditures
+var - maybe (Total Revenue - Total Expenditures) / Total Expenditures
+dcaadm - duplicated combined adjusted average daily membership - this is the pupil count used to calculate the per pupil amounts for the revenue items and expenditure categories.
+rev_pupil - total revenue / DCAADM
+exp_pupil - total expenditure / DCAADM
+
+Fiscal Characteristics
+av_twpu - Actual Value (AV) of property / Total Wealth Per Pupil (TWPU)
+inc_twpu - NYS Adjusted Gross Income / Total Wealth Per Pupil (TWPU)
+pwr - pupil wealth ratio
+apwr - alternate pupil wealth ratio
+cwr - combined wealth ratio
+instructional_salaries - sum of teachers salaries, instructional salaries for PPS, CD, Super, BOCES IS, and OIS
+instructional_fringe_benefits - For each year, represents the estimated expenditures for fringe benefits for instructional personnel divided by total expenditures with the result multiplied by 100
+ins_fb - either Instructional Fringe Benefits divided by Total Expenditures OR Total Fringe Benefits divided by Total Salaries.
+adjusted_expenditures__subtotal - Adjusted Expenditures (Subtotal Minus Tuition 1 & A9950.9). Expenditure Subtotal minus tuition 1 and A9950.9. 
+ie1 - Instructional Expenditures (Excluding Fringe Benefits).
+ie1_total - IE1 as a Percent of Total Expenditures
+ie2_instructional_expenditures_i - 
+ie2 - Instructional Expenditures (Including Fringe Benefits).
+ie3_instructional_expenditures_i - Instructional Expenditures Including Fringe Benefits (Less Tuition 1). The
+ie3_adj_exp - Instructional Expenditures as a % of Adjusted Expenditures.
+loc_eff_rate - LOCAL REVENUE EFFORT RATE. This item is calculated by dividing local revenue by the actual property value of the district in the prior year, with the result multiplied by 1,000 and rounded to two decimal places.
+
+BOCES = Board of Cooperative Educational Services
