@@ -12,11 +12,15 @@ This package includes the code required to generate plots shown in this analysis
   INSTALLATION
 ### ------------------------------------------------------------------------------------- ###
 
+1. Get Python packages
 Environment for this project is tracked through conda and environment.yml file.
 Install the environment with this command `conda env update --file environment.yml`
 Update any packages in the environment with this command `conda env export > environment.yml`
 
-Confirm that the following packages are installed: pandas, numpy, matplotlib, and plotly. 
+Confirm that the following packages are installed: pandas, numpy, matplotlib, plotly, and subprocess. Note that Python Standard Library packages sys and io are also required.
+
+2. Download the CODE folder onto the user's machine.
+3. Follow instructions in EXECUTION to download data and run scripts.
 
 ### ------------------------------------------------------------------------------------- ###
   EXECUTION
@@ -26,9 +30,12 @@ Confirm that the following packages are installed: pandas, numpy, matplotlib, an
 ## --------------------------------------------------------------------------------------- ##
   NYSED DATASET ANALYSIS
 
-1. Copy the NYSED Code into the NysedAnalysis Folder.
-2. Open the NysedAnalysis folder
-3. Run main_nysed_analysis.py file which runs four scripts below.
+1. Create a folder called NysedAnalysis.
+2. Download the data from the following link: https://data.nysed.gov/downloads.php. Users must download Report Card Databases and Graduation Rate Databases for the school years ending in years 2015-2019 as MDB files. Note that MDB files can be on the order of 100 MB.
+3. Copy the MDB files into the **NysedAnalysis** folder.
+4. Copy PY files in the CODE/NYSED folder into the **NysedAnalysis** folder.
+5. Open the NysedAnalysis folder.
+6. Run main_nysed_analysis.py file which runs five scripts below.
 
 # ----------------------------------------------------------------------------------------- #
   main_nysed_analysis.py
@@ -107,6 +114,28 @@ Data Input:
 - df_staff_qualifications_17.pkl
 - df_staff_qualifications_18_19.pkl
 - df_staff_qualifications_19_20.pkl
+
+# ----------------------------------------------------------------------------------------- #
+  mdb_pandas_api.py
+# ----------------------------------------------------------------------------------------- #
+
+Output:
+- Generates the files containing raw DataFrames from the data downloaded from the following link: https://data.nysed.gov/downloads.php. Users must download Report Card Databases and Graduation Rate Databases for the school years ending in years 2015-2019.
+
+- Output table files:
+	- df_grad_rate_15.pkl
+	- df_grad_rate_16.pkl
+	- df_grad_rate_17.pkl
+	- df_grad_rate_18.pkl
+	- df_grad_rate_19.pkl
+	- df_staff_qualifications_15.pkl
+	- df_staff_qualifications_16.pkl
+	- df_staff_qualifications_17.pkl
+	- df_staff_qualifications_18_19.pkl
+	- df_staff_qualifications_19_20.pkl
+
+Data Input:
+Downloaded MDB files.
 
   END: NYSED DATASET ANALYSIS
 ## --------------------------------------------------------------------------------------- ##
