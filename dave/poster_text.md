@@ -1,0 +1,4 @@
+The abstract (in one paragraph of 150 words or less) should state briefly the purpose of the research, the essential new information, the principal results and major conclusions. The abstract must be able to stand-alone and references to the manuscript should therefore be avoided. Extended Abstracts must be written in English. The use of  “Arial” font, smaller than size 28pt is not recommendable. 
+
+To illuminate the relationship between Socio-economic Status (SES) and Academic Performance (AP). Socio-economic status proxies can take on many guises, and the most influential features often vary county-to-county. Charter schools have a tighter distribution with a higher median grad rate than public schools.  Economic disadvantage is the primary determinant of graduation percentage in New York Schools.  This subject requires more study and care must be taken to account for bias implicit in such a broad study.
+
