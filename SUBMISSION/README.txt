@@ -60,7 +60,7 @@ Output:
 
 Data Input:
 - df_grad_rate_pct_school_merge.csv
-	- Description: wide table containing SES factors and confounding factors as columns 		and each school as a row.
+	- Description: wide table containing SES factors and confounding factors as columns and each school as a row.
 	- Source: make_wide_all_features_school.py
 
 # ----------------------------------------------------------------------------------------- #
@@ -73,7 +73,7 @@ Output:
 
 Data Input:
 - df_combined_all.pkl
-	- Description: tall table containing all schools and school years with subgroup 	counts as the column and each school/year/subgroup as a row.
+	- Description: tall table containing all schools and school years with subgroup counts as the column and each school/year/subgroup as a row.
 	- Source: merge_pkl_tables.py
 - df_grad_rate_pct_school.csv
 	-Description: wide table containing SES factors as columns and each school as a row.
