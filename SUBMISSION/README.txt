@@ -7,7 +7,7 @@
 ### ------------------------------------------------------------------------------------- ###
 
 This package includes the code required to generate plots shown in this analysis of Socioeconomic Status factors. The code performs data cleansing and table merging and pivoting prior to any analysis. The analysis involves calculating variable cross-correlations and building models which are also used to investigate correlation with graduation rate via feature importances.
-
+It also includes the data visulizations. The choropleth, scatter chart, and donut charts are all d3. Bootstrap is used for the layout and styling of the site.
 ### ------------------------------------------------------------------------------------- ###
   INSTALLATION
 ### ------------------------------------------------------------------------------------- ###
@@ -36,6 +36,12 @@ Confirm that the following packages are installed: pandas, numpy, matplotlib, pl
 4. Copy PY files in the CODE/NYSED folder into the **NysedAnalysis** folder.
 5. Open the NysedAnalysis folder.
 6. Run main_nysed_analysis.py file which runs five scripts below.
+
+  DATA VISUALIZATION 
+1. Open cmd/bash
+2. cd into the d3-bootstrap-viz dir
+3. run the following command, python run -m http.server
+4. open web browser and go to localhost
 
 # ----------------------------------------------------------------------------------------- #
   main_nysed_analysis.py
