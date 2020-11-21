@@ -39,7 +39,7 @@ Confirm that the following packages are installed: pandas, numpy, matplotlib, pl
 
   DATA VISUALIZATION 
 1. Open cmd/bash
-2. cd into the d3-bootstrap-viz dir
+2. cd to CODE/d3-bootstrap-viz dir
 3. run the following command, python run -m http.server
 4. open web browser and go to localhost
 
