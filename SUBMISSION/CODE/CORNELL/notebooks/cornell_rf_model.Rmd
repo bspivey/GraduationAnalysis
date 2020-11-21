@@ -1,0 +1,101 @@
+---
+title: "Modeling_Nick"
+author: "Nick Orangio"
+date: "11/9/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+``` {r}
+
+# import county joined and grouped Cornell data for modeling (one observation per year per county)
+corn_count_df <- read.csv("/Users/nickorangio/NYC_hs_grad/CSE6242/Data/cornell_modeling_agg.csv")
+
+### 
+# random forest model with all variables 
+###
+
+library(randomForest)
+
+# drop columns not used in randomForest modeling -- only select column 20 and onwards 
+rf_data <- corn_count_df[ , c(20:96) ]
+rf_data <- rf_data[, -c(71:73)]
+rf_data <- rf_data[, -c(73)]
+rf_data <- rf_data[, -c(71:72)]
+rf_data <- rf_data[, -c(6:7)]
+rf_data <- rf_data[, -c(10:12)]
+
+rf_data <- na.omit(rf_data)
+
+# build train and test dataset
+set.seed(1337)
+sample_size = floor(0.8 * nrow(rf_data))
+train_ind = sample(seq_len(nrow(rf_data)), size = sample_size)
+
+forest_train = rf_data[train_ind, ]
+forest_test = rf_data[-train_ind, ]
+
+# build randomForest
+rf <- randomForest(grad_rate_avg ~ ., data = rf_data)
+
+varImpPlot(rf, type = 2, n.var = 16, main = "Random forest feature importance")
+
+rf
+
+```
+
+The random forest model above builds a model using graduation rate as a response with all other factors in the dataframe as factors. The data used for the random forest is aggregated at the county and year level, such that there is one observation per county per year. The figure above shows the feature importance using the increase in node purity criteria. The features with a larger increase in node purity are more important features. These features will be used to fit a multiple linear regression on at the county aggregation level (one regression model per county). 
+
+``` {r}
+
+###
+# modeling with df_clean_unreg dataset (one regression model per county)
+### 
+
+clean_unreg_data <- read.csv("/Users/nickorangio/NYC_hs_grad/CSE6242/dave/notebooks/df_clean_unreg.csv")
+
+# add grad rate column
+clean_unreg_data <- transform(clean_unreg_data, grad_rate = clean_unreg_data$gr_graduated / clean_unreg_data$total)
+
+# build list of columns to remove for regression
+remove_variables <- c("X", "Unnamed..0", "Unnamed..0.1", "district_cd", "cohortye", "srcyear", "subgroup"
+                      , "year", "district_from_df1", "district_id", "name", "district_name", "districtid"
+                      , "district_from_faru", "num_am_ind", "outcome_yrs", "total")
+
+# drop columns 
+regression_data <- clean_unreg_data[ , !colnames(clean_unreg_data) %in% remove_variables]
+
+# check for correlated factors to remove
+# regression_features = regression_data[ , 1:68]
+# regression_features = sapply(regression_features, as.numeric)
+# cor_mat <- cor(regression_features, method = "spearman")
+#cor_mat[cor_mat < 0.7 | cor_mat == 1] <- ""
+#cor_mat
+#library(corrr)
+#network_plot(correlate(regression_features), min_cor = 0.9)
+
+# build feature list for regression model, using top random forest features
+factors <- c("inc_twpu", "state_aid_total_revenues", "apwr", "exp_pupil", "loc_eff_rate"
+                    , "rev_pupil", "state_revenues_total_revenues", "dsi", "num_reduced_lunch")
+factors_2 <- paste(factors, collapse = "+")
+equation <- paste("grad_rate ~ ", factors_2, sep ="")
+
+# modeling 
+library(tidyverse)
+library(broom)
+
+# build grouping by county
+by_county <- 
+   group_by(regression_data, county_name)
+
+#run model grouping by county and store in df model_r2
+model_r2 <- do(by_county, 
+ glance(
+   lm(equation, data = .)))
+
+write.csv(model_r2, "/Users/nickorangio/NYC_hs_grad/CSE6242/dave/notebooks/regressionR2.csv")
+
+```
