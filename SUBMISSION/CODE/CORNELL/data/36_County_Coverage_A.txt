@@ -1,0 +1,1022 @@
+state_code    county_code  county_name                          sdlea  name       school_district   notes                                                                                                                                                                                
+36         001         Albany                               00004  Rotterdam-Mohonasen Central        School District                                                         
+36         001         Albany                               00971  North Colonie Central        School District                                                               
+36         001         Albany                               02460  Albany City        School District                                                                         
+36         001         Albany                               04650  Berne-Knox-Westerlo Central        School District                                                         
+36         001         Albany                               04710  Bethlehem Central        School District                                                                   
+36         001         Albany                               06160  Cairo-Durham Central        School District                                                                
+36         001         Albany                               07980  Cohoes City        School District                                                                         
+36         001         Albany                               09360  Duanesburg Central        School District                                                                  
+36         001         Albany                               12660  Green Island Union Free        School District                                                             
+36         001         Albany                               12870  Greenville Central        School District                                                                  
+36         001         Albany                               13080  Guilderland Central        School District                                                                 
+36         001         Albany                               18990  Menands Union Free        School District                                                                  
+36         001         Albany                               19260  Middleburgh Central        School District                                                                 
+36         001         Albany                               20880  Niskayuna Central        School District                                                                   
+36         001         Albany                               24150  Ravena-Coeymans-Selkirk Central        School District                                                     
+36         001         Albany                               25980  Schalmont Central        School District                                                                   
+36         001         Albany                               26100  Schoharie Central        School District                                                                   
+36         001         Albany                               27210  South Colonie Central        School District                                                               
+36         001         Albany                               29670  Voorheesville Central        School District                                                               
+36         001         Albany                               30210  Watervliet City        School District                                                                     
+36         003         Allegany                             00012  Bolivar-Richburg Central        School District                                                            
+36         003         Allegany                             00017  Genesee Valley Central        School District                                                              
+36         003         Allegany                             00124  Canisteo-Greenwood Central        School District                                                          
+36         003         Allegany                             02700  Alfred-Almond Central        School District                                                               
+36         003         Allegany                             03030  Andover Central        School District                                                                     
+36         003         Allegany                             03240  Arkport Central        School District                                                                     
+36         003         Allegany                             04350  Belfast Central        School District                                                                     
+36         003         Allegany                             06360  Canaseraga Central        School District                                                                  
+36         003         Allegany                             08970  Yorkshire-Pioneer Central        School District                                                           
+36         003         Allegany                             11070  Fillmore Central        School District                                                                    
+36         003         Allegany                             11640  Friendship Central        School District                                                                  
+36         003         Allegany                             14490  Hinsdale Central        School District                                                                    
+36         003         Allegany                             17130  Letchworth Central        School District                                                                  
+36         003         Allegany                             21450  Dalton-Nunda Central        School District  (Keshequa)                                                     
+36         003         Allegany                             23640  Portville Central        School District                                                                   
+36         003         Allegany                             26190  Scio Central        School District                                                                        
+36         003         Allegany                             30480  Wellsville Central        School District                                                                  
+36         003         Allegany                             31350  Whitesville Central        School District                                                                 
+36         003         Allegany                             32010  Cuba-Rushford Central        School District                                                               
+36         005         Bronx                                20580  New York City Department Of Education                                                               
+36         007         Broome                               02400  Afton Central        School District                                                                       
+36         007         Broome                               02730  Windsor Central        School District                                                                     
+36         007         Broome                               03810  Bainbridge-Guilford Central        School District                                                         
+36         007         Broome                               04800  Binghamton Common        School District                                                                   
+36         007         Broome                               04870  Binghamton City        School District                                                                     
+36         007         Broome                               07260  Chenango Forks Central        School District                                                              
+36         007         Broome                               07290  Chenango Valley Central        School District                                                             
+36         007         Broome                               07560  Cincinnatus Central        School District                                                                 
+36         007         Broome                               09060  Deposit Central        School District                                                                     
+36         007         Broome                               10710  Union-Endicott Central        School District                                                              
+36         007         Broome                               12750  Greene Central        School District                                                                      
+36         007         Broome                               13710  Harpursville Central        School District                                                                
+36         007         Broome                               15900  Johnson City Central        School District                                                                
+36         007         Broome                               18150  Maine-Endwell Central        School District                                                               
+36         007         Broome                               18450  Marathon Central        School District                                                                    
+36         007         Broome                               20670  Newark Valley Central        School District                                                               
+36         007         Broome                               28380  Susquehanna Valley Central        School District                                                          
+36         007         Broome                               29610  Vestal Central        School District                                                                      
+36         007         Broome                               31380  Whitney Point Central        School District                                                               
+36         009         Cattaraugus                          00015  Allegany-Limestone Central        School District                                                          
+36         009         Cattaraugus                          06750  Cattaraugus-Little Valley Central        School District                                                   
+36         009         Cattaraugus                          08970  Yorkshire-Pioneer Central        School District                                                           
+36         009         Cattaraugus                          10530  Ellicottville Central        School District                                                               
+36         009         Cattaraugus                          11250  Forestville Central        School District                                                                 
+36         009         Cattaraugus                          11490  Franklinville Central        School District                                                               
+36         009         Cattaraugus                          11610  Frewsburg Central        School District                                                                   
+36         009         Cattaraugus                          12390  Gowanda Central        School District                                                                     
+36         009         Cattaraugus                          12990  Springville-Griffith Institute Central School                                                       
+36         009         Cattaraugus                          14490  Hinsdale Central        School District                                                                    
+36         009         Cattaraugus                          21720  Olean City        School District                                                                          
+36         009         Cattaraugus                          23070  Pine Valley Central        School District  (South Dayton)                                                  
+36         009         Cattaraugus                          23640  Portville Central        School District                                                                   
+36         009         Cattaraugus                          24090  Randolph Central        School District                                                                    
+36         009         Cattaraugus                          25440  Salamanca City        School District                                                                      
+36         009         Cattaraugus                          30900  West Valley Central        School District                                                                 
+36         009         Cattaraugus                          32010  Cuba-Rushford Central        School District                                                               
+36         011         Cayuga                               03480  Auburn City        School District                                                                         
+36         011         Cayuga                               06690  Cato-Meridian Central        School District                                                               
+36         011         Cayuga                               13020  Groton Central        School District                                                                      
+36         011         Cayuga                               13590  Hannibal Central        School District                                                                    
+36         011         Cayuga                               14640  Homer Central        School District                                                                       
+36         011         Cayuga                               15990  Jordan-Elbridge Central        School District                                                             
+36         011         Cayuga                               19800  Moravia Central        School District                                                                     
+36         011         Cayuga                               22050  Oswego City        School District                                                                         
+36         011         Cayuga                               23430  Port Byron Central        School District                                                                  
+36         011         Cayuga                               24210  Red Creek Central        School District                                                                   
+36         011         Cayuga                               26940  Skaneateles Central        School District                                                                 
+36         011         Cayuga                               27570  Southern Cayuga Central        School District                                                             
+36         011         Cayuga                               29250  Union Springs Central        School District                                                               
+36         011         Cayuga                               30420  Weedsport Central        School District                                                                   
+36         011         Cayuga                               99997         School District Not Defined                                                                         
+36         013         Chautauqua                           00018  Chautauqua Lake Central        School District                                                             
+36         013         Chautauqua                           04530  Bemus Point Central        School District                                                                 
+36         013         Chautauqua                           05610  Brocton Central        School District                                                                     
+36         013         Chautauqua                           06660  Cassadaga Valley Central        School District                                                            
+36         013         Chautauqua                           07890  Clymer Central        School District                                                                      
+36         013         Chautauqua                           09420  Dunkirk City        School District                                                                        
+36         013         Chautauqua                           10920  Falconer Central        School District                                                                    
+36         013         Chautauqua                           11250  Forestville Central        School District                                                                 
+36         013         Chautauqua                           11520  Fredonia Central        School District                                                                    
+36         013         Chautauqua                           11610  Frewsburg Central        School District                                                                   
+36         013         Chautauqua                           12390  Gowanda Central        School District                                                                     
+36         013         Chautauqua                           15630  Jamestown City        School District                                                                      
+36         013         Chautauqua                           22410  Panama Central        School District                                                                      
+36         013         Chautauqua                           23070  Pine Valley Central        School District  (South Dayton)                                                  
+36         013         Chautauqua                           24090  Randolph Central        School District                                                                    
+36         013         Chautauqua                           24660  Ripley Central        School District                                                                      
+36         013         Chautauqua                           26730  Sherman Central        School District                                                                     
+36         013         Chautauqua                           26880  Silver Creek Central        School District                                                                
+36         013         Chautauqua                           27660  Southwestern Central        School District at Jamestown                                                   
+36         013         Chautauqua                           30990  Westfield Central        School District                                                                   
+36         013         Chautauqua                           99997  Not Defined       School District                                                                          
+36         015         Chemung                              08400  Corning City        School District                                                                        
+36         015         Chemung                              10560  Elmira City        School District                                                                         
+36         015         Chemung                              10590  Elmira Heights Central        School District                                                              
+36         015         Chemung                              14850  Horseheads Central        School District                                                                  
+36         015         Chemung                              21630  Odessa-Montour Central        School District                                                              
+36         015         Chemung                              27750  Spencer-Van Etten Central        School District                                                           
+36         015         Chemung                              30240  Watkins Glen Central        School District                                                                
+36         015         Chemung                              30270  Waverly Central        School District                                                                     
+36         017         Chenango                             00019  Unadilla Valley Central        School District                                                             
+36         017         Chenango                             02400  Afton Central        School District                                                                       
+36         017         Chenango                             03810  Bainbridge-Guilford Central        School District                                                         
+36         017         Chenango                             04757  Gilbertsville-Mount Upton Central        School District                                                   
+36         017         Chenango                             05670  Brookfield Central        School District                                                                  
+36         017         Chenango                             07260  Chenango Forks Central        School District                                                              
+36         017         Chenango                             07560  Cincinnatus Central        School District                                                                 
+36         017         Chenango                             08850  DeRuyter Central        School District                                                                    
+36         017         Chenango                             12750  Greene Central        School District                                                                      
+36         017         Chenango                             13710  Harpursville Central        School District                                                                
+36         017         Chenango                             21330  Norwich City        School District                                                                        
+36         017         Chenango                             22100  Georgetown-South Otselic Central        School District                                                    
+36         017         Chenango                             22260  Oxford Academy and Central        School District                                                          
+36         017         Chenango                             26700  Sherburne-Earlville Central        School District                                                         
+36         017         Chenango                             26850  Sidney Central        School District                                                                      
+36         019         Clinton                              00009  Saranac Central        School District                                                                     
+36         019         Clinton                              04290  Beekmantown Central        School District                                                                 
+36         019         Clinton                              07080  Chateaugay Central        School District                                                                  
+36         019         Clinton                              07170  Chazy Union Free        School District                                                                    
+36         019         Clinton                              16170  AuSable Valley Central        School District                                                              
+36         019         Clinton                              21250  Northeastern Clinton Central        School District                                                        
+36         019         Clinton                              21260  Northern Adirondack Central        School District                                                         
+36         019         Clinton                              22830  Peru Central        School District                                                                        
+36         019         Clinton                              23280  Plattsburgh City        School District                                                                    
+36         019         Clinton                              25740  Saranac Lake Central        School District                                                                
+36         021         Columbia                             07110  Chatham Central        School District                                                                     
+36         021         Columbia                             09630  East Greenbush Central        School District                                                              
+36         021         Columbia                             12030  Germantown Central        School District                                                                  
+36         021         Columbia                             14940  Hudson City        School District                                                                         
+36         021         Columbia                             15210  Kinderhook Central        School District  (Ichabod Crane)                                                  
+36         021         Columbia                             20430  New Lebanon Central        School District                                                                 
+36         021         Columbia                             23040  Pine Plains Central        School District                                                                 
+36         021         Columbia                             24240  Red Hook Central        School District                                                                    
+36         021         Columbia                             26070  Schodack Central        School District                                                                    
+36         021         Columbia                             28620  Taconic Hills Central        School District                                                               
+36         021         Columbia                             30390  Northeast Central        School District                                                                   
+36         023         Cortland                             07560  Cincinnatus Central        School District                                                                 
+36         023         Cortland                             08460  Cortland City        School District                                                                       
+36         023         Cortland                             08850  DeRuyter Central        School District                                                                    
+36         023         Cortland                             09330  Dryden Central        School District                                                                      
+36         023         Cortland                             10860  Fabius-Pompey Central        School District                                                               
+36         023         Cortland                             12750  Greene Central        School District                                                                      
+36         023         Cortland                             13020  Groton Central        School District                                                                      
+36         023         Cortland                             14640  Homer Central        School District                                                                       
+36         023         Cortland                             18450  Marathon Central        School District                                                                    
+36         023         Cortland                             18840  McGraw Central        School District                                                                      
+36         023         Cortland                             20670  Newark Valley Central        School District                                                               
+36         023         Cortland                             29130  Tully Central        School District                                                                       
+36         023         Cortland                             31380  Whitney Point Central        School District                                                               
+36         025         Delaware                             00023  Sullivan West Central        School District                                                               
+36         025         Delaware                             03000  Andes Central        School District                                                                       
+36         025         Delaware                             03810  Bainbridge-Guilford Central        School District                                                         
+36         025         Delaware                             07050  Charlotte Valley Central        School District                                                            
+36         025         Delaware                             08910  Delhi Central        School District                                                                       
+36         025         Delaware                             09060  Deposit Central        School District                                                                     
+36         025         Delaware                             09240  Downsville Central        School District                                                                  
+36         025         Delaware                             11430  Franklin Central        School District                                                                    
+36         025         Delaware                             12120  Gilboa-Conesville Central        School District                                                           
+36         025         Delaware                             13560  Hancock Central        School District                                                                     
+36         025         Delaware                             15720  Jefferson Central        School District                                                                   
+36         025         Delaware                             17580  Livingston Manor Central        School District                                                            
+36         025         Delaware                             18510  Margaretville Central        School District                                                               
+36         025         Delaware                             21780  Oneonta City        School District                                                                        
+36         025         Delaware                             25020  Roscoe Central        School District                                                                      
+36         025         Delaware                             25110  Roxbury Central        School District                                                                     
+36         025         Delaware                             26850  Sidney Central        School District                                                                      
+36         025         Delaware                             27330  South Kortright Central        School District                                                             
+36         025         Delaware                             28020  Stamford Central        School District                                                                    
+36         025         Delaware                             29240  Otego-Unadilla Central        School District                                                              
+36         025         Delaware                             29820  Walton Central        School District                                                                      
+36         025         Delaware                             31740  Worcester Central        School District                                                                   
+36         027         Dutchess                             03270  Arlington Central        School District                                                                   
+36         027         Dutchess                             04140  Beacon City        School District                                                                         
+36         027         Dutchess                             06500  Spackenkill Union Free        School District                                                              
+36         027         Dutchess                             06570  Carmel Central        School District                                                                      
+36         027         Dutchess                             09210  Dover Union Free        School District                                                                    
+36         027         Dutchess                             13230  Haldane Central        School District                                                                     
+36         027         Dutchess                             15180  Hyde Park Central        School District                                                                   
+36         027         Dutchess                             19380  Millbrook Central        School District                                                                   
+36         027         Dutchess                             22530  Pawling Central        School District                                                                     
+36         027         Dutchess                             23040  Pine Plains Central        School District                                                                 
+36         027         Dutchess                             23760  Poughkeepsie City        School District                                                                   
+36         027         Dutchess                             24240  Red Hook Central        School District                                                                    
+36         027         Dutchess                             24480  Rhinebeck Central        School District                                                                   
+36         027         Dutchess                             28620  Taconic Hills Central        School District                                                               
+36         027         Dutchess                             29880  Wappingers Central        School District                                                                  
+36         027         Dutchess                             30390  Northeast Central        School District                                                                   
+36         029         Erie                                 02430  Akron Central        School District                                                                       
+36         029         Erie                                 02550  Alden Central        School District                                                                       
+36         029         Erie                                 02920  Amherst Central        School District                                                                     
+36         029         Erie                                 03420  Attica Central        School District                                                                      
+36         029         Erie                                 05850  Buffalo City        School District                                                                        
+36         029         Erie                                 07020  Grand Island Central        School District                                                                
+36         029         Erie                                 07230  Cheektowaga Central        School District                                                                 
+36         029         Erie                                 07590  Clarence Central        School District                                                                    
+36         029         Erie                                 07680  Cleveland Hill Union Free        School District                                                           
+36         029         Erie                                 08970  Yorkshire-Pioneer Central        School District                                                           
+36         029         Erie                                 09030  Depew Union Free        School District                                                                    
+36         029         Erie                                 09540  East Aurora Union Free        School District                                                              
+36         029         Erie                                 10170  Eden Central        School District                                                                        
+36         029         Erie                                 11670  Frontier Central        School District                                                                    
+36         029         Erie                                 12390  Gowanda Central        School District                                                                     
+36         029         Erie                                 12990  Springville-Griffith Institute Central  School District                                                      
+36         029         Erie                                 13350  Hamburg Central        School District                                                                     
+36         029         Erie                                 14550  Holland Central        School District                                                                     
+36         029         Erie                                 15360  Iroquois Central        School District                                                                    
+36         029         Erie                                 16230  Kenmore-Tonawanda Union Free        School District                                                        
+36         029         Erie                                 16440  Lackawanna City        School District                                                                     
+36         029         Erie                                 16560  Evans-Brant Central        School District  (Lake Shore)                                                    
+36         029         Erie                                 16680  Lancaster Central        School District                                                                   
+36         029         Erie                                 18600  Cheektowaga-Maryvale Union Free        School District                                                     
+36         029         Erie                                 20970  North Collins Central        School District                                                               
+36         029         Erie                                 21900  Orchard Park Central        School District                                                                
+36         029         Erie                                 27000  Cheektowaga-Sloan Union Free        School District                                                        
+36         029         Erie                                 28500  Sweet Home Central        School District                                                                  
+36         029         Erie                                 28740  Tonawanda City        School District                                                                      
+36         029         Erie                                 30780  West Seneca Central        School District                                                                 
+36         029         Erie                                 31470  Williamsville Central        School District                                                               
+36         029         Erie                                 99997         School District Not Defined                                                                         
+36         031         Essex                                01189  Boquet Valley Central        School District  at Elizabethtown-Lewis-Westport                               
+36         031         Essex                                08610  Crown Point Central        School District                                                                 
+36         031         Essex                                16140  Keene Central        School District                                                                       
+36         031         Essex                                16170  AuSable Valley Central        School District                                                              
+36         031         Essex                                16500  Lake Placid Central        School District                                                                 
+36         031         Essex                                16960  North Warren Central        School District                                                                
+36         031         Essex                                19530  Minerva Central        School District                                                                     
+36         031         Essex                                19830  Moriah Central        School District                                                                      
+36         031         Essex                                20730  Newcomb Central        School District                                                                     
+36         031         Essex                                23970  Putnam Central        School District                                                                      
+36         031         Essex                                25740  Saranac Lake Central        School District                                                                
+36         031         Essex                                26130  Schroon Lake Central        School District                                                                
+36         031         Essex                                28680  Ticonderoga Central        School District                                                                 
+36         031         Essex                                31500  Willsboro Central        School District                                                                   
+36         033         Franklin                             05820  Brushton-Moira Central        School District                                                              
+36         033         Franklin                             07080  Chateaugay Central        School District                                                                  
+36         033         Franklin                             16170  AuSable Valley Central        School District                                                              
+36         033         Franklin                             18180  Malone Central        School District                                                                      
+36         033         Franklin                             21260  Northern Adirondack Central        School District                                                         
+36         033         Franklin                             25500  Salmon River Central        School District                                                                
+36         033         Franklin                             25740  Saranac Lake Central        School District                                                                
+36         033         Franklin                             27960  Brasher Falls Central        School District                                                               
+36         033         Franklin                             27990  St. Regis Falls Central        School District                                                             
+36         033         Franklin                             29160  Tupper Lake Central        School District                                                                 
+36         035         Fulton                               00001  Dolgeville Central        School District                                                                  
+36         035         Fulton                               00005  Broadalbin-Perth Central        School District                                                            
+36         035         Fulton                               01107  Oppenheim-Ephratah-St. Johnsville Central        School District                                           
+36         035         Fulton                               02970  Amsterdam City        School District                                                                      
+36         035         Fulton                               10230  Edinburg Common        School District                                                                     
+36         035         Fulton                               11190  Fonda-Fultonville Central        School District                                                           
+36         035         Fulton                               11370  Fort Plain Central        School District                                                                  
+36         035         Fulton                               11730  Galway Central        School District                                                                      
+36         035         Fulton                               12270  Gloversville City        School District                                                                   
+36         035         Fulton                               15980  Johnstown City        School District                                                                      
+36         035         Fulton                               18750  Mayfield Central        School District                                                                    
+36         035         Fulton                               21300  Northville Central        School District                                                                  
+36         035         Fulton                               31200  Wheelerville Union Free        School District                                                             
+36         037         Genesee                              02430  Akron Central        School District                                                                       
+36         037         Genesee                              02520  Albion Central        School District                                                                      
+36         037         Genesee                              02550  Alden Central        School District                                                                       
+36         037         Genesee                              02580  Alexander Central        School District                                                                   
+36         037         Genesee                              03420  Attica Central        School District                                                                      
+36         037         Genesee                              03990  Batavia City        School District                                                                        
+36         037         Genesee                              05580  Brockport Central        School District                                                                   
+36         037         Genesee                              06090  Byron-Bergen Central        School District                                                                
+36         037         Genesee                              06180  Caledonia-Mumford Central        School District                                                           
+36         037         Genesee                              08340  Pembroke Central        School District                                                                    
+36         037         Genesee                              10380  Elba Central        School District                                                                        
+36         037         Genesee                              16950  Le Roy Central        School District                                                                      
+36         037         Genesee                              18960  Medina Central        School District                                                                      
+36         037         Genesee                              21510  Oakfield-Alabama Central        School District                                                            
+36         037         Genesee                              22500  Pavilion Central        School District                                                                    
+36         037         Genesee                              25140  Royalton-Hartland Central        School District                                                           
+36         037         Genesee                              31860  Wyoming Central        School District                                                                     
+36         039         Greene                               06160  Cairo-Durham Central        School District                                                                
+36         039         Greene                               06720  Catskill Central        School District                                                                    
+36         039         Greene                               08490  Coxsackie-Athens Central        School District                                                            
+36         039         Greene                               12120  Gilboa-Conesville Central        School District                                                           
+36         039         Greene                               12870  Greenville Central        School District                                                                  
+36         039         Greene                               15060  Hunter-Tannersville Central        School District                                                         
+36         039         Greene                               18510  Margaretville Central        School District                                                               
+36         039         Greene                               21840  Onteora Central        School District                                                                     
+36         039         Greene                               24150  Ravena-Coeymans-Selkirk Central        School District                                                     
+36         039         Greene                               31590  Windham-Ashland-Jewett Central        School District                                                      
+36         041         Hamilton                             00001  Dolgeville Central        School District                                                                  
+36         041         Hamilton                             15270  Indian Lake Central        School District                                                                 
+36         041         Hamilton                             15330  Inlet Common        School District                                                                        
+36         041         Hamilton                             16530  Lake Pleasant Central        School District                                                               
+36         041         Hamilton                             17760  Long Lake Central        School District                                                                   
+36         041         Hamilton                             21300  Northville Central        School District                                                                  
+36         041         Hamilton                             23130  Piseco Common        School District                                                                       
+36         041         Hamilton                             23370  Poland Central        School District                                                                      
+36         041         Hamilton                             24120  Raquette Lake Union Free        School District                                                            
+36         041         Hamilton                             30450  Wells Central        School District                                                                       
+36         043         Herkimer                             00001  Dolgeville Central        School District                                                                  
+36         043         Herkimer                             00002  Sauquoit Valley Central        School District                                                             
+36         043         Herkimer                             01087  Central Valley        School District                                                                      
+36         043         Herkimer                             01107  Oppenheim-Ephratah-St. Johnsville Central        School District                                           
+36         043         Herkimer                             05040  Adirondack Central        School District                                                                  
+36         043         Herkimer                             11370  Fort Plain Central        School District                                                                  
+36         043         Herkimer                             11400  Frankfort-Schuyler Central        School District                                                          
+36         043         Herkimer                             14220  Herkimer Central        School District                                                                    
+36         043         Herkimer                             14580  Holland Patent Central        School District                                                              
+36         043         Herkimer                             17460  Little Falls City        School District                                                                   
+36         043         Herkimer                             20370  New Hartford Central        School District                                                                
+36         043         Herkimer                             22200  Van Hornesville-Owen D. Young Central        School District                                               
+36         043         Herkimer                             23370  Poland Central        School District                                                                      
+36         043         Herkimer                             24360  Remsen Central        School District                                                                      
+36         043         Herkimer                             24570  Richfield Springs Central        School District                                                           
+36         043         Herkimer                             28800  Town of Webb Union Free        School District                                                             
+36         043         Herkimer                             30600  West Canada Valley Central        School District                                                          
+36         043         Herkimer                             30930  Mount Markham Central        School District                                                               
+36         043         Herkimer                             31320  Whitesboro Central        School District                                                                  
+36         045         Jefferson                            02340  South Jefferson Central        School District                                                             
+36         045         Jefferson                            02670  Alexandria Central        School District                                                                  
+36         045         Jefferson                            04370  Belleville Henderson Central        School District                                                        
+36         045         Jefferson                            06630  Carthage Central        School District                                                                    
+36         045         Jefferson                            07650  Thousand Islands Central        School District                                                            
+36         045         Jefferson                            08280  Copenhagen Central        School District                                                                  
+36         045         Jefferson                            11910  General Brown Central        School District                                                               
+36         045         Jefferson                            12360  Gouverneur Central        School District                                                                  
+36         045         Jefferson                            13440  Hammond Central        School District                                                                     
+36         045         Jefferson                            14880  Sackets Harbor Central        School District                                                              
+36         045         Jefferson                            15300  Indian River Central        School District                                                                
+36         045         Jefferson                            16380  La Fargeville Central        School District                                                               
+36         045         Jefferson                            17880  Lyme Central        School District                                                                        
+36         045         Jefferson                            25650  Sandy Creek Central        School District                                                                 
+36         045         Jefferson                            30120  Watertown City        School District                                                                      
+36         045         Jefferson                            99997  Not Defined       School District                                                                          
+36         047         Kings                                20580  New York City Department Of Education       School District                                                        
+36         049         Lewis                                02340  South Jefferson Central        School District                                                             
+36         049         Lewis                                04200  Beaver River Central        School District                                                                
+36         049         Lewis                                05040  Adirondack Central        School District                                                                  
+36         049         Lewis                                06240  Camden Central        School District                                                                      
+36         049         Lewis                                06630  Carthage Central        School District                                                                    
+36         049         Lewis                                08280  Copenhagen Central        School District                                                                  
+36         049         Lewis                                13770  Harrisville Central        School District                                                                 
+36         049         Lewis                                17820  Lowville Academy and Central        School District                                                        
+36         049         Lewis                                25650  Sandy Creek Central        School District                                                                 
+36         049         Lewis                                27360  South Lewis Central        School District                                                                 
+36         051         Livingston                           00011  Wayland-Cohocton Central        School District                                                            
+36         051         Livingston                           03660  Avon Central        School District                                                                        
+36         051         Livingston                           06180  Caledonia-Mumford Central        School District                                                           
+36         051         Livingston                           06360  Canaseraga Central        School District                                                                  
+36         051         Livingston                           08790  Dansville Central        School District                                                                   
+36         051         Livingston                           11940  Geneseo Central        School District                                                                     
+36         051         Livingston                           14670  Honeoye Central        School District                                                                     
+36         051         Livingston                           14700  Honeoye Falls-Lima Central        School District                                                          
+36         051         Livingston                           16950  Le Roy Central        School District                                                                      
+36         051         Livingston                           17640  Livonia Central        School District                                                                     
+36         051         Livingston                           20010  Mount Morris Central        School District                                                                
+36         051         Livingston                           20220  Naples Central        School District                                                                      
+36         051         Livingston                           21450  Dalton-Nunda Central        School District  (Keshequa)                                                     
+36         051         Livingston                           22500  Pavilion Central        School District                                                                    
+36         051         Livingston                           22770  Perry Central        School District                                                                       
+36         051         Livingston                           31170  Wheatland-Chili Central        School District                                                             
+36         051         Livingston                           31950  York Central        School District                                                                        
+36         053         Madison                              00013  Oneida City        School District                                                                         
+36         053         Madison                              00019  Unadilla Valley Central        School District                                                             
+36         053         Madison                              05670  Brookfield Central        School District                                                                  
+36         053         Madison                              06390  Canastota Central        School District                                                                   
+36         053         Madison                              06780  Cazenovia Central        School District                                                                   
+36         053         Madison                              07470  Chittenango Central        School District                                                                 
+36         053         Madison                              08850  DeRuyter Central        School District                                                                    
+36         053         Madison                              09990  East Syracuse-Minoa Central        School District                                                         
+36         053         Madison                              10260  Edmeston Central        School District                                                                    
+36         053         Madison                              10860  Fabius-Pompey Central        School District                                                               
+36         053         Madison                              13380  Hamilton Central        School District                                                                    
+36         053         Madison                              18080  Madison Central        School District                                                                     
+36         053         Madison                              18330  Fayetteville-Manlius Central        School District                                                        
+36         053         Madison                              19920  Morrisville-Eaton Central        School District                                                           
+36         053         Madison                              22100  Georgetown-South Otselic Central        School District                                                    
+36         053         Madison                              26700  Sherburne-Earlville Central        School District                                                         
+36         053         Madison                              26760  Sherrill City        School District                                                                       
+36         053         Madison                              28140  Stockbridge Valley Central        School District                                                          
+36         053         Madison                              30160  Waterville Central        School District                                                                  
+36         053         Madison                              30930  Mount Markham Central        School District                                                               
+36         055         Monroe                               03660  Avon Central        School District                                                                        
+36         055         Monroe                               05460  Brighton Central        School District                                                                    
+36         055         Monroe                               05580  Brockport Central        School District                                                                   
+36         055         Monroe                               06090  Byron-Bergen Central        School District                                                                
+36         055         Monroe                               06180  Caledonia-Mumford Central        School District                                                           
+36         055         Monroe                               07530  Churchville-Chili Central        School District                                                           
+36         055         Monroe                               09690  East Irondequoit Central        School District                                                            
+36         055         Monroe                               09930  East Rochester Union Free        School District                                                           
+36         055         Monroe                               10890  Fairport Central        School District                                                                    
+36         055         Monroe                               11880  Gates-Chili Central        School District                                                                 
+36         055         Monroe                               12630  Greece Central        School District                                                                      
+36         055         Monroe                               14460  Hilton Central        School District                                                                      
+36         055         Monroe                               14610  Holley Central        School District                                                                      
+36         055         Monroe                               14700  Honeoye Falls-Lima Central        School District                                                          
+36         055         Monroe                               15390  West Irondequoit Central        School District                                                            
+36         055         Monroe                               16200  Kendall Central        School District                                                                     
+36         055         Monroe                               22710  Penfield Central        School District                                                                    
+36         055         Monroe                               23160  Pittsford Central        School District                                                                   
+36         055         Monroe                               24750  Rochester City        School District                                                                      
+36         055         Monroe                               25170  Rush-Henrietta Central        School District                                                              
+36         055         Monroe                               27780  Spencerport Central        School District                                                                 
+36         055         Monroe                               29640  Victor Central        School District                                                                      
+36         055         Monroe                               30330  Wayne Central        School District                                                                       
+36         055         Monroe                               30360  Webster Central        School District                                                                     
+36         055         Monroe                               31170  Wheatland-Chili Central        School District                                                             
+36         055         Monroe                               99997  Not Defined       School District                                                                          
+36         057         Montgomery                           00005  Broadalbin-Perth Central        School District                                                            
+36         057         Montgomery                           00006  Cherry Valley-Springfield Central        School District                                                   
+36         057         Montgomery                           00010  Cobleskill-Richmondville Central        School District                                                    
+36         057         Montgomery                           01107  Oppenheim-Ephratah-St. Johnsville Central        School District                                           
+36         057         Montgomery                           02970  Amsterdam City        School District                                                                      
+36         057         Montgomery                           06300  Canajoharie Central        School District                                                                 
+36         057         Montgomery                           09360  Duanesburg Central        School District                                                                  
+36         057         Montgomery                           11190  Fonda-Fultonville Central        School District                                                           
+36         057         Montgomery                           11370  Fort Plain Central        School District                                                                  
+36         057         Montgomery                           11730  Galway Central        School District                                                                      
+36         057         Montgomery                           15980  Johnstown City        School District                                                                      
+36         057         Montgomery                           22200  Van Hornesville-Owen D. Young Central        School District                                               
+36         057         Montgomery                           25980  Schalmont Central        School District                                                                   
+36         057         Montgomery                           26100  Schoharie Central        School District                                                                   
+36         057         Montgomery                           26310  Scotia-Glenville Central        School District                                                            
+36         057         Montgomery                           26580  Sharon Springs Central        School District                                                              
+36         059         Nassau                               02940  Amityville Union Free        School District                                                               
+36         059         Nassau                               03840  Baldwin Union Free        School District                                                                  
+36         059         Nassau                               04410  Bellmore Union Free        School District                                                                 
+36         059         Nassau                               04740  Bethpage Union Free        School District                                                                 
+36         059         Nassau                               06540  Carle Place Union Free        School District                                                              
+36         059         Nassau                               08010  Cold Spring Harbor Central        School District                                                          
+36         059         Nassau                               09840  East Meadow Union Free        School District                                                              
+36         059         Nassau                               09960  East Rockaway Union Free        School District                                                            
+36         059         Nassau                               10050  East Williston Union Free        School District                                                           
+36         059         Nassau                               10620  Elmont Union Free        School District                                                                   
+36         059         Nassau                               10980  Farmingdale Union Free        School District                                                              
+36         059         Nassau                               11160  Floral Park-Bellerose Union Free        School District                                                    
+36         059         Nassau                               11460  Franklin Square Union Free        School District                                                          
+36         059         Nassau                               11550  Freeport Union Free        School District                                                                 
+36         059         Nassau                               11760  Garden City Union Free        School District                                                              
+36         059         Nassau                               12180  Glen Cove City        School District                                                                      
+36         059         Nassau                               12510  Great Neck Union Free        School District                                                               
+36         059         Nassau                               14130  Hempstead Union Free        School District                                                                
+36         059         Nassau                               14280  Herricks Union Free        School District                                                                 
+36         059         Nassau                               14340  Hicksville Union Free        School District                                                               
+36         059         Nassau                               15480  Island Park Union Free        School District                                                              
+36         059         Nassau                               15510  Island Trees Union Free        School District                                                             
+36         059         Nassau                               15810  Jericho Union Free        School District                                                                  
+36         059         Nassau                               16830  Lawrence Union Free        School District                                                                 
+36         059         Nassau                               17160  Levittown Union Free        School District                                                                
+36         059         Nassau                               17700  Locust Valley Central        School District                                                               
+36         059         Nassau                               17730  Long Beach City        School District                                                                     
+36         059         Nassau                               17910  Lynbrook Union Free        School District                                                                 
+36         059         Nassau                               18210  Malverne Union Free        School District                                                                 
+36         059         Nassau                               18270  Manhasset Union Free        School District                                                                
+36         059         Nassau                               18630  Massapequa Union Free        School District                                                               
+36         059         Nassau                               19020  Bellmore-Merrick Central High        School District                                                       
+36         059         Nassau                               19110  Merrick Union Free        School District                                                                  
+36         059         Nassau                               19500  Mineola Union Free        School District                                                                  
+36         059         Nassau                               20400  New Hyde Park-Garden City Park Union Free        School District                                           
+36         059         Nassau                               20940  North Bellmore Union Free        School District                                                           
+36         059         Nassau                               21120  North Merrick Union Free        School District                                                            
+36         059         Nassau                               21570  Oceanside Union Free        School District                                                                
+36         059         Nassau                               22290  Oyster Bay-East Norwich Central        School District                                                     
+36         059         Nassau                               23190  Plainedge Union Free        School District                                                                
+36         059         Nassau                               23220  Plainview-Old Bethpage Central        School District                                                      
+36         059         Nassau                               23580  Port Washington Union Free        School District                                                          
+36         059         Nassau                               24780  Rockville Centre Union Free        School District                                                         
+36         059         Nassau                               24990  Roosevelt Union Free        School District                                                                
+36         059         Nassau                               25050  Roslyn Union Free        School District                                                                   
+36         059         Nassau                               26370  North Shore Central        School District                                                                 
+36         059         Nassau                               26400  Seaford Union Free        School District                                                                  
+36         059         Nassau                               26520  Sewanhaka Central High        School District                                                              
+36         059         Nassau                               28560  Syosset Central        School District                                                                     
+36         059         Nassau                               29280  Uniondale Union Free        School District                                                                
+36         059         Nassau                               29430  Valley Stream Union Free        School District  13                                                         
+36         059         Nassau                               29460  Valley Stream Union Free        School District  24                                                         
+36         059         Nassau                               29490  Valley Stream Union Free        School District  30                                                         
+36         059         Nassau                               29520  Valley Stream Central High        School District                                                          
+36         059         Nassau                               29850  Wantagh Union Free        School District                                                                  
+36         059         Nassau                               30660  West Hempstead Union Free        School District                                                           
+36         059         Nassau                               30960  Westbury Union Free        School District                                                                 
+36         059         Nassau                               31710  Hewlett-Woodmere Union Free        School District                                                         
+36         061         New York                             20580  New York City Department Of Education           School District                                                    
+36         063         Niagara                              02430  Akron Central        School District                                                                       
+36         063         Niagara                              03960  Barker Central        School District                                                                      
+36         063         Niagara                              17190  Lewiston-Porter Central        School District                                                             
+36         063         Niagara                              17670  Lockport City        School District                                                                       
+36         063         Niagara                              18960  Medina Central        School District                                                                      
+36         063         Niagara                              20760  Newfane Central        School District                                                                     
+36         063         Niagara                              20820  Niagara Falls City        School District                                                                  
+36         063         Niagara                              20850  Niagara-Wheatfield Central        School District                                                          
+36         063         Niagara                              21240  North Tonawanda City        School District                                                                
+36         063         Niagara                              25140  Royalton-Hartland Central        School District                                                           
+36         063         Niagara                              28050  Starpoint Central        School District                                                                   
+36         063         Niagara                              31560  Wilson Central        School District                                                                      
+36         063         Niagara                              99997  Not Defined       School District                                                                          
+36         065         Oneida                               00002  Sauquoit Valley Central        School District                                                             
+36         065         Oneida                               00013  Oneida City        School District                                                                         
+36         065         Oneida                               05040  Adirondack Central        School District                                                                  
+36         065         Oneida                               05670  Brookfield Central        School District                                                                  
+36         065         Oneida                               06240  Camden Central        School District                                                                      
+36         065         Oneida                               06900  Central Square Central        School District                                                              
+36         065         Oneida                               07770  Clinton Central        School District                                                                     
+36         065         Oneida                               14580  Holland Patent Central        School District                                                              
+36         065         Oneida                               18080  Madison Central        School District                                                                     
+36         065         Oneida                               20370  New Hartford Central        School District                                                                
+36         065         Oneida                               20610  New York Mills Union Free        School District                                                           
+36         065         Oneida                               21960  Oriskany Central        School District                                                                    
+36         065         Oneida                               23370  Poland Central        School District                                                                      
+36         065         Oneida                               24360  Remsen Central        School District                                                                      
+36         065         Oneida                               24900  Rome City        School District                                                                           
+36         065         Oneida                               26760  Sherrill City        School District                                                                       
+36         065         Oneida                               28140  Stockbridge Valley Central        School District                                                          
+36         065         Oneida                               28800  Town of Webb Union Free        School District                                                             
+36         065         Oneida                               29370  Utica City        School District                                                                          
+36         065         Oneida                               30160  Waterville Central        School District                                                                  
+36         065         Oneida                               30600  West Canada Valley Central        School District                                                          
+36         065         Oneida                               30930  Mount Markham Central        School District                                                               
+36         065         Oneida                               31050  Westmoreland Central        School District                                                                
+36         065         Oneida                               31320  Whitesboro Central        School District                                                                  
+36         067         Onondaga                             03870  Baldwinsville Central        School District                                                               
+36         067         Onondaga                             06690  Cato-Meridian Central        School District                                                               
+36         067         Onondaga                             06780  Cazenovia Central        School District                                                                   
+36         067         Onondaga                             06900  Central Square Central        School District                                                              
+36         067         Onondaga                             07320  Westhill Central        School District                                                                    
+36         067         Onondaga                             07470  Chittenango Central        School District                                                                 
+36         067         Onondaga                             08850  DeRuyter Central        School District                                                                    
+36         067         Onondaga                             09090  Jamesville-DeWitt Central        School District                                                           
+36         067         Onondaga                             09990  East Syracuse-Minoa Central        School District                                                         
+36         067         Onondaga                             10860  Fabius-Pompey Central        School District                                                               
+36         067         Onondaga                             14640  Homer Central        School District                                                                       
+36         067         Onondaga                             15990  Jordan-Elbridge Central        School District                                                             
+36         067         Onondaga                             16410  LaFayette Central        School District                                                                   
+36         067         Onondaga                             17520  Liverpool Central        School District                                                                   
+36         067         Onondaga                             17940  Lyncourt Union Free        School District                                                                 
+36         067         Onondaga                             18330  Fayetteville-Manlius Central        School District                                                        
+36         067         Onondaga                             18480  Marcellus Central        School District                                                                   
+36         067         Onondaga                             19800  Moravia Central        School District                                                                     
+36         067         Onondaga                             21210  North Syracuse Central        School District                                                              
+36         067         Onondaga                             21810  Onondaga Central        School District                                                                    
+36         067         Onondaga                             22920  Phoenix Central        School District                                                                     
+36         067         Onondaga                             26940  Skaneateles Central        School District                                                                 
+36         067         Onondaga                             27150  Solvay Union Free        School District                                                                   
+36         067         Onondaga                             28590  Syracuse City        School District                                                                       
+36         067         Onondaga                             29130  Tully Central        School District                                                                       
+36         067         Onondaga                             30630  West Genesee Central        School District                                                                
+36         069         Ontario                              00011  Wayland-Cohocton Central        School District                                                            
+36         069         Ontario                              04920  East Bloomfield Central        School District                                                             
+36         069         Ontario                              06330  Canandaigua City        School District                                                                    
+36         069         Ontario                              11970  Geneva City        School District                                                                         
+36         069         Ontario                              12300  Gorham-Middlesex Central        School District  (Marcus Whitman)                                           
+36         069         Ontario                              14670  Honeoye Central        School District                                                                     
+36         069         Ontario                              14700  Honeoye Falls-Lima Central        School District                                                          
+36         069         Ontario                              17640  Livonia Central        School District                                                                     
+36         069         Ontario                              18030  Lyons Central        School District                                                                       
+36         069         Ontario                              20220  Naples Central        School District                                                                      
+36         069         Ontario                              20640  Newark Central        School District                                                                      
+36         069         Ontario                              22380  Palmyra-Macedon Central        School District                                                             
+36         069         Ontario                              22740  Penn Yan Central        School District                                                                    
+36         069         Ontario                              22890  Phelps-Clifton Springs Central        School District                                                      
+36         069         Ontario                              23160  Pittsford Central        School District                                                                   
+36         069         Ontario                              24270  Manchester-Shortsville Central        School District                                                      
+36         069         Ontario                              29640  Victor Central        School District                                                                      
+36         071         Orange                               04758  Kiryas Joel Village Union Free        School District                                                      
+36         071         Orange                               07380  Chester Union Free        School District                                                                  
+36         071         Orange                               08430  Cornwall Central        School District                                                                    
+36         071         Orange                               10410  Eldred Central        School District                                                                      
+36         071         Orange                               12330  Goshen Central        School District                                                                      
+36         071         Orange                               12960  Greenwood Lake Union Free        School District                                                           
+36         071         Orange                               14010  Haverstraw-Stony Point Central        School District  (North Rockland)                                     
+36         071         Orange                               14430  Highland Falls Central        School District                                                              
+36         071         Orange                               18570  Marlboro Central        School District                                                                    
+36         071         Orange                               19320  Middletown City        School District                                                                     
+36         071         Orange                               19560  Minisink Valley Central        School District                                                             
+36         071         Orange                               19650  Monroe-Woodbury Central        School District                                                             
+36         071         Orange                               19680  Valley Central        School District (Montgomery)                                                         
+36         071         Orange                               20700  Newburgh City        School District                                                                       
+36         071         Orange                               23010  Pine Bush Central        School District                                                                   
+36         071         Orange                               23520  Port Jervis City        School District                                                                    
+36         071         Orange                               25320  Florida Union Free        School District                                                                  
+36         071         Orange                               28320  Suffern Central        School District                                                                     
+36         071         Orange                               29190  Tuxedo Union Free        School District                                                                   
+36         071         Orange                               29790  Wallkill Central        School District                                                                    
+36         071         Orange                               29970  Warwick Valley Central        School District                                                              
+36         071         Orange                               30030  Washingtonville Central        School District                                                             
+36         073         Orleans                              02520  Albion Central        School District                                                                      
+36         073         Orleans                              03960  Barker Central        School District                                                                      
+36         073         Orleans                              05580  Brockport Central        School District                                                                   
+36         073         Orleans                              06090  Byron-Bergen Central        School District                                                                
+36         073         Orleans                              14610  Holley Central        School District                                                                      
+36         073         Orleans                              16200  Kendall Central        School District                                                                     
+36         073         Orleans                              17970  Lyndonville Central        School District                                                                 
+36         073         Orleans                              18960  Medina Central        School District                                                                      
+36         073         Orleans                              21510  Oakfield-Alabama Central        School District                                                            
+36         073         Orleans                              25140  Royalton-Hartland Central        School District                                                           
+36         073         Orleans                              99997  Not Defined       School District                                                                          
+36         075         Oswego                               02340  South Jefferson Central        School District                                                             
+36         075         Oswego                               02820  Altmar-Parish-Williamstown Central        School District                                                  
+36         075         Oswego                               06240  Camden Central        School District                                                                      
+36         075         Oswego                               06690  Cato-Meridian Central        School District                                                               
+36         075         Oswego                               06900  Central Square Central        School District                                                              
+36         075         Oswego                               11700  Fulton City        School District                                                                         
+36         075         Oswego                               13590  Hannibal Central        School District                                                                    
+36         075         Oswego                               19170  Mexico Central        School District                                                                      
+36         075         Oswego                               22050  Oswego City        School District                                                                         
+36         075         Oswego                               22920  Phoenix Central        School District                                                                     
+36         075         Oswego                               23880  Pulaski Central        School District                                                                     
+36         075         Oswego                               25650  Sandy Creek Central        School District                                                                 
+36         075         Oswego                               99997  Not Defined       School District                                                                          
+36         077         Otsego                               00006  Cherry Valley-Springfield Central        School District                                                   
+36         077         Otsego                               00010  Cobleskill-Richmondville Central        School District                                                    
+36         077         Otsego                               00019  Unadilla Valley Central        School District                                                             
+36         077         Otsego                               03060  Schenevus Central        School District                                                                   
+36         077         Otsego                               03810  Bainbridge-Guilford Central        School District                                                         
+36         077         Otsego                               04757  Gilbertsville-Mount Upton Central        School District                                                   
+36         077         Otsego                               07050  Charlotte Valley Central        School District                                                            
+36         077         Otsego                               08250  Cooperstown Central        School District                                                                 
+36         077         Otsego                               10260  Edmeston Central        School District                                                                    
+36         077         Otsego                               11430  Franklin Central        School District                                                                    
+36         077         Otsego                               16800  Laurens Central        School District                                                                     
+36         077         Otsego                               19350  Milford Central        School District                                                                     
+36         077         Otsego                               19860  Morris Central        School District                                                                      
+36         077         Otsego                               21780  Oneonta City        School District                                                                        
+36         077         Otsego                               22200  Van Hornesville-Owen D. Young Central        School District                                               
+36         077         Otsego                               24570  Richfield Springs Central        School District                                                           
+36         077         Otsego                               26580  Sharon Springs Central        School District                                                              
+36         077         Otsego                               26850  Sidney Central        School District                                                                      
+36         077         Otsego                               29240  Otego-Unadilla Central        School District                                                              
+36         077         Otsego                               30930  Mount Markham Central        School District                                                               
+36         077         Otsego                               31740  Worcester Central        School District                                                                   
+36         079         Putnam                               05310  Brewster Central        School District                                                                    
+36         079         Putnam                               06570  Carmel Central        School District                                                                      
+36         079         Putnam                               11860  Garrison Union Free        School District                                                                 
+36         079         Putnam                               13230  Haldane Central        School District                                                                     
+36         079         Putnam                               16620  Lakeland Central        School District                                                                    
+36         079         Putnam                               18120  Mahopac Central        School District                                                                     
+36         079         Putnam                               21180  North Salem Central        School District                                                                 
+36         079         Putnam                               22530  Pawling Central        School District                                                                     
+36         079         Putnam                               24000  Putnam Valley Central        School District                                                               
+36         079         Putnam                               29880  Wappingers Central        School District                                                                  
+36         081         Queens                               20580  New York City Department Of Education          School District                                                     
+36         083         Rensselaer                           00016  Averill Park Central        School District                                                                
+36         083         Rensselaer                           04620  Berlin Central        School District                                                                      
+36         083         Rensselaer                           05520  Brunswick Central        School District  (Brittonkill)                                                     
+36         083         Rensselaer                           06210  Cambridge Central        School District                                                                   
+36         083         Rensselaer                           09630  East Greenbush Central        School District                                                              
+36         083         Rensselaer                           14730  Hoosic Valley Central        School District                                                               
+36         083         Rensselaer                           14760  Hoosick Falls Central        School District                                                               
+36         083         Rensselaer                           15210  Kinderhook Central        School District  (Ichabod Crane)                                                  
+36         083         Rensselaer                           16740  Lansingburgh Central        School District                                                                
+36         083         Rensselaer                           18900  Mechanicville City        School District                                                                  
+36         083         Rensselaer                           20430  New Lebanon Central        School District                                                                 
+36         083         Rensselaer                           24450  Rensselaer City        School District                                                                     
+36         083         Rensselaer                           26070  Schodack Central        School District                                                                    
+36         083         Rensselaer                           28110  Stillwater Central        School District                                                                  
+36         083         Rensselaer                           28950  Troy City        School District                                                                           
+36         083         Rensselaer                           31410  North Greenbush Common        School District  (Williams)                                                   
+36         083         Rensselaer                           31830  Wynantskill Union Free        School District                                                              
+36         085         Richmond                             20580  New York City Department Of Education                                                               
+36         087         Rockland                             14010  Haverstraw-Stony Point Central        School District  (North Rockland)                                     
+36         087         Rockland                             20190  Nanuet Union Free        School District                                                                   
+36         087         Rockland                             20340  Clarkstown Central        School District                                                                  
+36         087         Rockland                             21480  Nyack Union Free        School District                                                                    
+36         087         Rockland                             22560  Pearl River Union Free        School District                                                              
+36         087         Rockland                             27450  South Orangetown Central        School District                                                            
+36         087         Rockland                             27810  East Ramapo Central        School District (Spring Valley)                                                 
+36         087         Rockland                             28320  Suffern Central        School District                                                                     
+36         089         St. Lawrence                         00003  Edwards-Knox Central        School District                                                                
+36         089         St. Lawrence                         02670  Alexandria Central        School District                                                                  
+36         089         St. Lawrence                         05820  Brushton-Moira Central        School District                                                              
+36         089         St. Lawrence                         06470  Canton Central        School District                                                                      
+36         089         St. Lawrence                         07710  Clifton-Fine Central        School District                                                                
+36         089         St. Lawrence                         08100  Colton-Pierrepont Central        School District                                                           
+36         089         St. Lawrence                         12360  Gouverneur Central        School District                                                                  
+36         089         St. Lawrence                         13440  Hammond Central        School District                                                                     
+36         089         St. Lawrence                         13770  Harrisville Central        School District                                                                 
+36         089         St. Lawrence                         14250  Hermon-DeKalb Central        School District                                                               
+36         089         St. Lawrence                         14310  Heuvelton Central        School District                                                                   
+36         089         St. Lawrence                         15300  Indian River Central        School District                                                                
+36         089         St. Lawrence                         17430  Lisbon Central        School District                                                                      
+36         089         St. Lawrence                         18090  Madrid-Waddington Central        School District                                                           
+36         089         St. Lawrence                         18660  Massena Central        School District                                                                     
+36         089         St. Lawrence                         19890  Morristown Central        School District                                                                  
+36         089         St. Lawrence                         21360  Norwood-Norfolk Central        School District                                                             
+36         089         St. Lawrence                         21660  Ogdensburg City        School District                                                                     
+36         089         St. Lawrence                         22440  Parishville-Hopkinton Central        School District                                                       
+36         089         St. Lawrence                         23670  Potsdam Central        School District                                                                     
+36         089         St. Lawrence                         25500  Salmon River Central        School District                                                                
+36         089         St. Lawrence                         27960  Brasher Falls Central        School District                                                               
+36         089         St. Lawrence                         27990  St. Regis Falls Central        School District                                                             
+36         089         St. Lawrence                         29160  Tupper Lake Central        School District                                                                 
+36         091         Saratoga                             00005  Broadalbin-Perth Central        School District                                                            
+36         091         Saratoga                             02970  Amsterdam City        School District                                                                      
+36         091         Saratoga                             03930  Ballston Spa Central        School District                                                                
+36         091         Saratoga                             05940  Burnt Hills-Ballston Lake Central        School District                                                   
+36         091         Saratoga                             08370  Corinth Central        School District                                                                     
+36         091         Saratoga                             10230  Edinburg Common        School District                                                                     
+36         091         Saratoga                             11730  Galway Central        School District                                                                      
+36         091         Saratoga                             13110  Hadley-Luzerne Central        School District                                                              
+36         091         Saratoga                             14970  Hudson Falls Central        School District                                                                
+36         091         Saratoga                             18900  Mechanicville City        School District                                                                  
+36         091         Saratoga                             20880  Niskayuna Central        School District                                                                   
+36         091         Saratoga                             21300  Northville Central        School District                                                                  
+36         091         Saratoga                             25770  Saratoga Springs City        School District                                                               
+36         091         Saratoga                             26160  Schuylerville Central        School District                                                               
+36         091         Saratoga                             26310  Scotia-Glenville Central        School District                                                            
+36         091         Saratoga                             26670  Shenendehowa Central        School District                                                                
+36         091         Saratoga                             27240  South Glens Falls Central        School District                                                           
+36         091         Saratoga                             28110  Stillwater Central        School District                                                                  
+36         091         Saratoga                             30060  Waterford-Halfmoon Union Free        School District                                                       
+36         093         Schenectady                          00004  Rotterdam-Mohonasen Central        School District                                                         
+36         093         Schenectady                          02970  Amsterdam City        School District                                                                      
+36         093         Schenectady                          05940  Burnt Hills-Ballston Lake Central        School District                                                   
+36         093         Schenectady                          09360  Duanesburg Central        School District                                                                  
+36         093         Schenectady                          11730  Galway Central        School District                                                                      
+36         093         Schenectady                          20880  Niskayuna Central        School District                                                                   
+36         093         Schenectady                          25980  Schalmont Central        School District                                                                   
+36         093         Schenectady                          26010  Schenectady City        School District                                                                    
+36         093         Schenectady                          26100  Schoharie Central        School District                                                                   
+36         093         Schenectady                          26310  Scotia-Glenville Central        School District                                                            
+36         093         Schenectady                          27210  South Colonie Central        School District                                                               
+36         095         Schoharie                            00010  Cobleskill-Richmondville Central        School District                                                    
+36         095         Schoharie                            04650  Berne-Knox-Westerlo Central        School District                                                         
+36         095         Schoharie                            06160  Cairo-Durham Central        School District                                                                
+36         095         Schoharie                            06300  Canajoharie Central        School District                                                                 
+36         095         Schoharie                            07050  Charlotte Valley Central        School District                                                            
+36         095         Schoharie                            09360  Duanesburg Central        School District                                                                  
+36         095         Schoharie                            11190  Fonda-Fultonville Central        School District                                                           
+36         095         Schoharie                            12120  Gilboa-Conesville Central        School District                                                           
+36         095         Schoharie                            12870  Greenville Central        School District                                                                  
+36         095         Schoharie                            15720  Jefferson Central        School District                                                                   
+36         095         Schoharie                            19260  Middleburgh Central        School District                                                                 
+36         095         Schoharie                            25110  Roxbury Central        School District                                                                     
+36         095         Schoharie                            26100  Schoharie Central        School District                                                                   
+36         095         Schoharie                            26580  Sharon Springs Central        School District                                                              
+36         095         Schoharie                            28020  Stamford Central        School District                                                                    
+36         097         Schuyler                             05220  Bradford Central        School District                                                                    
+36         097         Schuyler                             08400  Corning City        School District                                                                        
+36         097         Schuyler                             09390  Dundee Central        School District                                                                      
+36         097         Schuyler                             13470  Hammondsport Central        School District                                                                
+36         097         Schuyler                             14850  Horseheads Central        School District                                                                  
+36         097         Schuyler                             21630  Odessa-Montour Central        School District                                                              
+36         097         Schuyler                             22140  South Seneca Central        School District                                                                
+36         097         Schuyler                             27750  Spencer-Van Etten Central        School District                                                           
+36         097         Schuyler                             28980  Trumansburg Central        School District                                                                 
+36         097         Schuyler                             30240  Watkins Glen Central        School District                                                                
+36         099         Seneca                               00014  Waterloo Central        School District                                                                    
+36         099         Seneca                               07860  Clyde-Savannah Central        School District                                                              
+36         099         Seneca                               11970  Geneva City        School District                                                                         
+36         099         Seneca                               18030  Lyons Central        School District                                                                       
+36         099         Seneca                               22140  South Seneca Central        School District                                                                
+36         099         Seneca                               22890  Phelps-Clifton Springs Central        School District                                                      
+36         099         Seneca                               24930  Romulus Central        School District                                                                     
+36         099         Seneca                               26430  Seneca Falls Central        School District                                                                
+36         099         Seneca                               28980  Trumansburg Central        School District                                                                 
+36         101         Steuben                              00007  Jasper-Troupsburg Central        School District                                                           
+36         101         Steuben                              00011  Wayland-Cohocton Central        School District                                                            
+36         101         Steuben                              00020  Campbell-Savona Central        School District                                                             
+36         101         Steuben                              00124  Canisteo-Greenwood Central        School District                                                          
+36         101         Steuben                              02370  Addison Central        School District                                                                     
+36         101         Steuben                              02700  Alfred-Almond Central        School District                                                               
+36         101         Steuben                              03030  Andover Central        School District                                                                     
+36         101         Steuben                              03240  Arkport Central        School District                                                                     
+36         101         Steuben                              03630  Avoca Central        School District                                                                       
+36         101         Steuben                              04050  Bath Central        School District                                                                        
+36         101         Steuben                              05220  Bradford Central        School District                                                                    
+36         101         Steuben                              06360  Canaseraga Central        School District                                                                  
+36         101         Steuben                              08400  Corning City        School District                                                                        
+36         101         Steuben                              08790  Dansville Central        School District                                                                   
+36         101         Steuben                              10560  Elmira City        School District                                                                         
+36         101         Steuben                              13470  Hammondsport Central        School District                                                                
+36         101         Steuben                              14820  Hornell City        School District                                                                        
+36         101         Steuben                              20220  Naples Central        School District                                                                      
+36         101         Steuben                              22740  Penn Yan Central        School District                                                                    
+36         101         Steuben                              23790  Prattsburgh Central        School District                                                                 
+36         101         Steuben                              31350  Whitesville Central        School District                                                                 
+36         103         Suffolk                              00008  South Country Central        School District                                                               
+36         103         Suffolk                              00021  Mattituck-Cutchogue Union Free        School District                                                      
+36         103         Suffolk                              00125  Eastport-South Manor Central        School District                                                        
+36         103         Suffolk                              02880  Amagansett Union Free        School District                                                               
+36         103         Suffolk                              02940  Amityville Union Free        School District                                                               
+36         103         Suffolk                              03720  Babylon Union Free        School District                                                                  
+36         103         Suffolk                              04080  Bay Shore Union Free        School District                                                                
+36         103         Suffolk                              04110  Bayport-Blue Point Union Free        School District                                                       
+36         103         Suffolk                              05280  Brentwood Union Free        School District                                                                
+36         103         Suffolk                              05370  Bridgehampton Union Free        School District                                                            
+36         103         Suffolk                              06840  Center Moriches Union Free        School District                                                          
+36         103         Suffolk                              06870  Central Islip Union Free        School District                                                            
+36         103         Suffolk                              08010  Cold Spring Harbor Central        School District                                                          
+36         103         Suffolk                              08130  Commack Union Free        School District                                                                  
+36         103         Suffolk                              08160  Connetquot Central        School District                                                                  
+36         103         Suffolk                              08310  Copiague Union Free        School District                                                                 
+36         103         Suffolk                              08880  Deer Park Union Free        School District                                                                
+36         103         Suffolk                              09660  East Hampton Union Free        School District                                                             
+36         103         Suffolk                              09720  East Islip Union Free        School District                                                               
+36         103         Suffolk                              09870  East Moriches Union Free        School District                                                            
+36         103         Suffolk                              09900  East Quogue Union Free        School District                                                              
+36         103         Suffolk                              10680  Elwood Union Free        School District                                                                   
+36         103         Suffolk                              10980  Farmingdale Union Free        School District                                                              
+36         103         Suffolk                              11100  Fishers Island Union Free        School District                                                           
+36         103         Suffolk                              12840  Greenport Union Free        School District                                                                
+36         103         Suffolk                              13290  Half Hollow Hills Central        School District                                                           
+36         103         Suffolk                              13530  Hampton Bays Union Free        School District                                                             
+36         103         Suffolk                              13620  Harborfields Central        School District                                                                
+36         103         Suffolk                              13980  Hauppauge Union Free        School District                                                                
+36         103         Suffolk                              15090  Huntington Union Free        School District                                                               
+36         103         Suffolk                              15540  Islip Union Free        School District                                                                    
+36         103         Suffolk                              15780  Brookhaven-Comsewogue Union Free        School District                                                    
+36         103         Suffolk                              16260  Kings Park Central        School District                                                                  
+36         103         Suffolk                              17380  Lindenhurst Union Free        School District                                                              
+36         103         Suffolk                              18690  William Floyd Union Free        School District                                                            
+36         103         Suffolk                              19200  Middle Country Central        School District                                                              
+36         103         Suffolk                              19230  Longwood Central        School District                                                                    
+36         103         Suffolk                              19410  Miller Place Union Free        School District                                                             
+36         103         Suffolk                              19710  Montauk Union Free        School District                                                                  
+36         103         Suffolk                              20040  Mount Sinai Union Free        School District                                                              
+36         103         Suffolk                              20520  New Suffolk Common        School District                                                                  
+36         103         Suffolk                              20910  North Babylon Union Free        School District                                                            
+36         103         Suffolk                              21270  Northport-East Northport Union Free        School District                                                 
+36         103         Suffolk                              21540  Fire Island Union Free        School District                                                              
+36         103         Suffolk                              21930  Oysterponds Union Free        School District                                                              
+36         103         Suffolk                              22470  Patchogue-Medford Union Free        School District                                                        
+36         103         Suffolk                              23490  Port Jefferson Union Free        School District                                                           
+36         103         Suffolk                              24060  Quogue Union Free        School District                                                                   
+36         103         Suffolk                              24420  Remsenburg-Speonk Union Free        School District                                                        
+36         103         Suffolk                              24690  Riverhead Central        School District                                                                   
+36         103         Suffolk                              24840  Rocky Point Union Free        School District                                                              
+36         103         Suffolk                              25350  Sachem Central        School District                                                                      
+36         103         Suffolk                              25380  Sag Harbor Union Free        School District                                                               
+36         103         Suffolk                              25410  Sagaponack Common        School District                                                                   
+36         103         Suffolk                              25920  Sayville Union Free        School District                                                                 
+36         103         Suffolk                              26640  Shelter Island Union Free        School District                                                           
+36         103         Suffolk                              26840  Shoreham-Wading River Central        School District                                                       
+36         103         Suffolk                              27060  Smithtown Central        School District                                                                   
+36         103         Suffolk                              27300  South Huntington Union Free        School District                                                         
+36         103         Suffolk                              27540  Southampton Union Free        School District                                                              
+36         103         Suffolk                              27620  Southold Union Free        School District                                                                 
+36         103         Suffolk                              27900  Springs Union Free        School District                                                                  
+36         103         Suffolk                              28200  Three Village Central        School District                                                               
+36         103         Suffolk                              29070  Tuckahoe Common        School District                                                                     
+36         103         Suffolk                              29760  Wainscott Common        School District                                                                    
+36         103         Suffolk                              30540  West Babylon Union Free        School District                                                             
+36         103         Suffolk                              30690  West Islip Union Free        School District                                                               
+36         103         Suffolk                              31020  Westhampton Beach Union Free        School District                                                        
+36         103         Suffolk                              31800  Wyandanch Union Free        School District                                                                
+36         103         Suffolk                              99997         School District Not Defined                                                                         
+36         105         Sullivan                             00023  Sullivan West Central        School District                                                               
+36         105         Sullivan                             10410  Eldred Central        School District                                                                      
+36         105         Sullivan                             10500  Ellenville Central        School District                                                                  
+36         105         Sullivan                             10950  Fallsburg Central        School District                                                                   
+36         105         Sullivan                             17220  Liberty Central        School District                                                                     
+36         105         Sullivan                             17580  Livingston Manor Central        School District                                                            
+36         105         Sullivan                             19560  Minisink Valley Central        School District                                                             
+36         105         Sullivan                             19740  Monticello Central        School District                                                                  
+36         105         Sullivan                             23010  Pine Bush Central        School District                                                                   
+36         105         Sullivan                             23520  Port Jervis City        School District                                                                    
+36         105         Sullivan                             25020  Roscoe Central        School District                                                                      
+36         105         Sullivan                             28890  Tri-Valley Central        School District                                                                  
+36         107         Tioga                                06420  Candor Central        School District                                                                      
+36         107         Tioga                                09330  Dryden Central        School District                                                                      
+36         107         Tioga                                10710  Union-Endicott Central        School District                                                              
+36         107         Tioga                                15570  Ithaca City        School District                                                                         
+36         107         Tioga                                18150  Maine-Endwell Central        School District                                                               
+36         107         Tioga                                18450  Marathon Central        School District                                                                    
+36         107         Tioga                                20670  Newark Valley Central        School District                                                               
+36         107         Tioga                                22170  Owego-Apalachin Central        School District                                                             
+36         107         Tioga                                27750  Spencer-Van Etten Central        School District                                                           
+36         107         Tioga                                28710  Tioga Central        School District                                                                       
+36         107         Tioga                                29610  Vestal Central        School District                                                                      
+36         107         Tioga                                30270  Waverly Central        School District                                                                     
+36         107         Tioga                                31380  Whitney Point Central        School District                                                               
+36         109         Tompkins                             06420  Candor Central        School District                                                                      
+36         109         Tompkins                             08460  Cortland City        School District                                                                       
+36         109         Tompkins                             09330  Dryden Central        School District                                                                      
+36         109         Tompkins                             13020  Groton Central        School District                                                                      
+36         109         Tompkins                             14640  Homer Central        School District                                                                       
+36         109         Tompkins                             15570  Ithaca City        School District                                                                         
+36         109         Tompkins                             16710  Lansing Central        School District                                                                     
+36         109         Tompkins                             20670  Newark Valley Central        School District                                                               
+36         109         Tompkins                             20790  Newfield Central        School District                                                                    
+36         109         Tompkins                             21630  Odessa-Montour Central        School District                                                              
+36         109         Tompkins                             27570  Southern Cayuga Central        School District                                                             
+36         109         Tompkins                             27750  Spencer-Van Etten Central        School District                                                           
+36         109         Tompkins                             28980  Trumansburg Central        School District                                                                 
+36         111         Ulster                               10500  Ellenville Central        School District                                                                  
+36         111         Ulster                               10950  Fallsburg Central        School District                                                                   
+36         111         Ulster                               14400  Highland Central        School District                                                                    
+36         111         Ulster                               16290  Kingston City        School District                                                                       
+36         111         Ulster                               17580  Livingston Manor Central        School District                                                            
+36         111         Ulster                               18510  Margaretville Central        School District                                                               
+36         111         Ulster                               18570  Marlboro Central        School District                                                                    
+36         111         Ulster                               19680  Valley Central        School District (Montgomery)                                                         
+36         111         Ulster                               20460  New Paltz Central        School District                                                                   
+36         111         Ulster                               21840  Onteora Central        School District                                                                     
+36         111         Ulster                               23010  Pine Bush Central        School District                                                                   
+36         111         Ulster                               24960  Rondout Valley Central        School District                                                              
+36         111         Ulster                               25800  Saugerties Central        School District                                                                  
+36         111         Ulster                               28890  Tri-Valley Central        School District                                                                  
+36         111         Ulster                               29790  Wallkill Central        School District                                                                    
+36         113         Warren                               02310  Glens Falls Common        School District                                                                  
+36         113         Warren                               05010  Bolton Central        School District                                                                      
+36         113         Warren                               08370  Corinth Central        School District                                                                     
+36         113         Warren                               12240  Glens Falls City        School District                                                                    
+36         113         Warren                               13110  Hadley-Luzerne Central        School District                                                              
+36         113         Warren                               14970  Hudson Falls Central        School District                                                                
+36         113         Warren                               15870  Johnsburg Central        School District                                                                   
+36         113         Warren                               16470  Lake George Central        School District                                                                 
+36         113         Warren                               16960  North Warren Central        School District                                                                
+36         113         Warren                               19530  Minerva Central        School District                                                                     
+36         113         Warren                               24030  Queensbury Union Free        School District                                                               
+36         113         Warren                               28680  Ticonderoga Central        School District                                                                 
+36         113         Warren                               29910  Warrensburg Central        School District                                                                 
+36         115         Washington                           03210  Argyle Central        School District                                                                      
+36         115         Washington                           06210  Cambridge Central        School District                                                                   
+36         115         Washington                           11280  Fort Ann Central        School District                                                                    
+36         115         Washington                           11310  Fort Edward Union Free        School District                                                              
+36         115         Washington                           12450  Granville Central        School District                                                                   
+36         115         Washington                           12900  Greenwich Central        School District                                                                   
+36         115         Washington                           13830  Hartford Central        School District                                                                    
+36         115         Washington                           14730  Hoosic Valley Central        School District                                                               
+36         115         Washington                           14760  Hoosick Falls Central        School District                                                               
+36         115         Washington                           14970  Hudson Falls Central        School District                                                                
+36         115         Washington                           16470  Lake George Central        School District                                                                 
+36         115         Washington                           23970  Putnam Central        School District                                                                      
+36         115         Washington                           25470  Salem Central        School District                                                                       
+36         115         Washington                           26160  Schuylerville Central        School District                                                               
+36         115         Washington                           28110  Stillwater Central        School District                                                                  
+36         115         Washington                           31290  Whitehall Central        School District                                                                   
+36         117         Wayne                                06690  Cato-Meridian Central        School District                                                               
+36         117         Wayne                                07860  Clyde-Savannah Central        School District                                                              
+36         117         Wayne                                11740  Gananda Central        School District                                                                     
+36         117         Wayne                                16980  North Rose-Wolcott Central        School District                                                          
+36         117         Wayne                                18030  Lyons Central        School District                                                                       
+36         117         Wayne                                18540  Marion Central        School District                                                                      
+36         117         Wayne                                20640  Newark Central        School District                                                                      
+36         117         Wayne                                22380  Palmyra-Macedon Central        School District                                                             
+36         117         Wayne                                22710  Penfield Central        School District                                                                    
+36         117         Wayne                                22890  Phelps-Clifton Springs Central        School District                                                      
+36         117         Wayne                                23430  Port Byron Central        School District                                                                  
+36         117         Wayne                                24210  Red Creek Central        School District                                                                   
+36         117         Wayne                                27120  Sodus Central        School District                                                                       
+36         117         Wayne                                29640  Victor Central        School District                                                                      
+36         117         Wayne                                30330  Wayne Central        School District                                                                       
+36         117         Wayne                                30360  Webster Central        School District                                                                     
+36         117         Wayne                                31440  Williamson Central        School District                                                                  
+36         117         Wayne                                99997  Not Defined       School District                                                                          
+36         119         Westchester                          03180  Ardsley Union Free        School District                                                                  
+36         119         Westchester                          05340  Briarcliff Manor Union Free        School District                                                         
+36         119         Westchester                          05640  Bronxville Union Free        School District                                                               
+36         119         Westchester                          06060  Byram Hills Central        School District                                                                 
+36         119         Westchester                          06990  Chappaqua Central        School District                                                                   
+36         119         Westchester                          08580  Croton-Harmon Union Free        School District                                                            
+36         119         Westchester                          09120  Dobbs Ferry Union Free        School District                                                              
+36         119         Westchester                          10080  Eastchester Union Free        School District                                                              
+36         119         Westchester                          10200  Edgemont Union Free        School District                                                                 
+36         119         Westchester                          10650  Elmsford Union Free        School District                                                                 
+36         119         Westchester                          12720  Greenburgh Central        School District                                                                  
+36         119         Westchester                          13740  Harrison Central        School District                                                                    
+36         119         Westchester                          13950  Hastings-on-Hudson Union Free        School District                                                       
+36         119         Westchester                          14190  Hendrick Hudson Central        School District                                                             
+36         119         Westchester                          15450  Irvington Union Free        School District                                                                
+36         119         Westchester                          16080  Katonah-Lewisboro Union Free        School District                                                        
+36         119         Westchester                          16620  Lakeland Central        School District                                                                    
+36         119         Westchester                          18240  Mamaroneck Union Free        School District                                                               
+36         119         Westchester                          19950  Bedford Central        School District                                                                     
+36         119         Westchester                          20100  Mount Vernon        School District                                                                        
+36         119         Westchester                          20160  Mount Pleasant Central        School District                                                              
+36         119         Westchester                          20490  New Rochelle City        School District                                                                   
+36         119         Westchester                          21180  North Salem Central        School District                                                                 
+36         119         Westchester                          22020  Ossining Union Free        School District                                                                 
+36         119         Westchester                          22650  Peekskill City        School District                                                                      
+36         119         Westchester                          22680  Pelham Union Free        School District                                                                   
+36         119         Westchester                          23310  Pleasantville Union Free        School District                                                            
+36         119         Westchester                          23340  Pocantico Hills Central        School District                                                             
+36         119         Westchester                          23460  Port Chester-Rye Union Free        School District                                                         
+36         119         Westchester                          24000  Putnam Valley Central        School District                                                               
+36         119         Westchester                          24630  Blind Brook-Rye Union Free        School District                                                          
+36         119         Westchester                          25260  Rye City        School District                                                                            
+36         119         Westchester                          25290  Rye Neck Union Free        School District                                                                 
+36         119         Westchester                          25950  Scarsdale Union Free        School District                                                                
+36         119         Westchester                          27180  Somers Central        School District                                                                      
+36         119         Westchester                          28650  Union Free        School District     of the Tarrytowns                                                        
+36         119         Westchester                          29040  Tuckahoe Union Free        School District                                                                 
+36         119         Westchester                          29400  Valhalla Union Free        School District                                                                 
+36         119         Westchester                          31260  White Plains City        School District                                                                   
+36         119         Westchester                          31920  Yonkers City        School District                                                                        
+36         119         Westchester                          31980  Yorktown Central        School District                                                                    
+36         121         Wyoming                              02550  Alden Central        School District                                                                       
+36         121         Wyoming                              02580  Alexander Central        School District                                                                   
+36         121         Wyoming                              03420  Attica Central        School District                                                                      
+36         121         Wyoming                              08970  Yorkshire-Pioneer Central        School District                                                           
+36         121         Wyoming                              11070  Fillmore Central        School District                                                                    
+36         121         Wyoming                              14550  Holland Central        School District                                                                     
+36         121         Wyoming                              15360  Iroquois Central        School District                                                                    
+36         121         Wyoming                              17130  Letchworth Central        School District                                                                  
+36         121         Wyoming                              21450  Dalton-Nunda Central        School District  (Keshequa)                                                     
+36         121         Wyoming                              22500  Pavilion Central        School District                                                                    
+36         121         Wyoming                              22770  Perry Central        School District                                                                       
+36         121         Wyoming                              29940  Warsaw Central        School District                                                                      
+36         121         Wyoming                              31860  Wyoming Central        School District                                                                     
+36         121         Wyoming                              31950  York Central        School District                                                                        
+36         123         Yates                                09390  Dundee Central        School District                                                                      
+36         123         Yates                                11970  Geneva City        School District                                                                         
+36         123         Yates                                12300  Gorham-Middlesex Central        School District  (Marcus Whitman)                                           
+36         123         Yates                                20220  Naples Central        School District                                                                      
+36         123         Yates                                22740  Penn Yan Central        School District                                                                    
+36         123         Yates                                23790  Prattsburgh Central        School District                                                                 
