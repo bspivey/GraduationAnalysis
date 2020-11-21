@@ -9,7 +9,8 @@ Installation:
 Execution:
 1. Open cmd/bash
 2. cd into the d3-bootstrap-viz dir
-3. run the following command, python run -m http.server
-4. open web browser and go to localhost
+3. Run the following command, python run -m http.server
+4. Open web browser and go to localhost:8000
+5. Click on a county to view demographic breakdown and analysis
 
  
